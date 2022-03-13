@@ -2,6 +2,7 @@
 
 bcftools view data/raw/Cmaxima_raw_SNP.vcf.gz |  
  bcftools reheader -h data/maxima_head.txt |
+ bcftools annotate --rename-chrs |
  bcftools view -M2 -m2 -i "MAF > 0.01  & F_MISSING <= 0.4" -Ob > data/cmaxima_filt.bcf
 
 bcftools view data/raw/Cmoschata_raw_SNP.vcf.gz |  
