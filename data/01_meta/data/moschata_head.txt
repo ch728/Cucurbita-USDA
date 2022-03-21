@@ -1,32 +1,32 @@
 ##fileformat=VCFv4.0
 ##FILTER=<ID=PASS,Description="All filters passed">
 ##Tassel=<ID=GenotypeTable,Version=5,Description="Reference allele is not known. The major allele was used as reference allele">
-##contig<ID=Cmo_Chr00>
-##contig<ID=Cmo_Chr01>
-##contig<ID=Cmo_Chr02>
-##contig<ID=Cmo_Chr03>
-##contig<ID=Cmo_Chr04>
-##contig<ID=Cmo_Chr05>
-##contig<ID=Cmo_Chr06>
-##contig<ID=Cmo_Chr07>
-##contig<ID=Cmo_Chr08>
-##contig<ID=Cmo_Chr09>
-##contig<ID=Cmo_Chr10>
-##contig<ID=Cmo_Chr11>
-##contig<ID=Cmo_Chr12>
-##contig<ID=Cmo_Chr13>
-##contig<ID=Cmo_Chr14>
-##contig<ID=Cmo_Chr15>
-##contig<ID=Cmo_Chr16>
-##contig<ID=Cmo_Chr17>
-##contig<ID=Cmo_Chr18>
-##contig<ID=Cmo_Chr19>
-##contig<ID=Cmo_Chr20>
+##contig=<ID=Cmo_Chr00>
+##contig=<ID=Cmo_Chr01>
+##contig=<ID=Cmo_Chr02>
+##contig=<ID=Cmo_Chr03>
+##contig=<ID=Cmo_Chr04>
+##contig=<ID=Cmo_Chr05>
+##contig=<ID=Cmo_Chr06>
+##contig=<ID=Cmo_Chr07>
+##contig=<ID=Cmo_Chr08>
+##contig=<ID=Cmo_Chr09>
+##contig=<ID=Cmo_Chr10>
+##contig=<ID=Cmo_Chr11>
+##contig=<ID=Cmo_Chr12>
+##contig=<ID=Cmo_Chr13>
+##contig=<ID=Cmo_Chr14>
+##contig=<ID=Cmo_Chr15>
+##contig=<ID=Cmo_Chr16>
+##contig=<ID=Cmo_Chr17>
+##contig=<ID=Cmo_Chr18>
+##contig=<ID=Cmo_Chr19>
+##contig=<ID=Cmo_Chr20>
 ##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
 ##FORMAT=<ID=AD,Number=.,Type=Integer,Description="Allelic depths for the reference and alternate alleles in the order listed">
 ##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth (only filtered reads used for calling)">
 ##FORMAT=<ID=GQ,Number=1,Type=Float,Description="Genotype Quality">
-##FORMAT=<ID=PL,Number=.,Type=Float,Description="Normalized, Phred-scaled likelihoods for AA,AB,BB genotypes where A=ref and B=alt; not applicable if site is not biallelic">
+##FORMAT=<ID=PL,Number=G,Type=Float,Description="Normalized, Phred-scaled likelihoods for AA,AB,BB genotypes where A=ref and B=alt; not applicable if site is not biallelic">
 ##INFO=<ID=NS,Number=1,Type=Integer,Description="Number of Samples With Data">
 ##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
 ##INFO=<ID=AF,Number=.,Type=Float,Description="Allele Frequency">
