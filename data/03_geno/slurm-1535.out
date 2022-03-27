@@ -1,0 +1,1382 @@
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+[W::vcf_parse] Contig 'Cma_Chr00' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+[W::vcf_parse] Contig 'Cma_Chr01' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr02' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr03' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr04' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr05' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr06' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr07' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr08' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr09' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr10' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr11' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr12' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr13' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr14' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr15' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr16' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr17' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr18' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr19' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cma_Chr20' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+[W::vcf_parse] Contig 'Cmo_Chr00' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+[W::vcf_parse] Contig 'Cmo_Chr01' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr02' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr03' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr04' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr05' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr06' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr07' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr08' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr09' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr10' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr11' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr12' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr13' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr14' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr15' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr16' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr17' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr18' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr19' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cmo_Chr20' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+[W::vcf_parse] Contig 'Cp4.1LG00' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+[W::vcf_parse] Contig 'Cp4.1LG01' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG02' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG03' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG04' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG05' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG06' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG07' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG08' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG09' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG10' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG11' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG12' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG13' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG14' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG15' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG16' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG17' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG18' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG19' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig 'Cp4.1LG20' is not defined in the header. (Quick workaround: index the file with tabix.)
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to data/filtered/cpepo.log.
+Options in effect:
+  --bcf data/filtered/cpepo_filt.bcf
+  --double-id
+  --indep-pairwise 50 10 0.1
+  --out data/filtered/cpepo
+
+515677 MB RAM detected; reserving 257838 MB for main workspace.
+--bcf: 1k variants complete.--bcf: 2k variants complete.--bcf: 3k variants complete.--bcf: 4k variants complete.--bcf: 5k variants complete.--bcf: 6k variants complete.--bcf: 7k variants complete.--bcf: 8k variants complete.--bcf: 9k variants complete.--bcf: 10k variants complete.--bcf: 11k variants complete.--bcf: 12k variants complete.--bcf: 13k variants complete.--bcf: 14k variants complete.--bcf: 15k variants complete.--bcf: 16k variants complete.--bcf: 17k variants complete.--bcf: 18k variants complete.--bcf: 19k variants complete.--bcf: 20k variants complete.--bcf: 21k variants complete.--bcf: 22k variants complete.--bcf: 23k variants complete.--bcf: 24k variants complete.--bcf: 25k variants complete.--bcf: 26k variants complete.--bcf: 27k variants complete.--bcf: 28k variants complete.--bcf: 29k variants complete.--bcf: 30k variants complete.--bcf: 31k variants complete.--bcf: 32k variants complete.--bcf: data/filtered/cpepo-temporary.bed + data/filtered/cpepo-temporary.bim +
+data/filtered/cpepo-temporary.fam written.
+32018 variants loaded from .bim file.
+829 people (0 males, 0 females, 829 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to data/filtered/cpepo.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 829 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.878276.
+32018 variants and 829 people pass filters and QC.
+Note: No phenotypes present.
+--indep-pairwise: Ignoring 2550 chromosome 0 variants.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%28%29%30%31%32%33%34%34%35%36%37%38%39%40%40%41%42%43%44%45%46%46%47%48%49%50%51%52%52%53%54%55%56%57%58%58%59%60%61%62%63%64%64%65%66%67%68%69%70%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%Pruned 2446 variants from chromosome 1, leaving 385.
+0%1%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%20%21%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%40%41%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%61%62%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%81%82%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%Pruned 1735 variants from chromosome 2, leaving 314.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%15%16%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%33%34%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%50%51%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%68%69%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%85%86%86%87%88%89%90%91%92%93%94%95%96%97%98%99%Pruned 1736 variants from chromosome 3, leaving 207.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%50%51%51%52%52%53%53%54%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%Pruned 1764 variants from chromosome 4, leaving 218.
+1%2%3%4%5%6%7%7%8%9%10%11%12%13%14%15%15%16%17%18%19%20%21%22%23%23%24%25%26%27%28%29%30%31%31%32%33%34%35%36%37%38%39%40%41%42%42%43%44%45%46%47%48%49%50%50%51%52%53%54%55%56%57%58%58%59%60%61%62%63%64%65%66%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%85%86%87%88%89%90%91%92%93%93%94%95%96%97%98%99%Pruned 1423 variants from chromosome 5, leaving 205.
+1%2%3%4%5%6%7%7%8%9%10%11%12%13%14%15%16%17%18%19%20%20%21%22%23%24%25%26%27%28%29%30%31%32%33%33%34%35%36%37%38%39%40%41%42%43%44%45%46%46%47%48%49%50%51%52%53%54%55%56%57%58%59%59%60%61%62%63%64%65%66%67%68%69%70%71%72%72%73%74%75%76%77%78%79%80%81%82%83%84%85%85%86%87%88%89%90%91%92%93%93%94%95%96%97%98%98%99%Pruned 1170 variants from chromosome 6, leaving 214.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%58%59%60%61%62%63%64%65%66%67%67%68%69%70%71%72%73%74%75%76%76%77%78%79%80%81%82%83%84%85%85%86%87%88%89%90%91%92%93%94%94%95%96%97%98%99%Pruned 1024 variants from chromosome 7, leaving 198.
+1%2%3%4%5%6%6%7%8%9%10%11%12%13%14%15%16%17%18%18%19%20%21%22%23%24%25%26%27%28%29%30%30%31%32%33%34%35%36%37%38%39%40%41%42%42%43%44%45%46%47%48%49%50%51%52%53%54%54%55%56%57%58%59%60%61%62%63%64%65%66%66%67%68%69%70%71%72%73%74%75%76%77%78%78%79%80%81%82%83%84%85%86%87%88%89%90%90%91%92%93%94%95%96%97%98%99%Pruned 1410 variants from chromosome 8, leaving 173.
+1%2%3%4%5%6%7%8%9%10%11%12%12%13%14%15%16%17%17%18%19%20%21%22%23%24%25%26%27%28%29%30%30%31%32%33%34%35%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%53%54%55%56%57%58%58%59%60%61%62%63%64%65%66%67%68%69%70%71%71%72%73%74%75%76%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%94%95%96%97%98%99%Pruned 1206 variants from chromosome 9, leaving 184.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%34%35%36%36%37%38%38%39%40%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%75%76%77%77%78%79%79%80%81%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%Pruned 1305 variants from chromosome 10, leaving 183.
+1%2%3%4%4%5%6%7%8%9%10%11%12%13%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%41%42%43%44%45%46%47%48%49%50%50%51%52%53%54%55%55%56%57%58%59%60%61%62%63%64%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%78%79%80%81%82%83%84%85%86%87%87%88%89%90%91%92%92%93%94%95%96%97%98%99%Pruned 1039 variants from chromosome 11, leaving 177.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%18%19%20%21%22%23%24%24%25%26%27%28%29%30%30%31%32%33%34%35%36%36%37%38%39%40%41%42%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%67%68%69%70%71%72%73%73%74%75%76%77%78%79%79%80%81%82%83%84%85%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%Pruned 1040 variants from chromosome 12, leaving 123.
+1%2%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%Pruned 1194 variants from chromosome 13, leaving 156.
+1%2%3%4%5%6%6%7%8%9%10%11%12%13%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%30%31%32%33%34%35%36%37%37%38%39%40%41%42%43%44%44%45%46%47%48%49%50%51%52%53%54%54%55%56%57%58%59%60%61%61%62%63%64%65%66%67%68%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%85%86%87%88%89%90%91%92%92%93%94%95%96%97%98%99%Pruned 1077 variants from chromosome 14, leaving 214.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%Pruned 835 variants from chromosome 15, leaving 125.
+0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%Pruned 882 variants from chromosome 16, leaving 178.
+1%2%3%4%5%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%22%23%24%25%26%27%28%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%62%63%64%65%66%67%68%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%Pruned 1033 variants from chromosome 17, leaving 142.
+1%2%3%3%4%5%6%7%7%8%9%10%11%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%34%35%36%37%38%38%39%40%41%42%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%65%66%67%68%69%69%70%71%72%73%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%96%97%98%99%Pruned 1107 variants from chromosome 18, leaving 151.
+1%2%2%3%4%5%5%6%7%8%8%9%10%11%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%52%53%54%55%55%56%57%58%58%59%60%61%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%Pruned 1193 variants from chromosome 19, leaving 147.
+1%2%3%4%5%6%6%7%8%9%10%11%12%12%13%14%15%16%17%18%19%20%21%22%23%24%25%25%26%27%28%29%30%31%32%33%34%35%36%37%38%38%39%40%41%42%43%44%45%46%47%48%49%50%51%51%52%53%54%55%56%57%58%59%60%61%62%63%64%64%65%66%67%68%69%70%70%71%72%73%74%75%76%77%77%78%79%80%81%82%83%83%84%85%86%87%88%89%90%91%92%93%94%95%96%96%97%98%99%Pruned 984 variants from chromosome 20, leaving 171.
+Pruning complete.  25603 of 29468 variants removed.
+Writing...Marker lists written to data/filtered/cpepo.prune.in and
+data/filtered/cpepo.prune.out .
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to data/filtered/cmoschata.log.
+Options in effect:
+  --bcf data/filtered/cmoschata_filt.bcf
+  --double-id
+  --indep-pairwise 50 10 0.1
+  --out data/filtered/cmoschata
+
+515677 MB RAM detected; reserving 257838 MB for main workspace.
+--bcf: 1k variants complete.--bcf: 2k variants complete.--bcf: 3k variants complete.--bcf: 4k variants complete.--bcf: 5k variants complete.--bcf: 6k variants complete.--bcf: 7k variants complete.--bcf: 8k variants complete.--bcf: 9k variants complete.--bcf: 10k variants complete.--bcf: 11k variants complete.--bcf: 12k variants complete.--bcf: 13k variants complete.--bcf: 14k variants complete.--bcf: 15k variants complete.--bcf: 16k variants complete.--bcf: 17k variants complete.--bcf: 18k variants complete.--bcf: 19k variants complete.--bcf: 20k variants complete.--bcf: 21k variants complete.--bcf: 22k variants complete.--bcf: 23k variants complete.--bcf: 24k variants complete.--bcf: 25k variants complete.--bcf: 26k variants complete.--bcf: data/filtered/cmoschata-temporary.bed +
+data/filtered/cmoschata-temporary.bim + data/filtered/cmoschata-temporary.fam
+written.
+26853 variants loaded from .bim file.
+314 people (0 males, 0 females, 314 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to data/filtered/cmoschata.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 314 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.88195.
+26853 variants and 314 people pass filters and QC.
+Note: No phenotypes present.
+--indep-pairwise: Ignoring 546 chromosome 0 variants.
+1%2%3%4%5%6%7%8%9%10%11%12%12%13%14%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%59%60%61%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%91%92%93%94%95%96%97%98%99%Pruned 1064 variants from chromosome 1, leaving 404.
+1%1%2%3%4%5%6%7%8%9%10%11%12%13%14%14%15%16%17%18%19%20%21%22%23%24%25%26%27%27%28%29%30%31%32%33%34%35%36%37%38%39%40%40%41%42%43%44%45%46%47%48%49%50%51%52%53%53%54%55%56%57%58%59%60%61%62%63%64%65%66%66%67%68%69%70%71%72%73%74%75%76%77%78%79%79%80%81%82%83%84%85%86%87%88%89%90%91%92%92%93%94%95%96%97%98%99%Pruned 1187 variants from chromosome 2, leaving 351.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%Pruned 1142 variants from chromosome 3, leaving 357.
+1%2%3%4%5%6%7%8%9%10%10%11%12%13%14%15%16%17%18%19%19%20%21%22%23%24%25%26%27%28%28%29%30%31%32%33%34%35%36%37%37%38%39%40%41%42%43%44%45%46%47%48%48%49%50%51%52%53%54%55%56%57%57%58%59%60%61%62%63%64%65%66%66%67%68%69%70%71%72%73%74%75%75%76%77%78%79%80%81%82%83%84%84%85%86%87%88%89%90%91%92%93%94%95%95%96%97%98%99%Pruned 1898 variants from chromosome 4, leaving 655.
+1%2%3%4%5%6%7%9%10%11%12%13%14%15%16%18%19%20%21%22%23%24%25%27%28%29%30%31%32%33%34%36%37%38%39%40%41%42%43%45%46%47%48%49%50%51%52%54%55%56%57%58%59%60%62%63%64%65%66%67%68%69%71%72%73%74%75%76%77%78%80%81%82%83%84%85%86%87%89%90%91%92%93%94%95%96%98%99%Pruned 625 variants from chromosome 5, leaving 262.
+1%2%3%4%5%6%7%8%9%10%11%12%12%13%14%15%16%17%18%18%19%20%21%22%23%24%25%26%27%28%29%30%31%31%32%33%34%35%36%37%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%56%57%58%59%60%61%62%62%63%64%65%66%67%68%69%70%71%72%73%74%75%75%76%77%78%79%80%81%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%Pruned 846 variants from chromosome 6, leaving 313.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%97%98%99%Pruned 666 variants from chromosome 7, leaving 303.
+1%2%3%4%6%7%8%9%11%12%13%14%16%17%18%19%20%22%23%24%25%27%28%29%30%32%33%34%35%37%38%39%40%41%43%44%45%46%48%49%50%51%53%54%55%56%58%59%60%61%62%64%65%66%67%69%70%71%72%74%75%76%77%79%80%81%82%83%85%86%87%88%90%91%92%93%95%96%97%98%Pruned 567 variants from chromosome 8, leaving 243.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%Pruned 728 variants from chromosome 9, leaving 267.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%36%37%38%39%39%40%41%42%42%43%44%45%45%46%47%48%48%49%50%51%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%91%92%93%94%94%95%96%97%97%98%99%Pruned 978 variants from chromosome 10, leaving 349.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%22%23%24%25%26%27%28%28%29%30%31%32%33%34%34%35%36%37%38%39%40%40%41%42%43%44%45%46%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%75%76%77%78%79%80%81%81%82%83%84%85%86%87%87%88%89%90%91%92%93%93%94%95%96%97%98%99%Pruned 1409 variants from chromosome 11, leaving 421.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%72%73%74%75%75%76%77%78%78%79%80%81%81%82%83%84%84%85%86%87%87%88%89%90%90%91%92%93%93%94%95%96%96%97%98%99%Pruned 907 variants from chromosome 12, leaving 423.
+1%2%3%4%5%6%7%8%9%10%10%11%12%13%14%15%16%17%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%35%36%37%38%39%40%41%42%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%60%61%62%63%64%65%66%67%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%85%86%87%88%89%90%91%92%92%93%94%95%96%97%98%99%Pruned 978 variants from chromosome 13, leaving 302.
+1%2%3%4%5%6%7%8%9%10%11%12%12%13%13%14%15%16%17%18%19%20%21%22%23%24%25%26%26%27%27%28%29%30%31%32%33%34%35%36%37%38%39%40%40%41%41%42%43%44%45%46%47%48%49%50%51%52%53%54%54%55%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%97%98%99%Pruned 1492 variants from chromosome 14, leaving 437.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%18%19%20%21%21%22%23%24%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%46%47%48%49%49%50%51%52%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%74%75%76%77%77%78%79%80%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%Pruned 1001 variants from chromosome 15, leaving 320.
+1%2%3%4%5%6%7%8%9%9%10%11%12%13%14%15%16%17%18%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%37%38%39%40%41%42%43%44%45%46%46%47%48%49%50%51%52%53%54%55%56%56%57%58%59%60%61%62%63%64%65%65%66%67%68%69%70%71%72%73%74%74%75%76%77%78%79%80%81%82%83%84%84%85%86%87%88%89%90%91%92%93%93%94%95%96%97%98%99%Pruned 805 variants from chromosome 16, leaving 302.
+0%1%2%3%4%5%6%7%8%9%10%10%11%12%13%14%15%16%17%18%19%20%20%21%22%23%24%25%26%27%28%29%30%31%31%32%33%34%35%36%37%38%39%40%41%41%42%43%44%45%46%47%48%49%50%51%52%52%53%54%55%56%57%58%59%60%61%62%62%63%64%65%66%67%68%69%70%71%72%72%73%74%75%76%77%78%79%80%81%82%83%83%84%85%86%87%88%89%90%91%92%93%93%94%95%96%97%98%99%Pruned 819 variants from chromosome 17, leaving 277.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%15%16%17%18%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%34%35%36%37%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%53%54%55%56%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%72%73%74%75%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%91%92%93%94%94%95%96%97%98%99%Pruned 1027 variants from chromosome 18, leaving 289.
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%Pruned 746 variants from chromosome 19, leaving 244.
+1%2%3%4%5%6%7%8%9%11%12%13%14%15%16%17%18%19%21%22%23%24%25%26%27%28%29%31%32%33%34%35%36%37%38%39%40%42%43%44%45%46%47%48%49%50%52%53%54%55%56%57%58%59%60%62%63%64%65%66%67%68%69%70%71%73%74%75%76%77%78%79%80%81%83%84%85%86%87%88%89%90%91%93%94%95%96%97%98%99%Pruned 668 variants from chromosome 20, leaving 235.
+Pruning complete.  19553 of 26307 variants removed.
+Writing...Marker lists written to data/filtered/cmoschata.prune.in and
+data/filtered/cmoschata.prune.out .
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to data/filtered/cmaxima.log.
+Options in effect:
+  --bcf data/filtered/cmaxima_filt.bcf
+  --double-id
+  --indep-pairwise 50 10 0.1
+  --out data/filtered/cmaxima
+
+515677 MB RAM detected; reserving 257838 MB for main workspace.
+--bcf: 1k variants complete.--bcf: data/filtered/cmaxima-temporary.bed +
+data/filtered/cmaxima-temporary.bim + data/filtered/cmaxima-temporary.fam
+written.
+1947 variants loaded from .bim file.
+372 people (0 males, 0 females, 372 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to data/filtered/cmaxima.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 372 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.856183.
+1947 variants and 372 people pass filters and QC.
+Note: No phenotypes present.
+--indep-pairwise: Ignoring 110 chromosome 0 variants.
+7%14%21%28%35%42%49%56%63%70%78%85%92%99%Pruned 66 variants from chromosome 1, leaving 75.
+14%28%42%56%70%84%98%Pruned 31 variants from chromosome 2, leaving 40.
+13%27%41%55%69%83%97%Pruned 46 variants from chromosome 3, leaving 26.
+6%12%18%24%30%36%42%48%54%60%66%72%78%84%90%96%Pruned 93 variants from chromosome 4, leaving 72.
+20%40%61%81%Pruned 21 variants from chromosome 5, leaving 28.
+7%14%21%28%35%42%50%57%64%71%78%85%92%Pruned 43 variants from chromosome 6, leaving 97.
+15%31%46%62%78%93%Pruned 31 variants from chromosome 7, leaving 33.
+13%27%40%54%67%81%94%Pruned 23 variants from chromosome 8, leaving 51.
+10%21%31%42%53%63%74%85%95%Pruned 48 variants from chromosome 9, leaving 46.
+14%29%44%59%74%89%Pruned 46 variants from chromosome 10, leaving 21.
+6%12%18%25%31%37%43%50%56%62%68%75%81%87%93%Pruned 67 variants from chromosome 11, leaving 93.
+14%29%44%58%73%88%Pruned 20 variants from chromosome 12, leaving 48.
+9%18%27%36%45%54%63%72%81%90%99%Pruned 38 variants from chromosome 13, leaving 73.
+7%15%23%31%39%47%55%62%70%78%86%94%Pruned 54 variants from chromosome 14, leaving 73.
+12%25%38%51%64%76%89%Pruned 46 variants from chromosome 15, leaving 32.
+10%20%30%40%51%61%71%81%91%Pruned 22 variants from chromosome 16, leaving 76.
+10%21%32%43%54%65%76%86%97%Pruned 55 variants from chromosome 17, leaving 37.
+16%32%48%64%80%96%Pruned 27 variants from chromosome 18, leaving 35.
+21%42%63%85%Pruned 18 variants from chromosome 19, leaving 29.
+17%35%52%70%87%Pruned 27 variants from chromosome 20, leaving 30.
+Pruning complete.  822 of 1837 variants removed.
+Writing...Marker lists written to data/filtered/cmaxima.prune.in and
+data/filtered/cmaxima.prune.out .
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to data/filtered/cpepo_admix_nocult.log.
+Options in effect:
+  --double-id
+  --make-bed
+  --out data/filtered/cpepo_admix_nocult
+  --remove ../01_meta/data/cpepo_cultivars.txt
+  --vcf data/filtered/cpepo_ld_filt.vcf
+
+515677 MB RAM detected; reserving 257838 MB for main workspace.
+--vcf: 1k variants complete.--vcf: 2k variants complete.--vcf: 3k variants complete.--vcf: data/filtered/cpepo_admix_nocult-temporary.bed +
+data/filtered/cpepo_admix_nocult-temporary.bim +
+data/filtered/cpepo_admix_nocult-temporary.fam written.
+3865 variants loaded from .bim file.
+829 people (0 males, 0 females, 829 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to data/filtered/cpepo_admix_nocult.nosex .
+--remove: 732 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 732 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.86752.
+3865 variants and 732 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to data/filtered/cpepo_admix_nocult.bed +
+data/filtered/cpepo_admix_nocult.bim + data/filtered/cpepo_admix_nocult.fam ...
+0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to data/filtered/cpepo_admix_cult.log.
+Options in effect:
+  --double-id
+  --keep ../01_meta/data/cpepo_cultivars.txt
+  --make-bed
+  --out data/filtered/cpepo_admix_cult
+  --vcf data/filtered/cpepo_ld_filt.vcf
+
+515677 MB RAM detected; reserving 257838 MB for main workspace.
+--vcf: 1k variants complete.--vcf: 2k variants complete.--vcf: 3k variants complete.--vcf: data/filtered/cpepo_admix_cult-temporary.bed +
+data/filtered/cpepo_admix_cult-temporary.bim +
+data/filtered/cpepo_admix_cult-temporary.fam written.
+3865 variants loaded from .bim file.
+829 people (0 males, 0 females, 829 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to data/filtered/cpepo_admix_cult.nosex .
+--keep: 97 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 97 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.852117.
+3865 variants and 97 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to data/filtered/cpepo_admix_cult.bed +
+data/filtered/cpepo_admix_cult.bim + data/filtered/cpepo_admix_cult.fam ...
+0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to data/filtered/cmoschata_admix_nocult.log.
+Options in effect:
+  --double-id
+  --make-bed
+  --out data/filtered/cmoschata_admix_nocult
+  --remove ../01_meta/data/cmoschata_cultivars.txt
+  --vcf data/filtered/cmoschata_ld_filt.vcf
+
+515677 MB RAM detected; reserving 257838 MB for main workspace.
+--vcf: 1k variants complete.--vcf: 2k variants complete.--vcf: 3k variants complete.--vcf: 4k variants complete.--vcf: 5k variants complete.--vcf: 6k variants complete.--vcf: data/filtered/cmoschata_admix_nocult-temporary.bed +
+data/filtered/cmoschata_admix_nocult-temporary.bim +
+data/filtered/cmoschata_admix_nocult-temporary.fam written.
+6754 variants loaded from .bim file.
+314 people (0 males, 0 females, 314 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to data/filtered/cmoschata_admix_nocult.nosex .
+--remove: 284 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 284 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.874179.
+6754 variants and 284 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to data/filtered/cmoschata_admix_nocult.bed +
+data/filtered/cmoschata_admix_nocult.bim +
+data/filtered/cmoschata_admix_nocult.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to data/filtered/cmoschata_admix_cult.log.
+Options in effect:
+  --double-id
+  --keep ../01_meta/data/cmoschata_cultivars.txt
+  --make-bed
+  --out data/filtered/cmoschata_admix_cult
+  --vcf data/filtered/cmoschata_ld_filt.vcf
+
+515677 MB RAM detected; reserving 257838 MB for main workspace.
+--vcf: 1k variants complete.--vcf: 2k variants complete.--vcf: 3k variants complete.--vcf: 4k variants complete.--vcf: 5k variants complete.--vcf: 6k variants complete.--vcf: data/filtered/cmoschata_admix_cult-temporary.bed +
+data/filtered/cmoschata_admix_cult-temporary.bim +
+data/filtered/cmoschata_admix_cult-temporary.fam written.
+6754 variants loaded from .bim file.
+314 people (0 males, 0 females, 314 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to data/filtered/cmoschata_admix_cult.nosex .
+--keep: 30 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 30 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.934271.
+6754 variants and 30 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to data/filtered/cmoschata_admix_cult.bed +
+data/filtered/cmoschata_admix_cult.bim + data/filtered/cmoschata_admix_cult.fam
+... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to data/filtered/cmaxima_admix_nocult.log.
+Options in effect:
+  --double-id
+  --make-bed
+  --out data/filtered/cmaxima_admix_nocult
+  --remove ../01_meta/data/cmaxima_cultivars.txt
+  --vcf data/filtered/cmaxima_ld_filt.vcf
+
+515677 MB RAM detected; reserving 257838 MB for main workspace.
+--vcf: 1k variants complete.--vcf: data/filtered/cmaxima_admix_nocult-temporary.bed +
+data/filtered/cmaxima_admix_nocult-temporary.bim +
+data/filtered/cmaxima_admix_nocult-temporary.fam written.
+1015 variants loaded from .bim file.
+372 people (0 males, 0 females, 372 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to data/filtered/cmaxima_admix_nocult.nosex .
+--remove: 315 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 315 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.870276.
+1015 variants and 315 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to data/filtered/cmaxima_admix_nocult.bed +
+data/filtered/cmaxima_admix_nocult.bim + data/filtered/cmaxima_admix_nocult.fam
+... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to data/filtered/cmaxima_admix_cult.log.
+Options in effect:
+  --double-id
+  --keep ../01_meta/data/cmaxima_cultivars.txt
+  --make-bed
+  --out data/filtered/cmaxima_admix_cult
+  --vcf data/filtered/cmaxima_ld_filt.vcf
+
+515677 MB RAM detected; reserving 257838 MB for main workspace.
+--vcf: 1k variants complete.--vcf: data/filtered/cmaxima_admix_cult-temporary.bed +
+data/filtered/cmaxima_admix_cult-temporary.bim +
+data/filtered/cmaxima_admix_cult-temporary.fam written.
+1015 variants loaded from .bim file.
+372 people (0 males, 0 females, 372 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to data/filtered/cmaxima_admix_cult.nosex .
+--keep: 57 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 57 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.736047.
+1015 variants and 57 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to data/filtered/cmaxima_admix_cult.bed +
+data/filtered/cmaxima_admix_cult.bim + data/filtered/cmaxima_admix_cult.fam ...
+0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+[W::bcf_hdr_check_sanity] PL should be declared as Number=G
+/home/ch728/.local/bin/tassel-5-standalone/lib/postgresql-9.4-1201.jdbc41.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/forester-1.039.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/commons-codec-1.10.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/kotlin-stdlib-1.4.32.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/phg.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/ahocorasick-0.2.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/kotlinx-coroutines-core-jvm-1.4.3.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/ini4j-0.5.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/jcommon-1.0.23.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/biojava-core-6.0.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/snappy-java-1.1.1.6.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/trove-3.0.3.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/fastutil-8.2.2.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/slf4j-api-1.7.10.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/colt-1.2.0.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/itextpdf-5.1.0.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/sqlite-jdbc-3.8.5-pre1.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/gs-core-1.3.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/slf4j-simple-1.7.10.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/guava-22.0.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/ejml-core-0.41.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/mail-1.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/biojava-phylo-4.2.12.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/htsjdk-2.23.0.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/json-simple-1.1.1.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/jfreesvg-3.2.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/biojava-alignment-6.0.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/gs-ui-1.3.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/kotlin-stdlib-jdk8-1.4.32.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/commons-math3-3.4.1.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/scala-library-2.10.1.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/jhdf5-14.12.5.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/log4j-1.2.13.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/junit-4.10.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/jfreechart-1.0.19.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/javax.json-1.0.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/ejml-ddense-0.41.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/kotlin-stdlib-jdk7-1.4.32.jar:/home/ch728/.local/bin/tassel-5-standalone/sTASSEL.jar
+Memory Settings: -Xms512m -Xmx50g
+Tassel Pipeline Arguments: -VCF data/filtered/cmaxima_filt.vcf.gz -LDKNNiImputationPlugin -endPlugin -export data/filtered/cmaxima_filt_imp -exportType VCF
+[main] INFO net.maizegenetics.tassel.TasselLogging - Tassel Version: 5.2.80  Date: February 17, 2022
+[main] INFO net.maizegenetics.tassel.TasselLogging - Max Available Memory Reported by JVM: 51200 MB
+[main] INFO net.maizegenetics.tassel.TasselLogging - Java Version: 13.0.2
+[main] INFO net.maizegenetics.tassel.TasselLogging - OS: Linux
+[main] INFO net.maizegenetics.tassel.TasselLogging - Number of Processors: 48
+[main] INFO net.maizegenetics.pipeline.TasselPipeline - Tassel Pipeline Arguments: [-fork1, -VCF, data/filtered/cmaxima_filt.vcf.gz, -LDKNNiImputationPlugin, -endPlugin, -export, data/filtered/cmaxima_filt_imp, -exportType, VCF, -runfork1]
+net.maizegenetics.analysis.data.FileLoadPlugin
+   net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin
+      net.maizegenetics.analysis.data.ExportMultiplePlugin
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Starting net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:42:35
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - 
+FileLoadPlugin Parameters
+format: VCF
+sortPositions: false
+keepDepth: false
+
+[pool-1-thread-1] INFO net.maizegenetics.analysis.data.FileLoadPlugin - Start Loading File: data/filtered/cmaxima_filt.vcf.gz time: Mar 27, 2022 15:42:35
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:42:36: progress: 100%
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - net.maizegenetics.analysis.data.FileLoadPlugin  Citation: Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, Ramdoss Y, Buckler ES. (2007) TASSEL: Software for association mapping of complex traits in diverse samples. Bioinformatics 23:2633-2635.
+BuilderFromVCF data timing 1.25814s 
+[pool-1-thread-1] INFO net.maizegenetics.analysis.data.FileLoadPlugin - Finished Loading File: data/filtered/cmaxima_filt.vcf.gz time: Mar 27, 2022 15:42:36
+Genotype Table Name: cmaxima_filt
+Number of Taxa: 372
+Number of Sites: 1947
+Sites x Taxa: 724284
+Chromosomes...
+0: start site: 0 (287545) last site: 109 (62156230) total: 110
+1: start site: 110 (132611) last site: 250 (12891153) total: 141
+2: start site: 251 (368537) last site: 321 (10086242) total: 71
+3: start site: 322 (180627) last site: 393 (8746585) total: 72
+4: start site: 394 (80892) last site: 558 (19648409) total: 165
+5: start site: 559 (110942) last site: 607 (10541346) total: 49
+6: start site: 608 (492324) last site: 747 (10549151) total: 140
+7: start site: 748 (165324) last site: 811 (7572663) total: 64
+8: start site: 812 (48256) last site: 885 (7821678) total: 74
+9: start site: 886 (227752) last site: 979 (7529251) total: 94
+10: start site: 980 (99609) last site: 1046 (8207576) total: 67
+11: start site: 1047 (145859) last site: 1206 (12722199) total: 160
+12: start site: 1207 (150271) last site: 1274 (10099980) total: 68
+13: start site: 1275 (902924) last site: 1385 (8408369) total: 111
+14: start site: 1386 (246583) last site: 1512 (14768472) total: 127
+15: start site: 1513 (288340) last site: 1590 (9069246) total: 78
+16: start site: 1591 (364220) last site: 1688 (9745327) total: 98
+17: start site: 1689 (76012) last site: 1780 (9337985) total: 92
+18: start site: 1781 (20581) last site: 1842 (9790204) total: 62
+19: start site: 1843 (516126) last site: 1889 (8848378) total: 47
+20: start site: 1890 (6128) last site: 1946 (8989476) total: 57
+
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Finished net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:42:36
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Starting net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:42:36
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - 
+LDKNNiImputationPlugin Parameters
+highLDSSites: 30
+knnTaxa: 10
+maxLDDistance: 10000000
+
+LCJ - FE:getTwoTailedP, resize for a 335, b 46 c 331 d 45
+LCJ - FE:getTwoTailedP, resize for a 271, b 161 c 269 d 158
+LCJ - FE:getTwoTailedP, resize for a 253, b 126 c 253 d 126
+LCJ - FE:getTwoTailedP, resize for a 324, b 67 c 321 d 65
+LCJ - FE:getTwoTailedP, resize for a 267, b 162 c 229 d 138
+LCJ - FE:getTwoTailedP, resize for a 234, b 206 c 231 d 204
+LCJ - FE:getTwoTailedP, resize for a 286, b 143 c 284 d 140
+LCJ - FE:getTwoTailedP, resize for a 296, b 152 c 290 d 152
+LCJ - FE:getTwoTailedP, resize for a 271, b 263 c 269 d 259
+LCJ - FE:getTwoTailedP, resize for a 310, b 254 c 306 d 251
+LCJ - FE:getTwoTailedP, resize for a 327, b 319 c 323 d 316
+LCJ - FE:getTwoTailedP, resize for a 364, b 343 c 357 d 339
+[ForkJoinPool.commonPool-worker-81] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:42:38: progress: 16%
+1000
+LCJ - FE:getTwoTailedP, resize for a 363, b 357 c 350 d 346
+LD calculated
+[ForkJoinPool.commonPool-worker-103] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:42:39: progress: 36%
+100:5
+[ForkJoinPool.commonPool-worker-3] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:42:41: progress: 39%
+200:12
+[ForkJoinPool.commonPool-worker-93] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:42:41: progress: 43%
+300:10
+[ForkJoinPool.commonPool-worker-23] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:42:42: progress: 46%
+400:7
+500:6
+[ForkJoinPool.commonPool-worker-119] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:42:42: progress: 53%
+600:6
+700:7
+[ForkJoinPool.commonPool-worker-95] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:42:44: progress: 60%
+800:6
+900:6
+1000:6
+[ForkJoinPool.commonPool-worker-103] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:42:45: progress: 70%
+1100:5
+1200:6
+1300:5
+[ForkJoinPool.commonPool-worker-125] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:42:47: progress: 80%
+1400:5
+1500:5
+1600:5
+[ForkJoinPool.commonPool-worker-23] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:42:48: progress: 90%
+1700:5
+1800:5
+1900:5
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Finished net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:42:49
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Starting net.maizegenetics.analysis.data.ExportPlugin: time: Mar 27, 2022 15:42:49
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - 
+ExportPlugin Parameters
+saveAs: data/filtered/cmaxima_filt_imp
+format: VCF
+keepDepth: true
+includeTaxaAnnotations: true
+includeBranchLengths: true
+
+[pool-1-thread-1] INFO net.maizegenetics.analysis.data.ExportPlugin - performFunction: wrote dataset: cmaxima_filt_KNNimp to file: data/filtered/cmaxima_filt_imp.vcf
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Finished net.maizegenetics.analysis.data.ExportPlugin: time: Mar 27, 2022 15:42:50
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:42:50: progress: 100%
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin  Citation: Daniel Money, Kyle Gardner, Heidi Schwaninger, Gan-Yuan Zhong, Sean Myles. (In Review)  LinkImpute: fast and accurate genotype imputation for non-model organisms
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:42:50: progress: 100%
+/home/ch728/.local/bin/tassel-5-standalone/lib/postgresql-9.4-1201.jdbc41.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/forester-1.039.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/commons-codec-1.10.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/kotlin-stdlib-1.4.32.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/phg.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/ahocorasick-0.2.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/kotlinx-coroutines-core-jvm-1.4.3.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/ini4j-0.5.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/jcommon-1.0.23.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/biojava-core-6.0.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/snappy-java-1.1.1.6.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/trove-3.0.3.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/fastutil-8.2.2.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/slf4j-api-1.7.10.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/colt-1.2.0.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/itextpdf-5.1.0.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/sqlite-jdbc-3.8.5-pre1.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/gs-core-1.3.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/slf4j-simple-1.7.10.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/guava-22.0.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/ejml-core-0.41.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/mail-1.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/biojava-phylo-4.2.12.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/htsjdk-2.23.0.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/json-simple-1.1.1.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/jfreesvg-3.2.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/biojava-alignment-6.0.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/gs-ui-1.3.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/kotlin-stdlib-jdk8-1.4.32.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/commons-math3-3.4.1.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/scala-library-2.10.1.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/jhdf5-14.12.5.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/log4j-1.2.13.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/junit-4.10.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/jfreechart-1.0.19.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/javax.json-1.0.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/ejml-ddense-0.41.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/kotlin-stdlib-jdk7-1.4.32.jar:/home/ch728/.local/bin/tassel-5-standalone/sTASSEL.jar
+Memory Settings: -Xms512m -Xmx50g
+Tassel Pipeline Arguments: -VCF data/filtered/cmoschata_filt.vcf.gz -LDKNNiImputationPlugin -endPlugin -export data/filtered/cmoschata_filt_imp -exportType VCF
+[main] INFO net.maizegenetics.tassel.TasselLogging - Tassel Version: 5.2.80  Date: February 17, 2022
+[main] INFO net.maizegenetics.tassel.TasselLogging - Max Available Memory Reported by JVM: 51200 MB
+[main] INFO net.maizegenetics.tassel.TasselLogging - Java Version: 13.0.2
+[main] INFO net.maizegenetics.tassel.TasselLogging - OS: Linux
+[main] INFO net.maizegenetics.tassel.TasselLogging - Number of Processors: 48
+[main] INFO net.maizegenetics.pipeline.TasselPipeline - Tassel Pipeline Arguments: [-fork1, -VCF, data/filtered/cmoschata_filt.vcf.gz, -LDKNNiImputationPlugin, -endPlugin, -export, data/filtered/cmoschata_filt_imp, -exportType, VCF, -runfork1]
+net.maizegenetics.analysis.data.FileLoadPlugin
+   net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin
+      net.maizegenetics.analysis.data.ExportMultiplePlugin
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Starting net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:42:51
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - 
+FileLoadPlugin Parameters
+format: VCF
+sortPositions: false
+keepDepth: false
+
+[pool-1-thread-1] INFO net.maizegenetics.analysis.data.FileLoadPlugin - Start Loading File: data/filtered/cmoschata_filt.vcf.gz time: Mar 27, 2022 15:42:51
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:42:53: progress: 14%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:42:53: progress: 28%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:42:53: progress: 42%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:42:53: progress: 57%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:42:53: progress: 71%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:42:53: progress: 85%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:42:53: progress: 100%
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - net.maizegenetics.analysis.data.FileLoadPlugin  Citation: Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, Ramdoss Y, Buckler ES. (2007) TASSEL: Software for association mapping of complex traits in diverse samples. Bioinformatics 23:2633-2635.
+BuilderFromVCF data timing 2.71020s 
+[pool-1-thread-1] INFO net.maizegenetics.analysis.data.FileLoadPlugin - Finished Loading File: data/filtered/cmoschata_filt.vcf.gz time: Mar 27, 2022 15:42:53
+Genotype Table Name: cmoschata_filt
+Number of Taxa: 314
+Number of Sites: 26853
+Sites x Taxa: 8431842
+Chromosomes...
+0: start site: 0 (489751) last site: 545 (34731663) total: 546
+1: start site: 546 (13070) last site: 2013 (14610836) total: 1468
+2: start site: 2014 (13988) last site: 3551 (10516633) total: 1538
+3: start site: 3552 (47974) last site: 5050 (10827297) total: 1499
+4: start site: 5051 (1373) last site: 7603 (21858199) total: 2553
+5: start site: 7604 (51422) last site: 8490 (10882533) total: 887
+6: start site: 8491 (60943) last site: 9649 (11936663) total: 1159
+7: start site: 9650 (22047) last site: 10618 (8201566) total: 969
+8: start site: 10619 (42540) last site: 11428 (7966278) total: 810
+9: start site: 11429 (73036) last site: 12423 (12166710) total: 995
+10: start site: 12424 (38089) last site: 13750 (13101442) total: 1327
+11: start site: 13751 (65163) last site: 15580 (13999744) total: 1830
+12: start site: 15581 (1466) last site: 16910 (11729452) total: 1330
+13: start site: 16911 (65952) last site: 18190 (9519173) total: 1280
+14: start site: 18191 (3347) last site: 20119 (15828074) total: 1929
+15: start site: 20120 (2594) last site: 21440 (10331724) total: 1321
+16: start site: 21441 (51513) last site: 22547 (9510740) total: 1107
+17: start site: 22548 (38787) last site: 23643 (10583646) total: 1096
+18: start site: 23644 (2954) last site: 24959 (12876774) total: 1316
+19: start site: 24960 (15387) last site: 25949 (9750306) total: 990
+20: start site: 25950 (88358) last site: 26852 (11792978) total: 903
+
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Finished net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:42:53
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Starting net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:42:53
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - 
+LDKNNiImputationPlugin Parameters
+highLDSSites: 30
+knnTaxa: 10
+maxLDDistance: 10000000
+
+LCJ - FE:getTwoTailedP, resize for a 189, b 182 c 138 d 135
+LCJ - FE:getTwoTailedP, resize for a 224, b 216 c 120 d 117
+LCJ - FE:getTwoTailedP, resize for a 196, b 191 c 157 d 128
+LCJ - FE:getTwoTailedP, resize for a 308, b 97 c 223 d 73
+LCJ - FE:getTwoTailedP, resize for a 238, b 231 c 112 d 110
+LCJ - FE:getTwoTailedP, resize for a 200, b 193 c 149 d 152
+LCJ - FE:getTwoTailedP, resize for a 303, b 294 c 52 d 51
+LCJ - FE:getTwoTailedP, resize for a 310, b 301 c 223 d 220
+LCJ - FE:getTwoTailedP, resize for a 311, b 302 c 310 d 301
+LCJ - FE:getTwoTailedP, resize for a 313, b 303 c 310 d 300
+LCJ - FE:getTwoTailedP, resize for a 313, b 303 c 313 d 303
+[ForkJoinPool.commonPool-worker-67] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:42:55: progress: 1%
+1000
+LCJ - FE:getTwoTailedP, resize for a 314, b 305 c 313 d 305
+2000
+LCJ - FE:getTwoTailedP, resize for a 313, b 310 c 310 d 307
+LCJ - FE:getTwoTailedP, resize for a 313, b 309 c 311 d 310
+LCJ - FE:getTwoTailedP, resize for a 313, b 310 c 312 d 309
+LCJ - FE:getTwoTailedP, resize for a 313, b 312 c 312 d 311
+3000
+4000
+5000
+6000
+7000
+8000
+[ForkJoinPool.commonPool-worker-49] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:44:46: progress: 11%
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+[ForkJoinPool.commonPool-worker-39] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:46:7: progress: 20%
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+[ForkJoinPool.commonPool-worker-5] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:47:3: progress: 30%
+25000
+26000
+LD calculated
+100:6
+200:4
+300:10
+400:9
+500:7
+600:6
+700:6
+800:5
+900:6
+1000:7
+1100:6
+1200:6
+1300:6
+1400:5
+1500:5
+1600:6
+1700:6
+1800:6
+1900:6
+2000:6
+2100:5
+2200:5
+2300:5
+2400:5
+2500:5
+2600:5
+2700:5
+2800:5
+[ForkJoinPool.commonPool-worker-105] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:47:43: progress: 40%
+2900:5
+3000:5
+3100:5
+3200:4
+3300:4
+3400:4
+3500:4
+3600:4
+3700:4
+3800:4
+3900:4
+4000:4
+4100:4
+4200:4
+4300:4
+4400:4
+4500:4
+4600:4
+4700:4
+4800:4
+4900:4
+5000:4
+5100:4
+5200:4
+5300:4
+5400:4
+5500:4
+5600:4
+5700:4
+5800:4
+5900:4
+6000:4
+6100:4
+6200:4
+6300:4
+6400:4
+6500:4
+6600:4
+6700:4
+6800:4
+6900:4
+[ForkJoinPool.commonPool-worker-121] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:47:59: progress: 50%
+7000:4
+7100:4
+7200:4
+7300:4
+7400:4
+7500:4
+7600:4
+7700:4
+7800:4
+7900:4
+8000:4
+8100:4
+8200:4
+8300:4
+8400:4
+8500:4
+8600:4
+8700:4
+8800:4
+8900:4
+9000:4
+9100:4
+9200:4
+9300:4
+9400:4
+9500:4
+9600:4
+9700:4
+9800:4
+9900:4
+10000:4
+10100:4
+10200:4
+10300:4
+10400:4
+10500:4
+10600:4
+10700:4
+10800:4
+10900:4
+[ForkJoinPool.commonPool-worker-17] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:48:17: progress: 60%
+11000:4
+11100:4
+11200:4
+11300:4
+11400:4
+11500:4
+11600:4
+11700:4
+11800:4
+11900:4
+12000:4
+12100:4
+12200:4
+12300:4
+12400:4
+12500:4
+12600:4
+12700:4
+12800:4
+12900:4
+13000:4
+13100:4
+13200:4
+13300:4
+13400:4
+13500:4
+13600:4
+13700:4
+13800:4
+13900:4
+14000:4
+14100:4
+14200:4
+14300:4
+14400:4
+14500:4
+14600:4
+14700:4
+14800:4
+14900:4
+15000:4
+[ForkJoinPool.commonPool-worker-93] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:48:36: progress: 70%
+15100:4
+15200:4
+15300:4
+15400:4
+15500:4
+15600:4
+15700:4
+15800:4
+15900:4
+16000:4
+16100:4
+16200:4
+16300:4
+16400:4
+16500:4
+16600:4
+16700:4
+16800:4
+16900:4
+17000:4
+17100:4
+17200:4
+17300:4
+17400:4
+17500:4
+17600:4
+17700:4
+17800:4
+17900:4
+18000:4
+18100:4
+18200:4
+18300:4
+18400:4
+18500:4
+18600:4
+18700:4
+18800:4
+18900:4
+19000:4
+19100:4
+[ForkJoinPool.commonPool-worker-37] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:48:53: progress: 80%
+19200:4
+19300:4
+19400:4
+19500:4
+19600:4
+19700:4
+19800:4
+19900:4
+20000:4
+20100:4
+20200:4
+20300:4
+20400:4
+20500:4
+20600:4
+20700:4
+20800:4
+20900:4
+21000:4
+21100:4
+21200:4
+21300:4
+21400:4
+21500:4
+21600:4
+21700:4
+21800:4
+21900:4
+22000:4
+22100:4
+22200:4
+22300:4
+22400:4
+22500:4
+22600:4
+22700:4
+22800:4
+22900:4
+23000:4
+23100:4
+[ForkJoinPool.commonPool-worker-91] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:49:11: progress: 90%
+23200:4
+23300:4
+23400:4
+23500:4
+23600:4
+23700:4
+23800:4
+23900:4
+24000:4
+24100:4
+24200:4
+24300:4
+24400:4
+24500:4
+24600:4
+24700:4
+24800:4
+24900:4
+25000:4
+25100:4
+25200:4
+25300:4
+25400:4
+25500:4
+25600:4
+25700:4
+25800:4
+25900:4
+26000:4
+26100:4
+26200:4
+26300:4
+26400:4
+26500:4
+26600:4
+26700:4
+26800:4
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Finished net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:49:24
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Starting net.maizegenetics.analysis.data.ExportPlugin: time: Mar 27, 2022 15:49:24
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - 
+ExportPlugin Parameters
+saveAs: data/filtered/cmoschata_filt_imp
+format: VCF
+keepDepth: true
+includeTaxaAnnotations: true
+includeBranchLengths: true
+
+[pool-1-thread-1] INFO net.maizegenetics.analysis.data.ExportPlugin - performFunction: wrote dataset: cmoschata_filt_KNNimp to file: data/filtered/cmoschata_filt_imp.vcf
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Finished net.maizegenetics.analysis.data.ExportPlugin: time: Mar 27, 2022 15:49:27
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:49:27: progress: 100%
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin  Citation: Daniel Money, Kyle Gardner, Heidi Schwaninger, Gan-Yuan Zhong, Sean Myles. (In Review)  LinkImpute: fast and accurate genotype imputation for non-model organisms
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:49:27: progress: 100%
+/home/ch728/.local/bin/tassel-5-standalone/lib/postgresql-9.4-1201.jdbc41.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/forester-1.039.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/commons-codec-1.10.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/kotlin-stdlib-1.4.32.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/phg.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/ahocorasick-0.2.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/kotlinx-coroutines-core-jvm-1.4.3.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/ini4j-0.5.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/jcommon-1.0.23.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/biojava-core-6.0.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/snappy-java-1.1.1.6.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/trove-3.0.3.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/fastutil-8.2.2.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/slf4j-api-1.7.10.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/colt-1.2.0.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/itextpdf-5.1.0.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/sqlite-jdbc-3.8.5-pre1.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/gs-core-1.3.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/slf4j-simple-1.7.10.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/guava-22.0.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/ejml-core-0.41.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/mail-1.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/biojava-phylo-4.2.12.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/htsjdk-2.23.0.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/json-simple-1.1.1.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/jfreesvg-3.2.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/biojava-alignment-6.0.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/gs-ui-1.3.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/kotlin-stdlib-jdk8-1.4.32.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/commons-math3-3.4.1.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/scala-library-2.10.1.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/jhdf5-14.12.5.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/log4j-1.2.13.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/junit-4.10.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/jfreechart-1.0.19.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/javax.json-1.0.4.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/ejml-ddense-0.41.jar:/home/ch728/.local/bin/tassel-5-standalone/lib/kotlin-stdlib-jdk7-1.4.32.jar:/home/ch728/.local/bin/tassel-5-standalone/sTASSEL.jar
+Memory Settings: -Xms512m -Xmx50g
+Tassel Pipeline Arguments: -VCF data/filtered/cpepo_filt.vcf.gz -LDKNNiImputationPlugin -endPlugin -export data/filtered/cpepo_filt_imp -exportType VCF
+[main] INFO net.maizegenetics.tassel.TasselLogging - Tassel Version: 5.2.80  Date: February 17, 2022
+[main] INFO net.maizegenetics.tassel.TasselLogging - Max Available Memory Reported by JVM: 51200 MB
+[main] INFO net.maizegenetics.tassel.TasselLogging - Java Version: 13.0.2
+[main] INFO net.maizegenetics.tassel.TasselLogging - OS: Linux
+[main] INFO net.maizegenetics.tassel.TasselLogging - Number of Processors: 48
+[main] INFO net.maizegenetics.pipeline.TasselPipeline - Tassel Pipeline Arguments: [-fork1, -VCF, data/filtered/cpepo_filt.vcf.gz, -LDKNNiImputationPlugin, -endPlugin, -export, data/filtered/cpepo_filt_imp, -exportType, VCF, -runfork1]
+net.maizegenetics.analysis.data.FileLoadPlugin
+   net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin
+      net.maizegenetics.analysis.data.ExportMultiplePlugin
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Starting net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:49:31
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - 
+FileLoadPlugin Parameters
+format: VCF
+sortPositions: false
+keepDepth: false
+
+[pool-1-thread-1] INFO net.maizegenetics.analysis.data.FileLoadPlugin - Start Loading File: data/filtered/cpepo_filt.vcf.gz time: Mar 27, 2022 15:49:31
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:49:36: progress: 12%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:49:37: progress: 25%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:49:37: progress: 37%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:49:37: progress: 50%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:49:37: progress: 62%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:49:38: progress: 75%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:49:38: progress: 87%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:49:38: progress: 100%
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - net.maizegenetics.analysis.data.FileLoadPlugin  Citation: Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, Ramdoss Y, Buckler ES. (2007) TASSEL: Software for association mapping of complex traits in diverse samples. Bioinformatics 23:2633-2635.
+BuilderFromVCF data timing 6.86333s 
+[pool-1-thread-1] INFO net.maizegenetics.analysis.data.FileLoadPlugin - Finished Loading File: data/filtered/cpepo_filt.vcf.gz time: Mar 27, 2022 15:49:38
+Genotype Table Name: cpepo_filt
+Number of Taxa: 829
+Number of Sites: 32018
+Sites x Taxa: 26542922
+Chromosomes...
+0: start site: 0 (12983) last site: 2549 (50661358) total: 2550
+1: start site: 2550 (1339) last site: 5380 (21314755) total: 2831
+2: start site: 5381 (22134) last site: 7429 (14374363) total: 2049
+3: start site: 7430 (2959) last site: 9372 (13755798) total: 1943
+4: start site: 9373 (2189) last site: 11354 (12683875) total: 1982
+5: start site: 11355 (5284) last site: 12982 (10842503) total: 1628
+6: start site: 12983 (17386) last site: 14366 (10677198) total: 1384
+7: start site: 14367 (1341) last site: 15588 (10147250) total: 1222
+8: start site: 15589 (24273) last site: 17171 (10040046) total: 1583
+9: start site: 17172 (13144) last site: 18561 (9910874) total: 1390
+10: start site: 18562 (13805) last site: 20049 (9750667) total: 1488
+11: start site: 20050 (6371) last site: 21265 (9822095) total: 1216
+12: start site: 21266 (2608) last site: 22428 (9813379) total: 1163
+13: start site: 22429 (43418) last site: 23778 (9348661) total: 1350
+14: start site: 23779 (11104) last site: 25069 (8949686) total: 1291
+15: start site: 25070 (29584) last site: 26029 (8802408) total: 960
+16: start site: 26030 (5937) last site: 27089 (8691471) total: 1060
+17: start site: 27090 (6836) last site: 28264 (8673244) total: 1175
+18: start site: 28265 (41347) last site: 29522 (8329892) total: 1258
+19: start site: 29523 (9739) last site: 30862 (8229947) total: 1340
+20: start site: 30863 (1199) last site: 32017 (8084738) total: 1155
+
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Finished net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 15:49:38
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Starting net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:49:38
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - 
+LDKNNiImputationPlugin Parameters
+highLDSSites: 30
+knnTaxa: 10
+maxLDDistance: 10000000
+
+LCJ - FE:getTwoTailedP, resize for a 677, b 180 c 665 d 172
+LCJ - FE:getTwoTailedP, resize for a 652, b 254 c 640 d 249
+LCJ - FE:getTwoTailedP, resize for a 648, b 254 c 644 d 251
+LCJ - FE:getTwoTailedP, resize for a 669, b 258 c 637 d 241
+LCJ - FE:getTwoTailedP, resize for a 661, b 261 c 647 d 256
+LCJ - FE:getTwoTailedP, resize for a 622, b 307 c 610 d 301
+LCJ - FE:getTwoTailedP, resize for a 552, b 436 c 545 d 426
+LCJ - FE:getTwoTailedP, resize for a 554, b 433 c 549 d 427
+LCJ - FE:getTwoTailedP, resize for a 574, b 438 c 544 d 412
+LCJ - FE:getTwoTailedP, resize for a 566, b 439 c 553 d 439
+LCJ - FE:getTwoTailedP, resize for a 574, b 446 c 561 d 434
+LCJ - FE:getTwoTailedP, resize for a 624, b 396 c 606 d 390
+LCJ - FE:getTwoTailedP, resize for a 822, b 199 c 805 d 196
+LCJ - FE:getTwoTailedP, resize for a 629, b 625 c 618 d 612
+LCJ - FE:getTwoTailedP, resize for a 632, b 624 c 627 d 618
+LCJ - FE:getTwoTailedP, resize for a 642, b 634 c 628 d 622
+LCJ - FE:getTwoTailedP, resize for a 638, b 628 c 636 d 627
+LCJ - FE:getTwoTailedP, resize for a 651, b 642 c 637 d 628
+LCJ - FE:getTwoTailedP, resize for a 661, b 647 c 648 d 631
+LCJ - FE:getTwoTailedP, resize for a 720, b 672 c 710 d 660
+LCJ - FE:getTwoTailedP, resize for a 721, b 667 c 714 d 665
+LCJ - FE:getTwoTailedP, resize for a 743, b 688 c 699 d 656
+LCJ - FE:getTwoTailedP, resize for a 739, b 683 c 721 d 667
+LCJ - FE:getTwoTailedP, resize for a 738, b 682 c 727 d 692
+LCJ - FE:getTwoTailedP, resize for a 747, b 692 c 730 d 674
+LCJ - FE:getTwoTailedP, resize for a 789, b 709 c 772 d 697
+LCJ - FE:getTwoTailedP, resize for a 793, b 710 c 781 d 706
+LCJ - FE:getTwoTailedP, resize for a 811, b 730 c 766 d 691
+LCJ - FE:getTwoTailedP, resize for a 804, b 721 c 791 d 707
+LCJ - FE:getTwoTailedP, resize for a 809, b 723 c 787 d 707
+LCJ - FE:getTwoTailedP, resize for a 799, b 714 c 797 d 718
+LCJ - FE:getTwoTailedP, resize for a 815, b 730 c 798 d 715
+[ForkJoinPool.commonPool-worker-49] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:50:41: progress: 1%
+1000
+2000
+3000
+LCJ - FE:getTwoTailedP, resize for a 817, b 726 c 787 d 732
+LCJ - FE:getTwoTailedP, resize for a 809, b 724 c 808 d 722
+LCJ - FE:getTwoTailedP, resize for a 826, b 734 c 808 d 717
+4000
+5000
+LCJ - FE:getTwoTailedP, resize for a 814, b 758 c 798 d 743
+LCJ - FE:getTwoTailedP, resize for a 817, b 761 c 795 d 742
+LCJ - FE:getTwoTailedP, resize for a 808, b 755 c 807 d 751
+LCJ - FE:getTwoTailedP, resize for a 825, b 768 c 807 d 752
+LCJ - FE:getTwoTailedP, resize for a 819, b 779 c 801 d 762
+6000
+LCJ - FE:getTwoTailedP, resize for a 815, b 796 c 798 d 782
+LCJ - FE:getTwoTailedP, resize for a 807, b 789 c 808 d 789
+7000
+8000
+9000
+[ForkJoinPool.commonPool-worker-31] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:53:14: progress: 10%
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+[ForkJoinPool.commonPool-worker-111] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:54:3: progress: 20%
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+[ForkJoinPool.commonPool-worker-125] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:55:44: progress: 30%
+30000
+31000
+32000
+LD calculated
+100:43
+200:27
+300:19
+400:14
+500:12
+600:11
+700:10
+800:9
+900:13
+1000:13
+1100:12
+1200:11
+1300:11
+1400:10
+1500:10
+1600:9
+1700:9
+1800:9
+1900:9
+2000:8
+2100:8
+2200:8
+2300:7
+2400:7
+2500:7
+2600:9
+2700:9
+2800:8
+2900:8
+3000:8
+3100:8
+3200:8
+3300:7
+[ForkJoinPool.commonPool-worker-93] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:56:37: progress: 40%
+3400:7
+3500:7
+3600:7
+3700:7
+3800:7
+3900:7
+4000:7
+4100:6
+4200:6
+4300:6
+4400:8
+4500:7
+4600:7
+4700:8
+4800:7
+4900:8
+5000:8
+5100:8
+5200:8
+5300:8
+5400:8
+5500:8
+5600:9
+5700:9
+5800:9
+5900:9
+6000:9
+6100:9
+6200:8
+6300:8
+6400:8
+6500:8
+6600:8
+6700:8
+6800:8
+6900:8
+7000:8
+7100:8
+7200:8
+7300:8
+7400:8
+7500:8
+7600:8
+7700:9
+7800:9
+7900:9
+8000:9
+8100:9
+8200:9
+[ForkJoinPool.commonPool-worker-19] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:57:27: progress: 50%
+8300:9
+8400:9
+8500:9
+8600:9
+8700:9
+8800:9
+8900:9
+9000:9
+9100:9
+9200:9
+9300:8
+9400:8
+9500:8
+9600:8
+9700:8
+9800:8
+9900:8
+10000:8
+10100:8
+10200:8
+10300:8
+10400:8
+10500:8
+10600:8
+10700:8
+10800:8
+10900:8
+11000:8
+11100:8
+11200:8
+11300:8
+11400:8
+11500:8
+11600:8
+11700:8
+11800:8
+11900:8
+12000:8
+12100:8
+12200:8
+12300:8
+12400:8
+12500:8
+12600:8
+12700:8
+12800:8
+12900:8
+13000:8
+[ForkJoinPool.commonPool-worker-49] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:58:0: progress: 60%
+13100:8
+13200:8
+13300:8
+13400:8
+13500:8
+13600:8
+13700:8
+13800:8
+13900:8
+14000:8
+14100:8
+14200:8
+14300:8
+14400:8
+14500:8
+14600:8
+14700:8
+14800:8
+14900:8
+15000:8
+15100:8
+15200:8
+15300:8
+15400:8
+15500:8
+15600:8
+15700:8
+15800:8
+15900:8
+16000:8
+16100:8
+16200:8
+16300:8
+16400:8
+16500:8
+16600:8
+16700:8
+16800:8
+16900:8
+17000:8
+17100:8
+17200:8
+17300:8
+17400:8
+17500:8
+17600:8
+17700:8
+17800:8
+17900:8
+[ForkJoinPool.commonPool-worker-45] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:58:40: progress: 70%
+18000:8
+18100:8
+18200:8
+18300:8
+18400:8
+18500:8
+18600:8
+18700:8
+18800:8
+18900:8
+19000:8
+19100:8
+19200:8
+19300:8
+19400:8
+19500:8
+19600:8
+19700:8
+19800:8
+19900:8
+20000:8
+20100:8
+20200:8
+20300:8
+20400:8
+20500:8
+20600:8
+20700:8
+20800:8
+20900:8
+21000:8
+21100:8
+21200:8
+21300:8
+21400:8
+21500:8
+21600:8
+21700:8
+21800:8
+21900:8
+22000:8
+22100:8
+22200:8
+22300:8
+22400:8
+22500:8
+22600:8
+22700:8
+22800:8
+[ForkJoinPool.commonPool-worker-67] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 15:59:20: progress: 80%
+22900:8
+23000:8
+23100:8
+23200:8
+23300:8
+23400:8
+23500:8
+23600:8
+23700:8
+23800:8
+23900:8
+24000:8
+24100:8
+24200:8
+24300:8
+24400:8
+24500:8
+24600:8
+24700:8
+24800:8
+24900:8
+25000:8
+25100:8
+25200:8
+25300:8
+25400:8
+25500:8
+25600:8
+25700:8
+25800:8
+25900:8
+26000:8
+26100:8
+26200:8
+26300:8
+26400:8
+26500:8
+26600:8
+26700:8
+26800:8
+26900:8
+27000:8
+27100:8
+27200:8
+27300:8
+27400:8
+27500:8
+27600:8
+[ForkJoinPool.commonPool-worker-119] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 16:00:1: progress: 90%
+27700:8
+27800:8
+27900:8
+28000:8
+28100:8
+28200:8
+28300:8
+28400:8
+28500:8
+28600:8
+28700:8
+28800:8
+28900:8
+29000:8
+29100:8
+29200:8
+29300:8
+29400:8
+29500:8
+29600:8
+29700:8
+29800:8
+29900:8
+30000:8
+30100:8
+30200:8
+30300:8
+30400:8
+30500:8
+30600:8
+30700:8
+30800:8
+30900:8
+31000:8
+31100:8
+31200:8
+31300:8
+31400:8
+31500:8
+31600:8
+31700:8
+31800:8
+31900:8
+32000:8
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Finished net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 16:00:30
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Starting net.maizegenetics.analysis.data.ExportPlugin: time: Mar 27, 2022 16:00:30
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - 
+ExportPlugin Parameters
+saveAs: data/filtered/cpepo_filt_imp
+format: VCF
+keepDepth: true
+includeTaxaAnnotations: true
+includeBranchLengths: true
+
+[pool-1-thread-1] INFO net.maizegenetics.analysis.data.ExportPlugin - performFunction: wrote dataset: cpepo_filt_KNNimp to file: data/filtered/cpepo_filt_imp.vcf
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Finished net.maizegenetics.analysis.data.ExportPlugin: time: Mar 27, 2022 16:00:36
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin: time: Mar 27, 2022 16:00:36: progress: 100%
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - net.maizegenetics.analysis.imputation.LDKNNiImputationPlugin  Citation: Daniel Money, Kyle Gardner, Heidi Schwaninger, Gan-Yuan Zhong, Sean Myles. (In Review)  LinkImpute: fast and accurate genotype imputation for non-model organisms
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Mar 27, 2022 16:00:36: progress: 100%

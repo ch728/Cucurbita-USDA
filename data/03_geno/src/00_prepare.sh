@@ -4,7 +4,7 @@
 if [[ ! -d "data" ]]
 then
   mkdir data
-  mkdir data/raw data/admix data/gwas data/pca data/filtered
+  mkdir data/raw data/admix data/gwas data/pca data/filtered data/maps
   mkdir data/admix/cpepo data/admix/cmoschata data/admix/cmaxima
 fi
 
