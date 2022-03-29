@@ -16,7 +16,7 @@ fmt_seedCnt <- function(df){
 	
 # Read in file
 pepo <- read_delim("data/cpepo_clean_pheno.tsv", delim="\t")
-
+pepo2 <- read_delim("data/raw/cpepo_vine_habit.csv", delim=",")
 
 # Recode cpepo genotypes
 pepo$seed_wt <- fmt_seedCnt(pepo)
@@ -43,7 +43,6 @@ pepo$oblong_fruit[which(pepo$oblong_fruit != 1)] <- 0
 
 pepo$smooth_fruit <- pepo$fruit_txt
 pepo$smooth_fruit[grepl(";", pepo$smooth_fruit)] <- NA
-pepo$smooth_fruit[grepl("SMOOTH", pepo$smooth_fruit)] <- 1
 pepo$smooth_fruit[which(pepo$smooth_fruit != 1)] <- 0
 
 pepo$rib_fruit <- pepo$fruit_txt
@@ -117,5 +116,23 @@ pepo$plant_type[grepl("SEMI-BUSH", pepo$plant_type)] <- 1
 pepo$plant_type[grepl("BUSH", pepo$plant_type)] <- 0 
 pepo$plant_type[grepl("VINE", pepo$plant_type)] <- 1 
 pepo$plant_type <- as.numeric(pepo$plant_type)
+
+colnames(pepo2) <- c("accession_id", "plant_type2")
+pepo2$plant_type2 <- gsub("V", 1, pepo2$plant_type2)
+pepo2$plant_type2 <- gsub("B", 0, pepo2$plant_type2)
+pepo2$plant_type2 <- gsub("S", 1, pepo2$plant_type2)
+pepo2$plant_type2 <- as.numeric(pepo2$plant_type2)
+
+# Format final string and outputs
+pepo <- merge(pepo, pepo2, by="accession_id", all.x=T, sort=F)
+pepo <- pepo[,c("accession_id", "seed_wt", "plant_type",
+                "plant_type2", "max_vig", "min_vig",
+                "max_width", "width_min", "len_max", "len_min",
+                "flesh_max", "flesh_min", "squash_nymph_bx",
+                "squash_adult_bx", "cuc_inj", "or_flesh", 
+                "yl_flesh", "yl_fruit", "tan_fruit", "gn_fruit",
+                "globe_fruit", "oblong_fruit", "smooth_fruit",
+                "rib_fruit", "spec_fruit", "mot_fruit", "solid_fruit")]
+write_delim(pepo, "data/cpepo_coded.csv", delim=",")
 
 
