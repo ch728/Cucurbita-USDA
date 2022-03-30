@@ -1,6 +1,5 @@
 library(tidyverse)
 library(stringr)
-library(MASS)
 
 # Functions
 
@@ -31,4 +30,14 @@ mos$or_fruit[grepl("ORANGE", mos$or_fruit)] <- "1"
 mos$or_fruit[which(mos$or_fruit != "1")] <- "0"
 mos$or_fruit <- as.numeric(mos$or_fruit)
 
+mos$smooth_fruit <- mos$fruit_surf
+mos$smooth_fruit[grepl(";", mos$smooth_fruit)] <- NA
+mos$smooth_fruit[grepl("MIXED", mos$smooth_fruit)] <- NA 
+mos$smooth_fruit[grepl("1", mos$smooth_fruit)] <- "1" 
+mos$smooth_fruit[which(mos$smooth_fruit != "1")] <- "0"
+mos$smooth_fruit <- as.numeric(mos$smooth_fruit)
 
+# Final output coded phenotypes
+mos <- mos[, c("accession_id", "fruit_len", "fruit_diam",
+	       "maturity", "or_fruit", "smooth_fruit")]
+write_delim(mos, "data/cmoschata_coded.csv", delim=",")

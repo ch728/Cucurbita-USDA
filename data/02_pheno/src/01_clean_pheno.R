@@ -10,11 +10,11 @@ missing_filt <- function(x){
 }
 
 # Get names
-cpepo_names <- read_table("../01_meta/data/cpepo_manifest.tsv")[,1,1]
-cmoschata_names <- read_table("../01_meta/data/cmoschata_manifest.tsv")[,1,1]
-cmaxima_names <- read_table("../01_meta/data/cmaxima_manifest.tsv")[,1,1]
+cpepo_names <- read_delim("../01_meta/data/cpepo_manifest.tsv", delim="\t")[,1,1]
+cmoschata_names <- read_delim("../01_meta/data/cmoschata_manifest.tsv", delim="\t")[,1,1]
+cmaxima_names <- read_delim("../01_meta/data/cmaxima_manifest.tsv", delim="\t")[,1,1]
 
-# Clearn data frames
+# Clean data frames
 cpepo_pheno <- read_delim("data/raw/cpepo.tsv", delim="\t")
 cpepo_pheno$ACCESSION <- gsub(" ", "_", cpepo_pheno$ACCESSION)
 cpepo_pheno <- cpepo_pheno[cpepo_pheno$ACCESSION %in% cpepo_names,]
@@ -43,7 +43,7 @@ keep <- as.vector(apply(cmaxima_pheno, 2, missing_filt))
 cmaxima_pheno <- cmaxima_pheno[, keep]
 colnames(cmaxima_pheno) <- c("accession_id", "flesh_color", 
 			     "mosaic", "maturity", "flesh_depth",
-			     "len", "set", "plant_habit", "PM",
+			     "diam", "len", "set", "plant_habit", "PM",
 			     "ribbing", "uniformity", "fruit_spot",
 		             "vig", "fruit_color") 
 # Output cleaned pheno
