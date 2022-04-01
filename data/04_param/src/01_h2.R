@@ -1,5 +1,6 @@
 library(tidyverse)
 library(SNPRelate)
+library(matrixcalc)
 library(asreml)
 library(ASRgenomics)
 
@@ -8,9 +9,10 @@ library(ASRgenomics)
 asreml.options(maxit=50)
 
 # Read in phenotype data files
-pepoPheno <- read_delim("../02_pheno/data/cpepo_coded.csv", delim=",")
-mosPheno <- read_delim("../02_pheno/data/cmoschata_coded.csv", delim=",")
-maxPheno <- read_delim("../02_pheno/data/cmaxima_coded.csv", delim=",")
+pepoPheno <-read.csv("../02_pheno/data/cpepo_coded.csv", stringsAsFactors=F)
+mosPheno <- read.csv("../02_pheno/data/cmoschata_coded.csv", stringsAsFactors=F)
+maxPheno <- read.csv("../02_pheno/data/cmaxima_coded.csv", stringsAsFactors=F)
+
 
 # Read in genotype data files 
 pepoGeno <- snpgdsOpen("../03_geno/data/filtered/cpepo_filt_imp.gds")
@@ -34,15 +36,17 @@ rownames(maxDos) <- maxNum$sample.id
 colnames(maxDos) <- maxNum$snp.id
 snpgdsClose(maxGeno)
 
+# Run QC
+
 # Make grms
-pepoG <- G.inverse(G=G.matrix(pepoDos)$G, blend=T, sparseform=T)
-mosG <- G.inverse(G=G.matrix(mosDos)$G, blend=T, sparseform=T)
-maxG <- G.inverse(G=G.matrix(maxDos)$G, blend=T, sparseform=T)
+pepoG <-G.matrix(pepoDos)
+#mosG <- G.inverse(G=G.matrix(mosDos)$G, blend=T, sparseform=T)
+#maxG <- G.inverse(G=G.matrix(maxDos)$G, blend=T, sparseform=T)
 
 # Model continuous traits
-pepoRes <- data.frame()
-pepoQuant <- pepoPheno[, c("accession_id","seed_wt")]
-pepoQuant$accession_id <- as.factor(pepoQuant$accession_id)
+#pepoRes <- data.frame()
+#pepoQuant <- pepoPheno[, c("accession_id","seed_wt")]
+#pepoQuant$accession_id <- as.factor(pepoQuant$accession_id)
 
 # Model binary traits
 
