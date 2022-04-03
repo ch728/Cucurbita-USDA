@@ -6,7 +6,11 @@ library(gridExtra)
 
 # Functions
 make_pca <- function(pca, v){
-  # Function to make pca plot
+  # Function to make  individual pca plots
+  pca$region <- factor(pca$region, levels=c("Africa", "Arab States",
+					    "Asia", "Europe",
+					    "North America",
+					    "South/Latin America"))
   pca.plt <- ggplot(filter(pca, !is.na(region)), aes(x=PC1, y=PC2, color=region)) +
 	              geom_point() +
 		      xlab(paste0(round(v[1,1], 1),"%")) +
@@ -19,6 +23,33 @@ make_pca <- function(pca, v){
 		            axis.text=element_blank(),
 		            axis.ticks=element_blank())
   return(pca.plt)
+}
+
+make_str <- function(s, lbl){
+  # Makes nice structure plot
+  s <- as.data.frame(s)
+  lbl <- as.data.frame(lbl)
+  rownames(s) <- lbl[,1]
+  sClust <- hclust(dist(s))
+  sOrd <- s[sClust$order,]
+  colnames(sOrd) <- paste(1:ncol(sOrd))
+  sOrd$PI <- rownames(sOrd)
+  sGathered <- gather(sOrd, pop, value, -PI)
+  sGathered$PI <- factor(sGathered$PI, levels=rownames(sOrd))
+  sGathered$pop <- factor(sGathered$pop, levels=paste(1:ncol(sOrd)))
+  str.plt <- ggplot(sGathered) +
+	       geom_bar(aes(x=PI, y=value, fill=pop), stat="identity", width=1) +
+	       coord_cartesian(xlim=c(-3, nrow(sOrd) + 3)) +
+	       scale_fill_brewer(palette="Set3") +
+	       theme_bw(base_size=18) +
+	       theme(panel.grid=element_blank(),
+		     panel.border=element_blank(),
+		     axis.text=element_blank(),
+		     axis.title=element_blank(),
+		     axis.ticks=element_blank(),
+		     legend.position="none",
+		     plot.margin=unit(c(0,0,0,0), "cm"))
+  return(str.plt)
 }
 
 
@@ -35,6 +66,21 @@ maxVar <- read_delim("data/03_geno/data/pca/maxima_var.csv", delim=",")
 pepoMeta <- read_delim("data/01_meta/data/cpepo_manifest.tsv", delim="\t")
 mosMeta <- read_delim("data/01_meta/data/cmoschata_manifest.tsv", delim="\t")
 maxMeta <- read_delim("data/01_meta/data/cmaxima_manifest.tsv", delim="\t")
+
+pepoStr <- read_delim("data/03_geno/data/admix/cpepo/cpepo_admix_nocult.5.Q",
+                      col_names=F)
+pepoLbl <- read_delim("data/03_geno/data/filtered/cpepo_admix_nocult.fam",
+                      col_names=F)
+
+mosStr <- read_delim("data/03_geno/data/admix/cmoschata/cmoschata_admix_nocult.5.Q",
+                      col_names=F)
+mosLbl <- read_delim("data/03_geno/data/filtered/cmoschata_admix_nocult.fam",
+                      col_names=F)
+
+maxStr <- read_delim("data/03_geno/data/admix/cmaxima/cmaxima_admix_nocult.5.Q",
+                   col_names=F)
+maxLbl <- read_delim("data/03_geno/data/filtered/cmaxima_admix_nocult.fam",
+                      col_names=F)
 
 # Add region data to pca
 pepoPCA <- merge(pepoPCA, pepoMeta, by.x="gid", by.y="accession_id", sort=F, all.x=T)
@@ -58,7 +104,19 @@ finPCA.plt <- grid.arrange(pepoPCA.plt, mosPCA.plt, maxPCA.plt, pcaLeg,
                           bottom=textGrob("PC1", x=0.35, gp=gpar(fontsize=18,fontface="bold")))
 
 # Makes stucture figure
-
+pepoStr <- make_str(pepoStr, pepoLbl)
+mosStr <- make_str(mosStr, mosLbl)
+maxStr <- make_str(maxStr, maxLbl)
+finStr.plt <- grid.arrange(pepoStr, mosStr, maxStr,
+			   layout_matrix=rbind(c(1,1,1),
+			                       c(2,2,2),
+					       c(3,3,3)),
+                           top=textGrob("A.", x=0.05, 
+					gp=gpar(fontsize=18, fontface="bold")))
 
 # Make final figure
+finFig <- grid.arrange(finStr.plt, finPCA.plt,
+		       layout_matrix=rbind(c(1,1,1,1,1,1,1,NA,
+					     2,2,2,2,2,2,2,2,2,
+					     2)))
 

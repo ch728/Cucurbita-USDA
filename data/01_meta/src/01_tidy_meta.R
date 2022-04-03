@@ -22,6 +22,8 @@ countryDat$region <- gsub("Meso America", "South/Latin America", countryDat$regi
 countryDat$region[grepl("Australia" , countryDat$region)] <- NA
 countryDat$region <- gsub("Mashriq", "Arab States", countryDat$region)
 countryDat$region <- gsub("Arabian Peninsula", "Arab States", countryDat$region)
+countryDat$region <- gsub("Western Africa", "Africa", countryDat$region)
+countryDat$region <- gsub("South East Asia", "Asia", countryDat$region)
 
 # Read in files
 pepo <- read_excel("data/raw/C_pepo_GBS_accession.xlsx")
