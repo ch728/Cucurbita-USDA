@@ -1,4 +1,4 @@
-accession_id,seed_wt,plant_type,plant_type2,max_vig,min_vig,max_width,width_min,len_max,len_min,flesh_max,flesh_min,squash_nymph_bx,squash_adult_bx,cuc_inj,or_flesh,yl_flesh,yl_fruit,tan_fruit,gn_fruit,globe_fruit,oblong_fruit,smooth_fruit,rib_fruit,spec_fruit,mot_fruit,solid_fruit
+accession_id,seed_wt,plant_type,plant_type2,max_vig,min_vig,max_width,width_min,len_max,len_min,flesh_max,flesh_min,sb_nymph,sb_adult,cuc_inj,or_flesh,yl_flesh,yl_fruit,tan_fruit,gn_fruit,globe_fruit,oblong_fruit,smooth_fruit,rib_fruit,spec_fruit,mot_fruit,solid_fruit
 PI_615086,6.79,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 PI_615088,14.216666666666667,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 PI_615089,11.395,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

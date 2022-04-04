@@ -1,12 +1,12 @@
 library(tidyverse)
 library(SNPRelate)
-library(matrixcalc)
-library(asreml)
-library(ASRgenomics)
+#library(matrixcalc)
+#library(asreml)
+#library(ASRgenomics)
 
 
 # Set asreml options
-asreml.options(maxit=50)
+#asreml.options(maxit=50)
 
 # Read in phenotype data files
 pepoPheno <-read.csv("../02_pheno/data/cpepo_coded.csv", stringsAsFactors=F)
@@ -36,19 +36,16 @@ rownames(maxDos) <- maxNum$sample.id
 colnames(maxDos) <- maxNum$snp.id
 snpgdsClose(maxGeno)
 
-# Run QC
-
 # Make grms
-pepoG <-G.matrix(pepoDos)
+#pepoG <-G.matrix(pepoDos)
 #mosG <- G.inverse(G=G.matrix(mosDos)$G, blend=T, sparseform=T)
 #maxG <- G.inverse(G=G.matrix(maxDos)$G, blend=T, sparseform=T)
 
-# Model continuous traits
-#pepoRes <- data.frame()
-#pepoQuant <- pepoPheno[, c("accession_id","seed_wt")]
+# Model ordinal/continuous traits
+pepoRes <- data.frame()
+pepoQuant <- pepoPheno[, c("accession_id","seed_wt")]
 #pepoQuant$accession_id <- as.factor(pepoQuant$accession_id)
 
 # Model binary traits
 
 
-# Model ordinal traits

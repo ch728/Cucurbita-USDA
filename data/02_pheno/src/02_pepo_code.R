@@ -90,7 +90,7 @@ pepo$min_vig <- as.numeric(pepo$min_vig)
 lm.nymph <- lm(sqush_nymph ~ 1, data=pepo)
 bc.nymph <- boxcox(lm.nymph)
 l.nymph <- bc.nymph$x[which.max(bc.nymph$y)]
-pepo$squash_nymph_bx <- (pepo$sqush_nymph^l.nymph-1)/l.nymph
+pepo$sb_nymph <- (pepo$sqush_nymph^l.nymph-1)/l.nymph
 
 pepo$cuc_inj[grepl("0", pepo$cuc_inj)] <- 0
 pepo$cuc_inj[grepl("1", pepo$cuc_inj)] <- 1
@@ -102,7 +102,7 @@ pepo$cuc_inj <- as.numeric(pepo$cuc_inj)
 lm.adult <- lm(squash_adult ~ 1, data=pepo)
 bc.adult <- boxcox(lm.adult)
 l.adult <- bc.adult$x[which.max(bc.adult$y)]
-pepo$squash_adult_bx <- (pepo$squash_adult^l.adult-1)/l.adult
+pepo$sb_adult <- (pepo$squash_adult^l.adult-1)/l.adult
 
 pepo$max_vig[grepl("1", pepo$max_vig)] <- 1
 pepo$max_vig[grepl("2", pepo$max_vig)] <- 2 
@@ -128,8 +128,8 @@ pepo <- merge(pepo, pepo2, by="accession_id", all.x=T, sort=F)
 pepo <- pepo[,c("accession_id", "seed_wt", "plant_type",
                 "plant_type2", "max_vig", "min_vig",
                 "max_width", "width_min", "len_max", "len_min",
-                "flesh_max", "flesh_min", "squash_nymph_bx",
-                "squash_adult_bx", "cuc_inj", "or_flesh", 
+                "flesh_max", "flesh_min", "sb_nymph",
+                "sb_adult", "cuc_inj", "or_flesh", 
                 "yl_flesh", "yl_fruit", "tan_fruit", "gn_fruit",
                 "globe_fruit", "oblong_fruit", "smooth_fruit",
                 "rib_fruit", "spec_fruit", "mot_fruit", "solid_fruit")]
