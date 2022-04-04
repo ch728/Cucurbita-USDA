@@ -1,7 +1,4 @@
 library(tidyverse)
-library(gridExtra)
-library(grid)
-
 
 # Read in cv results
 pepo <- read_delim("data/03_geno/data/admix/cpepo/cv_error.txt", col_names=F)
@@ -29,4 +26,4 @@ cv.plt <- ggplot(all, aes(x=k,y=error)) +
 		 facet_wrap(~species, ncol=3, scales="free") +
 		 theme_bw(base_size=18) +
 		 theme(panel.grid=element_blank())
-ggsave("supplemental/02_fig.png", cv.plt, "png", width=12)
+ggsave("supplemental/02_supfig.png", cv.plt, "png", width=12)
