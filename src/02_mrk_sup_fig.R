@@ -1,6 +1,6 @@
-library(tidyverse)
 library(CMplot)
 
+# Read in files
 pepo <- read.csv("data/03_geno/data/maps/cpepo_filt.map", header=F)
 mos <- read.csv("data/03_geno/data/maps/cmoschata_filt.map", header=F)
 max <- read.csv("data/03_geno/data/maps/cmaxima_filt.map", header=F)
@@ -13,14 +13,15 @@ pepo <- rbind(pepo, pepo_stub)
 mos <- rbind(mos, mos_stub)
 max <- rbind(max, max_stub)
 
-png("supplemental/01_fig1a.png")
+# Make plot
+png("supplemental/01_fig.png", width=800, height=800)
+par(mfrow=c(2,2))
 CMplot(pepo, type="p", plot.type="d", main="C. pepo", file.output=F)
-dev.off()
-
-png("supplemental/01_fig1b.png")
+mtext("a.",3, cex=2, at=c(0,3), font=2, line=2) 
 CMplot(mos, type="p", plot.type="d", main="C. moschata", file.output=F)
+mtext("b.",3, cex=2, at=c(0,3), line=2, font=2) 
+CMplot(max, type="p", plot.type="d", main="C. maxima", file.output=F)
+mtext("c.",3, cex=2, at=c(0,3), line=2, font=2) 
 dev.off()
 
-png("supplemental/01_fig1c.png")
-CMplot(max, type="p", plot.type="d", main="C. maxima", file.output=F)
-dev.off()
+

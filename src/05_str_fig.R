@@ -129,7 +129,7 @@ finPCA.plt <- grid.arrange(pepoPCA.plt, mosPCA.plt, maxPCA.plt, pcaLeg,
                                               c(2,2,NA),
 					      c(3,3,NA),
 					      c(3,3,NA)),
-                          top=textGrob("B.", x=0.1, gp=gpar(fontsize=18, fontface="bold")),
+                          top=textGrob("b.", x=0.1, gp=gpar(fontsize=20, fontface="bold")),
                           left=textGrob("PC2", rot=90, gp=gpar(fontsize=18, fontface="bold")),
                           bottom=textGrob("PC1", x=0.35, gp=gpar(fontsize=18,fontface="bold")))
 
@@ -141,8 +141,8 @@ finStr.plt <- grid.arrange(pepoStr[[1]], mosStr[[1]], maxStr[[1]],
 			   layout_matrix=rbind(c(1,1,1),
 			                       c(2,2,2),
 					       c(3,3,3)),
-                           top=textGrob("A.", x=0.05, 
-					gp=gpar(fontsize=18, fontface="bold")))
+                           top=textGrob("a.", x=0.05, 
+					gp=gpar(fontsize=20, fontface="bold")))
 
 # Make final figure
 finFig <- grid.arrange(finStr.plt, finPCA.plt,
