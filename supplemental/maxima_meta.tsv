@@ -1,0 +1,373 @@
+accession_id	country	accession_name	taxonomy	narrative	improvement_status	total_reads	region	1	2	3	4	5	grp	pos
+PI_92835	United States	Nan Kwa	Cucurbita maxima	South squash	NA	3066390	North America	0.020288	0.160762	0.590134	0.224812	0.004004	1	236
+PI_109277	United States	NA	Cucurbita maxima	NA	NA	640092	North America	1e-5	1e-5	0.121705	0.681898	0.196378	3	163
+G_28226	United States	Orangetti	Cucurbita maxima	NA	NA	1692751	North America	1e-5	0.369937	1e-5	0.630033	1e-5	3	190
+PI_220861	United States	Hung	Cucurbita maxima	Fruits large, 14 inches by 15 inches, yellow.	NA	1350999	North America	0.049676	0.032569	0.132711	0.640461	0.144583	3	162
+G_32612	United States	Crown Squash	Cucurbita maxima	A hardy squash with wonderful flavor; germinates well and needs little care besides appropriate watering.	Cultivated material	3536852	North America	0.050009	1e-5	0.086655	0.863316	1e-5	3	140
+PI_302417	United States	Banquet Squash	Cucurbita maxima	Oblate shaped friut; 6 - 10 inches by 4 - 5.5 inches with grooves, flesh orange 1 to 1.5 inches thick.	Cultivated material	2221267	North America	1e-5	0.664735	0.163351	0.148056	0.023848	5	47
+PI_318433	United States	Ames 724	Cucurbita maxima	Male sterile F.  Segregates (approximately) 1 normal to 1 male sterile. Vigorous, bush type. Fruits many, oblate 1 to 1.25 inches, light orange.	NA	1410607	North America	0.371964	0.012829	1e-5	0.613148	0.002048	3	173
+PI_245142	United States	NA	Cucurbita maxima	Selection made from PI 176536. Fruits oblate, 8 by 10 inches; ribs 1 inch wide; flesh light yellow.	NA	2204119	North America	0.129388	0.004969	0.402231	0.331035	0.132378	1	279
+PI_318430	United States	Ames 721	Cucurbita maxima	Male sterile C.  Buttercup type. Segregates (approximately) 1 normal to 1 male sterile. Vigorous, medium maturing, medium-sized vines. Fruits many, oblate turbinate 4.25 by 6 to 9 inches, dark green; 4.5 pounds; flesh .75 to 1.25 inches, orange.	NA	2740826	North America	0.278205	0.063682	1e-5	0.658093	1e-5	3	176
+PI_162669	United States	NA	Cucurbita maxima	NA	NA	1624096	North America	0.010929	0.07251	0.409737	0.506814	1e-5	1	257
+PI_162670	United States	NA	Cucurbita maxima	NA	NA	2035249	North America	1e-5	0.064792	0.435213	0.449395	0.05059	1	258
+PI_184745	Austria	No Known Plant ID	Cucurbita maxima	NA	NA	3386488	Europe	1e-5	1e-5	0.258912	0.142749	0.598318	1	296
+G_23151	Japan	Tokyo Pumpkin	Cucurbita maxima	NA	NA	1738892	Asia	1e-5	1e-5	0.021126	0.978844	1e-5	3	144
+G_23726	Argentina	Alayo	Cucurbita maxima	NA	NA	2347238	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	75
+G_23725	Argentina	Alayo	Cucurbita maxima	NA	NA	972528	South/Latin America	0.961052	1e-5	0.038918	1e-5	1e-5	4	60
+PI_458684	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis.  Seeds small, white, almost marginless.  Local name Alayo.	NA	3420926	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	71
+PI_458678	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis.  Bush type.  Seeds white, margins white.  Local name Tanca.	NA	3088572	South/Latin America	0.453104	0.041485	1e-5	0.505391	1e-5	3	181
+PI_458695	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis. Seeds medium-sized, white, with slight sculpturing, margins light. Local name Sayanca.	NA	3904240	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	65
+PI_458698	Argentina	NA	Cucurbita maxima	Seeds white, medium-sized, margins present. Local name Zapallito del Tronco (Cochi magnif.).	NA	1585301	South/Latin America	0.426358	1e-5	1e-5	0.481459	0.092163	3	180
+PI_458699	Argentina	NA	Cucurbita maxima	Seeds white, medium-sized, margins present. Local name Campana-Labanda-70.	NA	3218558	South/Latin America	0.114694	1e-5	1e-5	0.885276	1e-5	3	146
+G_23727	Argentina	Chiuque	Cucurbita maxima	NA	NA	802719	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	77
+G_23729	Argentina	Malopara	Cucurbita maxima	NA	NA	3026065	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	76
+G_23730	Argentina	Malopara	Cucurbita maxima	NA	NA	3139112	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	72
+PI_458688	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis.  Bush type.  Seeds small, white, margins light. Local name Maguilta.	NA	2989782	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	68
+G_23731	Argentina	Maluen	Cucurbita maxima	NA	NA	2372750	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	73
+PI_458696	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis. Seeds large, white, margins light. Local name Carla.	NA	3529167	South/Latin America	0.866218	0.01429	1e-5	0.119472	1e-5	4	80
+PI_458676	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis. Bush type. Seeds white, marginless. Local name Supupa.	NA	2586471	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	61
+G_23734	Argentina	Pichagua	Cucurbita maxima	NA	NA	697863	South/Latin America	0.37768	1e-5	0.108503	0.513797	1e-5	3	179
+PI_458683	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis.  Seeds white, sculptured, marginless.  Local name Vistalba.	NA	2243167	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	70
+PI_458660	Argentina	TW 1080	Cucurbita maxima	Probably a mixture of local types. Local name Zapallo.	NA	1735376	South/Latin America	0.10415	0.134056	0.030355	0.731429	1e-5	3	196
+G_23728	Argentina	Chiuque	Cucurbita maxima	NA	NA	2298536	South/Latin America	0.547698	1e-5	0.157853	1e-5	0.294429	4	59
+PI_458677	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis. Bush type. Seeds white, margins present. Local name Sipigua.	NA	2938603	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	62
+PI_458686	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis. Seeds white, margins almost white. Local name Chinque.	NA	2341132	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	69
+PI_458702	Argentina	NA	Cucurbita maxima	Seeds Banana type, large, tan, margins broad, light. Local name Plomo ruso (Plaunorskja).	NA	941000	South/Latin America	1e-5	1e-5	0.317386	0.287123	0.395471	1	287
+PI_458703	Argentina	NA	Cucurbita maxima	Donated by J. Camara-Hernandez. Seeds Banana type, large, golden brown, margins  lighter.	NA	2880893	South/Latin America	0.374866	0.003696	0.060093	0.356913	0.204432	3	172
+PI_458687	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis.  Bush type.  Seeds white, margins light.  Local name Choay.	NA	1843160	South/Latin America	0.892512	1e-5	1e-5	0.107458	1e-5	4	79
+PI_162671	Argentina	Forrajero	Cucurbita maxima	NA	NA	2139102	South/Latin America	1e-5	1e-5	0.310678	0.426846	0.262456	1	285
+PI_458693	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis. Bush type. Seeds medium-sized, roundish, white, margins light. Local name Vinaca.	NA	3890415	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	66
+PI_458694	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis. Bush type. Seeds medium-sized, white, more or less marginless. Local name Taplop.	NA	1819672	South/Latin America	0.579735	1e-5	1e-5	0.420235	1e-5	3	178
+PI_414676	Argentina	Zapinski	Cucurbita maxima	Bush type plant. Prolific in fruiting.	NA	1171807	South/Latin America	0.108754	0.045251	0.060101	0.785884	1e-5	3	152
+PI_458714	Argentina	NA	Cucurbita maxima	Donated by J. Camara-Hernandez.  Seeds medium-sized, pure white, margins same color.	NA	2789655	South/Latin America	0.05367	0.240714	1e-5	0.705597	1e-5	3	187
+PI_458701	Argentina	NA	Cucurbita maxima	Seeds white, small, margins broad. Local name Zipinki Campana.	NA	2925498	South/Latin America	0.138271	1e-5	0.030782	0.830927	1e-5	3	159
+PI_458664	Argentina	TW 1080	Cucurbita maxima	Fruit surface rough. Probably from Misiones. Local name Zapallo.	NA	688918	South/Latin America	0.082065	0.005379	1e-5	0.912536	1e-5	3	145
+PI_458666	Argentina	TW 1080	Cucurbita maxima	Fruit surface rough. Flesh yellow, thick. Seeds large, yellow. Probably from Misiones. Local name Zapallo.	NA	2948151	South/Latin America	0.145722	0.093697	1e-5	0.686174	0.074397	3	150
+PI_265557	Argentina	NA	Cucurbita maxima	NA	NA	1444696	South/Latin America	0.204447	0.010684	0.068442	0.468596	0.247831	3	171
+G_23733	Argentina	Pichagua	Cucurbita maxima	NA	NA	875326	South/Latin America	0.136692	0.12553	0.136803	0.232542	0.368432	1	293
+PI_458691	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis.  Winter bush type.  Seeds large, white, margins white.  Local name Marino de Mendoza.	NA	2499816	South/Latin America	0.046302	1e-5	0.385007	0.404045	0.164637	1	261
+PI_458710	Argentina	NA	Cucurbita maxima	Donated by J. Camara-Hernandez. Seeds large, white, margins slightly darker.	NA	2216241	South/Latin America	0.167044	0.05141	1e-5	0.781527	1e-5	3	155
+G_23732	Argentina	Maluen	Cucurbita maxima	NA	NA	1324786	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	74
+PI_458675	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis. Bush type. Fruit white. Local name Naclao.	NA	2540772	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	63
+PI_458663	Argentina	TW 1080	Cucurbita maxima	Fruit medium-sized, Probably elongate, with a rough surface. Probably from Misiones. Local name Zapallo.	NA	2244654	South/Latin America	0.127717	0.177749	0.056496	0.638028	1e-5	3	194
+PI_458700	Argentina	NA	Cucurbita maxima	Seeds large, dirty white, margins present. Local name Capana-Ingles.	NA	2268456	South/Latin America	0.154501	0.057835	1e-5	0.787644	1e-5	3	154
+PI_458673	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis. Bush type. Fruit solid white. Local name Tabalque.	NA	1930158	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	64
+PI_458685	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis. Seeds large, white, margins white. Local name Anton.	NA	1932674	South/Latin America	0.849414	1e-5	1e-5	0.150556	1e-5	4	78
+PI_458708	Argentina	NA	Cucurbita maxima	Donated by J. Camara-Hernandez. Seeds medium-sized, white, margins white.	NA	1897625	South/Latin America	0.184755	1e-5	1e-5	0.815215	1e-5	3	157
+PI_458709	Argentina	NA	Cucurbita maxima	Donated by J. Camara-Hernandez. Seeds medium to large, white, margins darker.	NA	2126454	South/Latin America	0.13214	1e-5	1e-5	0.824339	0.043501	3	158
+PI_458690	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis. Bush type. Seeds medium-sized, white, more or less marginless. Local name Chacoriano.	NA	1727779	South/Latin America	0.382153	1e-5	1e-5	0.617817	1e-5	3	174
+PI_458704	Argentina	NA	Cucurbita maxima	Donated by J. Camara-Hernandez.  Seeds medium-sized, creamy white, margins darker.	NA	2690871	South/Latin America	0.275557	0.008363	1e-5	0.71606	1e-5	3	177
+PI_458661	Argentina	TW 1080	Cucurbita maxima	Probably a mixture of local types. Local name Zapallo.	NA	1422118	South/Latin America	0.163289	0.097242	0.043024	0.696434	1e-5	3	197
+PI_458662	Argentina	TW 1080	Cucurbita maxima	Fruit medium-sized with deep vein tracts, rough surface. Probably from Misiones. Local name Zapallo.	NA	1316308	South/Latin America	0.157605	1e-5	1e-5	0.841391	9.84e-4	3	156
+PI_458672	Argentina	TW 1080	Cucurbita maxima	Probably imported from Misiones.  Fruit flattish, smooth surface, orange, medium vein tracts, light color, producing stripes.  Flesh lemon, thin.  Seed cavity large. Local name Zapallo.	NA	1223968	South/Latin America	0.004105	0.640306	0.046997	0.212175	0.096417	5	52
+PI_458689	Argentina	NA	Cucurbita maxima	Donated by L.O. Melis. Seeds small, white, margins light. Local name Pallamay.	NA	2803437	South/Latin America	0.99996	1e-5	1e-5	1e-5	1e-5	4	67
+PI_458670	Argentina	TW 1080	Cucurbita maxima	Probably imported from Misiones. Fruit yellow, rough surface, deep vein tracts,  skin orange. Flesh yellow. Local name Zapallo.	NA	3058601	South/Latin America	0.15115	0.18984	0.025673	0.620004	0.013334	3	195
+G_24402	Uruguay	Zapallo Rotando	Cucurbita maxima	NA	NA	3883773	South/Latin America	0.373104	1e-5	1e-5	0.626866	1e-5	3	175
+PI_249914	Spain	No. 16957	Cucurbita maxima	Summer squash.	NA	1261046	Europe	1e-5	1e-5	0.355918	0.485428	0.158634	1	260
+G_29317	Spain	Teta de Vaca	Cucurbita maxima	Sown May, harvested October.  Used as adornment	Landrace	2415194	Europe	0.037129	1e-5	0.115822	0.560536	0.286502	3	161
+G_29793	Spain	Calabaza Mediana	Cucurbita maxima	NA	NA	685035	Europe	0.06816	0.154185	0.445861	0.311324	0.02047	1	282
+G_29313	Spain	Verde de Espana	Cucurbita maxima	NA	Landrace	648798	Europe	1e-5	0.114842	0.682995	0.12805	0.074102	1	237
+PI_166198	Nigeria	No Known Plant ID	Cucurbita maxima	NA	NA	1640105	Africa	1e-5	0.104269	0.574334	1e-5	0.321376	1	233
+G_29642	Nigeria	TB 84/2164 Plot 2 Rep 1 Fruit 1 Plt. 1	Cucurbita maxima	Fruit oblong elipsoid. Fruit lenght 39cm, width 57.5cm. diameter 19.5cm, weight 5.16kg. Average seed yeild 263, seed weight 20gm.  present. Leaves pinnately and deeply lobed, small size with smooth margins. Days to germination in field 7.3. Days to 50% flowering 72.3. Average stem length 161.3, rounded with tendrils present. Leaves cordate, large, dented with shallow lobes.	Cultivated material	2222790	Africa	0.003801	0.140464	0.525553	0.196369	0.133814	1	274
+G_29643	Nigeria	TB 84/2164 Plot 2 Rep 2 Fruit 1 Plt. 1	Cucurbita maxima	NA	NA	670448	Africa	0.009105	0.11077	0.770139	1e-5	0.109975	1	243
+G_32321	Burundi	GMN 80	Cucurbita maxima	NA	NA	317251	Africa	1e-5	1e-5	1e-5	0.844218	0.155752	3	148
+G_32319	Burundi	GMN 138	Cucurbita maxima	NA	NA	391148	Africa	1e-5	1e-5	1e-5	0.676243	0.323727	3	160
+G_30649	Burundi	GMN 152	Cucurbita maxima	NA	NA	766691	Africa	1e-5	0.99996	1e-5	1e-5	1e-5	5	7
+G_32322	Burundi	GMN 7	Cucurbita maxima	NA	NA	270815	Africa	1e-5	1e-5	0.254906	0.745064	1e-5	3	169
+G_30655	Burundi	GMN 279	Cucurbita maxima	NA	NA	1805481	Africa	0.031064	0.939729	1e-5	0.029187	1e-5	5	31
+G_31130	Kazakhstan	Mamornaya	Cucurbita maxima	NA	NA	3310599	Asia	0.01435	0.091824	0.609625	0.056804	0.227398	1	252
+G_31128	Kazakhstan	Russiya	Cucurbita maxima	NA	NA	5229546	Asia	0.05147	1e-5	0.421088	0.352763	0.174669	1	262
+G_31131	Kazakhstan	Stolovar Zemnaya	Cucurbita maxima	NA	NA	2840032	Asia	0.06649	0.084065	0.505361	0.200867	0.143217	1	273
+G_31129	Kazakhstan	Lindaniya	Cucurbita spp.	NA	NA	821113	Asia	1e-5	0.078741	0.346309	0.288837	0.286104	1	288
+PI_181751	Syria	No. 9739	Cucurbita maxima	NA	NA	2263034	Arab States	1e-5	0.084791	0.915179	1e-5	1e-5	1	213
+PI_181877	Syria	Aleppo No. 11	Cucurbita maxima	NA	NA	1635154	Arab States	1e-5	0.130397	0.661986	1e-5	0.207597	1	241
+PI_181879	Syria	Aleppo No. 44	Cucurbita maxima	NA	NA	2140018	Arab States	1e-5	0.057929	0.564323	1e-5	0.377728	1	226
+PI_169466	Turkey	No. 3284	Cucurbita maxima	NA	NA	2639083	Europe	1e-5	0.069829	0.595056	1e-5	0.335095	1	231
+PI_164999	Turkey	NA	Cucurbita maxima	NA	NA	1630362	Europe	1e-5	0.092508	0.486136	1e-5	0.421336	1	312
+PI_171616	Turkey	Kestane	Cucurbita maxima	NA	NA	1797925	Europe	0.0553	0.031597	0.395857	1e-5	0.517236	1	307
+PI_169440	Turkey	No. 2188	Cucurbita maxima	NA	NA	2756787	Europe	0.008453	0.0183	0.71299	1e-5	0.260247	1	248
+PI_224670	Turkey	Balkabagi	Cucurbita maxima	An orange turban squash.	NA	1992822	Europe	1e-5	1e-5	0.179393	0.447426	0.373161	1	294
+PI_175703	Turkey	Kedi	Cucurbita maxima	NA	NA	2095183	Europe	1e-5	0.044837	0.573314	1e-5	0.381829	1	225
+PI_164988	Turkey	Balkabagi	Cucurbita maxima	NA	NA	1617337	Europe	0.043962	0.136735	0.154289	0.60138	0.063634	3	192
+PI_230180	Turkey	NA	Cucurbita maxima	Fruit flat, ribbed, about 14 inches in diameter; color brownish-gray; flesh deep orange, about 2 inches thick; late maturing.	NA	2322615	Europe	0.092724	0.171397	0.422126	0.223829	0.089924	1	283
+PI_171615	Turkey	No. 6543	Cucurbita maxima	NA	NA	3041816	Europe	1e-5	1e-5	0.502143	1e-5	0.497827	1	304
+PI_178889	Turkey	Balkabagi	Cucurbita maxima	NA	NA	2905362	Europe	0.083609	1e-5	0.424044	0.013266	0.479071	1	306
+PI_120440	Turkey	NA	Cucurbita maxima	NA	NA	2393986	Europe	1e-5	0.117345	0.322128	0.560508	1e-5	1	255
+PI_169439	Turkey	Galle Kabak	Cucurbita maxima	NA	NA	2340181	Europe	0.020959	0.050418	0.372314	0.109703	0.446606	1	299
+PI_178891	Turkey	No. 9670	Cucurbita maxima	NA	NA	2038373	Europe	1e-5	0.098685	0.324058	0.311614	0.265633	1	289
+PI_165001	Turkey	NA	Cucurbita maxima	NA	NA	1604601	Europe	1e-5	1e-5	0.432322	0.145357	0.422301	1	309
+PI_169471	Turkey	No. 3397	Cucurbita maxima	NA	NA	2175962	Europe	0.023636	0.124224	0.375825	0.059195	0.41712	1	313
+PI_171617	Turkey	Cerkez	Cucurbita maxima	NA	NA	1777588	Europe	0.028279	0.004087	0.647308	0.023902	0.296423	1	250
+PI_176527	Turkey	Kestane	Cucurbita maxima	NA	NA	2812854	Europe	0.056573	0.014432	0.479364	1e-5	0.449621	1	301
+PI_171618	Turkey	Kestane	Cucurbita maxima	NA	NA	2323412	Europe	6.13e-4	0.075445	0.599725	0.091148	0.233068	1	253
+PI_172869	Turkey	No. 8145	Cucurbita maxima	NA	NA	3795001	Europe	1e-5	1e-5	0.777793	1e-5	0.222177	1	240
+PI_173679	Turkey	No. 8611	Cucurbita maxima	NA	NA	2763159	Europe	1e-5	0.11935	0.423057	1e-5	0.457573	1	311
+PI_176960	Turkey	Kus	Cucurbita maxima	NA	NA	3314599	Europe	1e-5	0.016746	0.724707	1e-5	0.258528	1	247
+PI_174181	Turkey	Balkabagi	Cucurbita maxima	NA	NA	2481969	Europe	1e-5	0.092653	0.626503	1e-5	0.280824	1	232
+PI_174191	Turkey	No. 8448	Cucurbita maxima	NA	NA	1519835	Europe	1e-5	0.029622	0.562512	0.043287	0.364569	1	224
+PI_169433	Turkey	No. 1960	Cucurbita maxima	NA	NA	2354140	Europe	1e-5	0.001152	0.639246	1e-5	0.359581	1	228
+PI_199031	Turkey	Kestane	Cucurbita maxima	NA	NA	2009317	Europe	1e-5	0.047042	0.483562	1e-5	0.469376	1	302
+PI_199032	Turkey	Sitaphal	Cucurbita maxima	NA	NA	1512172	Europe	1e-5	0.099668	0.527899	1e-5	0.372414	1	223
+PI_176528	Turkey	Balkabagi	Cucurbita maxima	NA	NA	1722150	Europe	0.037448	1e-5	0.652372	0.033601	0.276568	1	249
+PI_175701	Turkey	No. 9124	Cucurbita maxima	NA	NA	3046860	Europe	1e-5	0.110305	0.531399	1e-5	0.358276	1	222
+PI_176530	Turkey	Kestane	Cucurbita maxima	NA	NA	1789963	Europe	0.021387	1e-5	0.366719	0.284161	0.327723	1	291
+PI_165077	Turkey	Balkabagi	Cucurbita maxima	NA	NA	1819558	Europe	0.068018	1e-5	0.343118	0.334612	0.254242	1	286
+PI_177365	Turkey	Helvaci	Cucurbita maxima	NA	NA	3265535	Europe	0.025477	1e-5	0.50807	0.089746	0.376697	1	308
+PI_172854	Turkey	No. 7404	Cucurbita maxima	NA	NA	2490115	Europe	1e-5	0.146269	0.461515	0.059545	0.332661	1	314
+PI_198672	Turkey	Balkabaghi	Cucurbita maxima	NA	NA	1840929	Europe	0.069153	1e-5	0.198477	0.556918	0.175442	3	166
+PI_169405	Turkey	Bal Kabagi	Cucurbita maxima	NA	NA	2419419	Europe	1e-5	1e-5	0.494673	1e-5	0.505297	1	303
+PI_177367	Turkey	No. 6266	Cucurbita maxima	NA	NA	2455011	Europe	0.09145	1e-5	0.388395	0.24881	0.271336	1	290
+PI_165005	Turkey	NA	Cucurbita maxima	NA	NA	1954351	Europe	0.033448	0.021517	0.337191	0.072924	0.53492	1	297
+PI_169404	Turkey	Kestane	Cucurbita maxima	NA	NA	2185791	Europe	1e-5	0.048732	0.616253	1e-5	0.334995	1	229
+PI_183679	Turkey	Tevriv	Cucurbita maxima	NA	NA	3032217	Europe	0.005359	0.034388	0.443183	0.060445	0.456626	1	300
+PI_176529	Turkey	Balkabagi	Cucurbita maxima	NA	NA	1224952	Europe	0.001384	1e-5	0.432028	1e-5	0.566568	1	305
+PI_182195	Turkey	No. 10427	Cucurbita maxima	NA	NA	2559334	Europe	0.048909	1e-5	0.340974	0.131247	0.478861	1	298
+PI_169407	Turkey	Kabak Beyaz	Cucurbita maxima	NA	NA	1803037	Europe	1e-5	0.049232	0.427092	0.146399	0.377267	1	310
+PI_169419	Turkey	No. 1475	Cucurbita maxima	NA	NA	1752047	Europe	1e-5	0.10588	0.707801	1e-5	0.186299	1	242
+PI_165027	Turkey	NA	Cucurbita maxima	NA	NA	1145221	Europe	1e-5	1e-5	0.234424	0.442916	0.32264	1	295
+PI_175126	India	Kadu	Cucurbita maxima	Fruit subvoid, 15 inches in diameter, ashy, unribbed.	NA	3781040	Asia	0.121925	0.108406	0.036141	0.701138	0.03239	3	198
+PI_121910	India	NA	Cucurbita maxima	NA	NA	2434154	Asia	1e-5	1e-5	0.553355	0.299914	0.146711	1	271
+PI_163227	India	NA	Cucurbita maxima	NA	NA	3085277	Asia	0.141122	0.041814	0.411089	0.371346	0.03463	1	278
+PI_175125	India	Kadu	Cucurbita maxima	Fruit elongate, 25 by 10 inches, ashy, unribbed; not sweet but tasty; flesh 2 1/2 inches thick and orange-colored.	NA	2528026	Asia	0.120609	1e-5	1e-5	0.879361	1e-5	3	147
+PI_174823	India	Kadu	Cucurbita maxima	Fruit subglobose, 15 by 12 inches, heavily ribbed, grey, squash-type. Not sweet but tasty.	NA	1766221	Asia	0.022548	0.21694	0.137954	0.51086	0.111698	3	184
+PI_121915	India	NA	Cucurbita maxima	NA	NA	1208104	Asia	1e-5	0.070096	0.270107	0.659777	1e-5	3	170
+PI_175124	India	Kadu	Cucurbita maxima	NA	NA	2223326	Asia	0.023064	0.082558	0.124063	0.702751	0.067564	3	193
+PI_166046	India	Kadu	Cucurbita maxima	NA	NA	2743301	Asia	0.045239	1e-5	0.271789	0.538582	0.14438	3	165
+PI_121913	India	Kadu	Cucurbita maxima	NA	NA	2611695	Asia	0.125536	0.008433	0.178018	0.688003	1e-5	3	168
+PI_135889	Pakistan	No. 5084	Cucurbita maxima	Fruit subglobose, 15 inches long, faintly ribbed, creamy white; flest pale orange, 1.5 to 2.5 inches thick, and incipid.	NA	3170390	Asia	0.003147	0.175033	0.768237	0.033426	0.020157	1	234
+PI_135893	Pakistan	No. 5088	Cucurbita maxima	Fruit subglobose, 17 inches long, rind salmon, with deeply indented ribs; flesh salmon, 2.75 inches thick, and incipid.	NA	1519211	Asia	0.019397	0.233572	0.697824	1e-5	0.049197	1	235
+PI_265559	Pakistan	Formerly PI 219694	Cucurbita maxima	NA	NA	1742918	Asia	0.019623	0.017978	0.898004	0.034475	0.029919	1	212
+PI_136445	Canada	No. 8	Cucurbita maxima	NA	NA	3740759	North America	0.003789	1e-5	0.216776	0.616405	0.16302	3	167
+PI_137862	Iran	Russian Kadu	Cucurbita maxima	Fruit 15 by 8 inches; rind orange red to paler, splotched with green, pinkish-white incomplete rib lines and heavily indented ribs; flesh orange, 2 inches thick, tender and insipid.	NA	647578	Asia	0.192481	0.196524	0.365223	0.181976	0.063797	1	281
+PI_137861	Iran	No. 5613	Cucurbita maxima	Said to be globose. Gorwn where summers are hot.	NA	1852408	Asia	0.027304	1e-5	0.972666	1e-5	1e-5	1	211
+PI_211997	Iran	No. 5	Cucurbita maxima	NA	NA	2542741	Asia	0.011572	0.055933	0.535666	0.293902	0.102927	1	272
+PI_137859	Iran	Kadu	Cucurbita maxima	Fruit elongate, 9 by 15 inches, rind gray green and unribbed; flesh yellow, 2 inches thich, and insipid.	NA	2387296	Asia	1e-5	0.010902	0.834755	0.069172	0.085162	1	217
+PI_143272	Iran	No. 7402	Cucurbita maxima	Fruit flattened, 11 inches long and 7 inches in diameter, deeply ribbed, orange red; flesh 5 inches thick, greenish yellow, firm, low in sugar.	NA	1613063	Asia	0.038972	1e-5	0.397191	0.242138	0.321689	1	292
+PI_137860	Iran	Kadu	Cucurbita maxima	Adapted to cotton country.	NA	1675368	Asia	0.066838	0.023509	0.624389	0.163187	0.122078	1	277
+PI_222784	Iran	Kadoo	Cucurbita maxima	Fruit reddish-orange, up to 2 feet in diameter.	NA	4153217	Asia	0.077927	1e-5	0.509494	0.165823	0.246746	1	221
+PI_223353	Iran	No. 1478	Cucurbita maxima	Fruit pear-shaped, reddish, to 6 inches in diameter and 1 foot long.	NA	2535595	Asia	0.059094	1e-5	0.391731	0.455187	0.093979	1	264
+PI_211990	Iran	No. 2	Cucurbita maxima	NA	NA	4062861	Asia	0.019595	1e-5	0.602658	0.046275	0.331462	1	227
+PI_137880	Iran	No. 5642	Cucurbita maxima	NA	NA	2298383	Asia	0.023955	0.092509	0.621143	0.142206	0.120187	1	238
+PI_141667	Iran	Kaduekombar	Cucurbita maxima	NA	NA	843764	Asia	0.096409	1e-5	0.866085	1e-5	0.037486	1	202
+PI_211992	Iran	No. 4	Cucurbita maxima	NA	NA	2825232	Asia	0.093649	1e-5	0.35168	0.520496	0.034165	1	256
+PI_212009	Iran	No. 10	Cucurbita maxima	NA	NA	2085045	Asia	1e-5	0.35547	1e-5	0.6445	1e-5	3	189
+PI_211991	Iran	No. 3	Cucurbita maxima	NA	NA	2483136	Asia	0.146098	1e-5	0.54572	0.250884	0.057289	1	269
+PI_137871	Iran	Kadu	Cucurbita maxima	NA	NA	2462860	Asia	0.048898	0.00339	0.615053	0.101557	0.231102	1	251
+PI_143284	Iran	No. 7735	Cucurbita maxima	Cultivated for the seeds.	NA	1657697	Asia	0.093914	0.196662	0.42648200000000003	0.237311	0.045631	1	284
+PI_265558	Iran	Formerly PI 212010	Cucurbita maxima	NA	NA	1015935	Asia	0.078083	1e-5	0.819547	0.06439	0.03797	1	216
+PI_137889	Iran	Kadu	Cucurbita maxima	PI book claims this acc. is C.Pepo.	NA	2601223	Asia	0.16972	0.032967	0.589854	1e-5	0.207448	1	246
+PI_141632	Iran	Kadu	Cucurbita maxima	NA	NA	1487111	Asia	0.082145	0.02803	0.564727	0.203443	0.121656	1	276
+PI_141638	Iran	Kaduetambal	Cucurbita maxima	NA	NA	1264379	Asia	0.002781	0.016893	0.980306	1e-5	1e-5	1	208
+PI_141640	Iran	Kadu	Cucurbita maxima	NA	NA	842899	Asia	1e-5	0.018316	0.981654	1e-5	1e-5	1	209
+PI_227361	Iran	No. 14869	Cucurbita maxima	NA	NA	2617599	Asia	0.018158	0.050772	0.711618	0.053648	0.165805	1	244
+PI_141661	Iran	Kadu	Cucurbita maxima	NA	NA	1498492	Asia	1e-5	1e-5	0.651276	0.236148	0.112556	1	265
+PI_143281	Iran	No. 7644	Cucurbita maxima	Fruit globose, 12 inches long, pale salmon; flesh orange, 1.5 to 2.5 inches thick, insipid.	NA	1401152	Asia	1e-5	1e-5	0.670731	0.273366	0.055883	1	267
+PI_141633	Iran	Kadu	Cucurbita maxima	NA	NA	1602333	Asia	0.07648	1e-5	0.601003	0.322497	1e-5	1	268
+PI_143274	Iran	No. 7488	Cucurbita maxima	Fruit 18 inches long and 9 inches in diameter, orange red, with faint irregular ridb; flesh 1.25 inches thick, deep yellow, good quality.	NA	1488146	Asia	0.018362	1e-5	0.488752	0.301531	0.191345	1	270
+PI_137866	Iran	No. 5241	Cucurbita maxima	NA	NA	1608394	Asia	1e-5	1e-5	0.99996	1e-5	1e-5	1	205
+PI_265561	Iran	Formerly PI 223353	Cucurbita maxima	NA	NA	4308144	Asia	0.070116	1e-5	0.449846	0.408635	0.071393	1	263
+PI_226463	Iran	No. 14780	Cucurbita maxima	NA	NA	1515556	Asia	0.032497	0.011664	0.817961	0.137869	1e-5	1	215
+PI_211989	Iran	No. 1	Cucurbita maxima	NA	NA	2567577	Asia	0.098893	0.008537	0.459817	0.120431	0.312322	1	220
+PI_143280	Iran	No. 7643	Cucurbita maxima	Fruit globose, 14 inches long, with deep irregular ribs, salmon, mottled paler; flesh 2 to 4 inches thick, pale orange, insipid.	NA	2868920	Asia	0.146276	1e-5	0.458114	0.28669	0.10891	1	280
+PI_194268	Ethiopia	No. 9062	Cucurbita maxima	NA	NA	1702031	Africa	1e-5	0.064913	0.606051	1e-5	0.329016	1	230
+PI_195929	Ethiopia	No. 9902	Cucurbita maxima	NA	NA	4045237	Africa	1e-5	0.14161	0.447845	0.029804	0.380731	1	315
+PI_349348	Bolivia	NA	Cucurbita maxima	Fruit not seen; seeds medium sized, dark brown, margin same as seeds.	Cultivated material	2070217	South/Latin America	0.00906	1e-5	0.286966	0.586611	0.117353	3	164
+PI_349350	Bolivia	No Known Plant ID	Cucurbita maxima	Reported to have come from local market. Vine typical maxima, poor vigor; fruit flattened 15 by 25 cm.; grayish mottled skin, smooth; very hard; flesh well colored, thick. Seeds yellowish brown, margin light brown. Fruit 'Hubbard' type.	Cultivated material	2129630	South/Latin America	1e-5	0.024959	0.033369	0.868109	0.073553	3	143
+PI_349347	Bolivia	No Known Plant ID	Cucurbita maxima	Fruit about 15 cm. diameter, 30 cm. long, skin light grayish green, warted overall; very hard skin; thin flesh, light salmon. Seeds light brown with margin lighter than body.	Cultivated material	814709	South/Latin America	0.102242	1e-5	0.060952	0.781467	0.055328	3	153
+PI_357912	Macedonia	Stambolka	Cucurbita maxima	NA	NA	3750045	Europe	1e-5	1e-5	1e-5	0.087957	0.912013	2	83
+PI_357915	Macedonia	Ukrasna	Cucurbita maxima	NA	NA	1315449	Europe	0.155538	1e-5	0.07117	0.085513	0.68777	2	130
+PI_357877	Macedonia	NA	Cucurbita maxima	NA	NA	1779172	Europe	1e-5	0.015608	0.009175	1e-5	0.975197	2	104
+PI_357880	Macedonia	Siva Stambolka	Cucurbita maxima	NA	NA	2769968	Europe	1e-5	1e-5	1e-5	1e-5	0.99996	2	101
+PI_357881	Macedonia	Sivobela	Cucurbita maxima	NA	NA	3190661	Europe	0.020938	0.018003	0.039954	0.070853	0.850252	2	107
+PI_357882	Macedonia	Krusovidna	Cucurbita maxima	NA	NA	2094079	Europe	0.061744	1e-5	0.106265	1e-5	0.831971	2	109
+PI_357887	Macedonia	Crna Stambolka	Cucurbita maxima	NA	NA	2566764	Europe	1e-5	1e-5	0.078092	1e-5	0.921878	2	128
+PI_357888	Macedonia	Bela Pecenka	Cucurbita maxima	NA	NA	2565692	Europe	1e-5	1e-5	0.021795	1e-5	0.978175	2	103
+PI_357889	Macedonia	Stracinska Pecenka	Cucurbita maxima	NA	NA	2743018	Europe	0.070786	1e-5	0.037647	1e-5	0.891547	2	123
+PI_357890	Macedonia	Pencenka	Cucurbita maxima	NA	NA	2488569	Europe	1e-5	0.059628	0.055063	1e-5	0.885289	2	119
+PI_357911	Macedonia	Pecenka Od Rastak	Cucurbita maxima	NA	NA	2448110	Europe	0.026334	1e-5	0.09345	1e-5	0.880196	2	118
+PI_357896	Macedonia	Kumanovska	Cucurbita maxima	NA	NA	2723425	Europe	0.001505	1e-5	1e-5	0.013013	0.985462	2	90
+PI_357897	Macedonia	Vezenka	Cucurbita maxima	NA	NA	2927007	Europe	1e-5	1e-5	1e-5	1e-5	0.99996	2	102
+PI_357875	Macedonia	Kumanovska	Cucurbita maxima	NA	NA	1813246	Europe	1e-5	1e-5	0.099673	0.03209	0.868217	2	116
+PI_357876	Macedonia	NA	Cucurbita maxima	NA	NA	1070372	Europe	0.006735	1e-5	0.061151	1e-5	0.932095	2	126
+PI_357900	Macedonia	Buciska	Cucurbita maxima	NA	NA	2019406	Europe	1e-5	1e-5	1e-5	1e-5	0.99996	2	94
+PI_357901	Macedonia	Probistipska	Cucurbita maxima	NA	NA	2585208	Europe	0.033241	0.029369	0.05765	0.037735	0.842005	2	108
+PI_357902	Macedonia	Tromak	Cucurbita maxima	NA	NA	1490434	Europe	1e-5	1e-5	0.199571	1e-5	0.800399	2	136
+PI_357903	Macedonia	Brzak	Cucurbita maxima	NA	NA	2352547	Europe	1e-5	1e-5	0.200782	1e-5	0.799188	2	137
+PI_357905	Macedonia	Debarska	Cucurbita maxima	NA	NA	1947082	Europe	0.050494	1e-5	1e-5	1e-5	0.949476	2	86
+PI_357906	Macedonia	Siva Pecenka	Cucurbita maxima	NA	NA	1328862	Europe	0.019078	1e-5	0.06009	0.046615	0.874207	2	121
+PI_357907	Macedonia	Struska	Cucurbita maxima	NA	NA	955405	Europe	0.10286	0.017706	0.068502	1e-5	0.810921	2	105
+PI_357908	Macedonia	Gostivarska	Cucurbita maxima	NA	NA	1454946	Europe	1e-5	1e-5	0.074629	0.024957	0.900394	2	122
+PI_357894	Macedonia	Stambolka Pecenka	Cucurbita maxima	NA	NA	2482796	Europe	0.038624	1e-5	0.104822	1e-5	0.856534	2	110
+PI_368576	Macedonia	Pecenka Srpska	Cucurbita maxima	NA	NA	1058991	Europe	1e-5	0.038071	1e-5	1e-5	0.961899	2	87
+PI_368577	Macedonia	Pecenka	Cucurbita maxima	NA	NA	1140706	Europe	1e-5	1e-5	1e-5	0.031623	0.968347	2	89
+PI_357898	Macedonia	Amzibegovska	Cucurbita maxima	NA	NA	4271617	Europe	1e-5	0.009018	0.072424	1e-5	0.918538	2	127
+PI_357899	Macedonia	Zrnovska	Cucurbita maxima	NA	NA	3614518	Europe	1e-5	1e-5	1e-5	1e-5	0.99996	2	99
+PI_368561	Macedonia	Bela Pecenka	Cucurbita maxima	NA	NA	904798	Europe	1e-5	1e-5	0.233767	1e-5	0.766203	2	133
+PI_368563	Macedonia	Pecneka	Cucurbita maxima	NA	NA	1151817	Europe	1e-5	1e-5	0.249276	1e-5	0.750694	2	132
+PI_368564	Macedonia	Pecneka	Cucurbita maxima	NA	NA	1755529	Europe	1e-5	0.0312	0.155271	0.007946	0.805573	2	138
+PI_368565	Macedonia	Pecneka	Cucurbita maxima	NA	NA	3039572	Europe	1e-5	1e-5	0.108433	1e-5	0.891537	2	117
+PI_368567	Macedonia	Pecneka	Cucurbita maxima	NA	NA	2997601	Europe	0.047351	1e-5	0.074463	0.07105	0.807126	2	106
+PI_368570	Macedonia	Stambolka	Cucurbita maxima	NA	NA	1093244	Europe	1e-5	1e-5	1e-5	1e-5	0.99996	2	98
+PI_368571	Macedonia	Stambolka Kupasta	Cucurbita maxima	NA	NA	509838	Europe	1e-5	1e-5	1e-5	1e-5	0.99996	2	97
+PI_368573	Macedonia	Stambolka Bela	Cucurbita maxima	NA	NA	1312377	Europe	1e-5	0.002078	0.083357	1e-5	0.914545	2	129
+PI_368575	Macedonia	Pecenka	Cucurbita maxima	NA	NA	903213	Europe	0.010782	1e-5	1e-5	1e-5	0.989188	2	92
+PI_379290	Macedonia	Stambolka	Cucurbita maxima	NA	NA	1404581	Europe	1e-5	0.006331	1e-5	0.015889	0.97776	2	91
+PI_379291	Macedonia	Pecenka	Cucurbita maxima	NA	NA	801628	Europe	1e-5	1e-5	1e-5	1e-5	0.99996	2	95
+PI_379292	Macedonia	Pecenka	Cucurbita maxima	NA	NA	1544855	Europe	1e-5	0.080227	0.224432	1e-5	0.695321	2	131
+PI_368580	Macedonia	Stambolka	Cucurbita maxima	NA	NA	1612759	Europe	1e-5	0.041036	0.004667	1e-5	0.954278	2	88
+PI_368582	Macedonia	Stambolka	Cucurbita maxima	NA	NA	2222069	Europe	1e-5	0.00358	1e-5	1e-5	0.99639	2	93
+PI_368583	Macedonia	Pecenka	Cucurbita maxima	NA	NA	747746	Europe	1e-5	1e-5	1e-5	0.056134	0.943836	2	82
+PI_370452	Macedonia	Golema	Cucurbita maxima	NA	NA	1602355	Europe	0.004348	0.040681	0.16282	1e-5	0.792142	2	139
+PI_370453	Macedonia	Penceka Lokalna	Cucurbita maxima	NA	NA	1053293	Europe	1e-5	1e-5	0.069406	1e-5	0.930564	2	125
+PI_370456	Macedonia	Pecenka Mestna	Cucurbita maxima	NA	NA	1290860	Europe	1e-5	0.024583	0.116615	1e-5	0.858782	2	113
+PI_370458	Macedonia	Pecenka Lokalna	Cucurbita maxima	NA	NA	2011064	Europe	0.044124	1e-5	0.103205	1e-5	0.852651	2	111
+PI_370459	Macedonia	Pecenka Domasna	Cucurbita maxima	NA	NA	1525086	Europe	0.022674	0.101559	0.111179	1e-5	0.764578	2	134
+PI_370460	Macedonia	Pecenka Mestna	Cucurbita maxima	NA	NA	1253128	Europe	1e-5	1e-5	1e-5	1e-5	0.99996	2	96
+PI_370461	Macedonia	Badarska	Cucurbita maxima	NA	NA	1418703	Europe	1e-5	0.016209	0.091611	0.02739	0.864779	2	115
+PI_357910	Macedonia	Zelenikovska	Cucurbita maxima	NA	NA	2805469	Europe	1e-5	0.105642	1e-5	1e-5	0.894328	2	81
+PI_379298	Macedonia	Balka	Cucurbita maxima	NA	NA	1442716	Europe	0.021013	1e-5	0.112551	0.866416	1e-5	3	141
+PI_379300	Macedonia	Balka	Cucurbita maxima	NA	NA	1198905	Europe	1e-5	0.034279	0.041059	1e-5	0.924642	2	124
+PI_379294	Macedonia	Pecenka	Cucurbita maxima	NA	NA	1477474	Europe	0.054182	1e-5	1e-5	1e-5	0.945788	2	85
+PI_379297	Macedonia	Pecenka	Cucurbita maxima	NA	NA	1012026	Europe	1e-5	0.027813	0.124167	1e-5	0.848	2	114
+PI_379304	Macedonia	Balka	Cucurbita maxima	NA	NA	2611275	Europe	1e-5	1e-5	0.1872	1e-5	0.81277	2	135
+PI_379305	Macedonia	Pecenka	Cucurbita maxima	NA	NA	888946	Europe	1e-5	1e-5	0.144739	1e-5	0.855231	2	112
+PI_379301	Macedonia	Balka	Cucurbita maxima	NA	NA	2767572	Europe	0.01471	0.058809	0.066776	1e-5	0.859695	2	120
+PI_379303	Macedonia	Pecenka	Cucurbita maxima	NA	NA	2136156	Europe	1e-5	1e-5	1e-5	1e-5	0.99996	2	100
+PI_368578	Macedonia	Pecenka	Cucurbita maxima	NA	NA	1937184	Europe	0.025793	0.003531	0.013424	1e-5	0.957242	2	84
+PI_419138	China	NA	Cucurbita maxima	Summer type.	NA	783147	Asia	1e-5	0.636683	0.031727	0.33157	1e-5	5	56
+PI_407383	China	NA	Cucurbita maxima	NA	NA	2954484	Asia	0.085084	0.060819	1e-5	0.747533	0.106555	3	151
+PI_407385	China	NA	Cucurbita maxima	NA	NA	1592367	Asia	0.018316	1e-5	1e-5	0.768227	0.213438	3	149
+PI_419081	China	Pai Yu	Cucurbita maxima	NA	NA	2587245	Asia	1e-5	0.619182	0.026413	0.317142	0.037252	5	55
+PI_93034	China	Nan Kua	Cucurbita maxima	A very large squash obtained through Dr. Hugh W. Hubbard, of Paotingfu, China.	NA	3824895	Asia	1e-5	0.182967	0.3516	0.465413	1e-5	1	254
+PI_419080	China	Hong Pi	Cucurbita maxima	NA	NA	466961	Asia	1e-5	1e-5	0.075988	0.827792	0.096199	3	142
+PI_475748	Paraguay	NA	Cucurbita maxima	Plants grown by Manjuy Indians for centuries, endemic. Seeds small, white. Local name Zapallo.	NA	2482545	South/Latin America	1e-5	0.384397	1e-5	0.615573	1e-5	3	191
+PI_458742	Paraguay	NA	Cucurbita maxima	Seeds small, white. From Manjuy Indians. Local name Zapallo.	NA	2032704	South/Latin America	0.090029	0.354532	1e-5	0.555419	1e-5	3	185
+PI_481623	Italy	236	Cucurbita maxima	Originally from Thimphu. Sown April, harvested August-September. Fruits very large (20kg or more), less favorable than PI 481622, used for animal feed.	Cultivated material	3965952	Europe	0.04539	0.228267	0.050689	0.441962	0.233692	3	183
+PI_481625	Italy	358	Cucurbita maxima	Local original source. Sown April, harvested September. Fruits large. Local name Brumsa Kathang.	Cultivated material	2681416	Europe	0.141122	0.330848	1e-5	0.52801	1e-5	3	186
+PI_482475	Zimbabwe	TGR 1107	Cucurbita maxima	Fruits flat, round, creamy yellow.	Cultivated material	2006234	Africa	0.101442	0.604651	0.193022	0.018702	0.082184	5	50
+PI_482477	Zimbabwe	Nyamutumha	Cucurbita maxima	Local name Nyamutumba.	Cultivated material	2994701	Africa	0.016347	0.651715	1e-5	0.219889	0.112039	5	53
+PI_482479	Zimbabwe	Nyamutumha	Cucurbita maxima	Seeds white. Local name Nyamutumha and Nzururu.	Cultivated material	5480388	Africa	0.093512	0.636229	0.08616	0.026366	0.157733	5	51
+PI_482589	Zimbabwe	TGR 233	Cucurbita maxima	Fruits white. Associated with pumpkins and other weedy, bitter watermelons.	Cultivated material	3463375	Africa	1e-5	0.554242	0.135068	0.112112	0.198569	5	58
+PI_482483	Zimbabwe	TGR 1783	Cucurbita maxima	Sown November, harvested April.	Cultivated material	1985836	Africa	1e-5	0.453311	0.22915	0.197221	0.120308	5	57
+PI_482468	Zimbabwe	TGR 581	Cucurbita maxima	Sown October, harvested April.	Cultivated material	3334460	Africa	1e-5	0.631963	0.069643	0.251846	0.046538	5	54
+PI_494827	Zambia	ZFA 3177	Cucurbita maxima	Received as Cucurbita moschata.	Landrace	2340247	Africa	1e-5	0.991644	0.008326	1e-5	1e-5	5	5
+PI_494830	Zambia	ZFA 3252	Cucurbita maxima	Fruit shape elongated. Received as Cucurbita moschata.	Landrace	3416641	Africa	1e-5	0.99996	1e-5	1e-5	1e-5	5	8
+PI_500444	Zambia	ZM-1071	Cucurbita maxima	NA	Cultivated material	3115847	Africa	0.019034	0.758496	1e-5	0.115371	0.107088	5	44
+PI_500445	Zambia	ZM-1084	Cucurbita maxima	NA	Cultivated material	2555138	Africa	1e-5	0.939832	0.060138	1e-5	1e-5	5	2
+PI_494839	Zambia	ZFA 3545	Cucurbita maxima	Received as Cucurbita moschata.	Landrace	1495582	Africa	0.017114	0.982856	1e-5	1e-5	1e-5	5	4
+PI_494840	Zambia	ZFA 3569	Cucurbita maxima	Received as Cucurbita moschata.	Landrace	1803954	Africa	0.062098	0.913606	1e-5	1e-5	0.024277	5	34
+PI_500450	Zambia	Mgwunga	Cucurbita maxima	Local name Mgwunga.	Cultivated material	4240602	Africa	0.018875	0.809269	0.064613	0.079053	0.02819	5	40
+PI_500453	Zambia	ZM-1207	Cucurbita maxima	NA	Cultivated material	3152994	Africa	0.077753	0.831451	0.065608	1e-5	0.025178	5	35
+PI_500454	Zambia	ZM-1213	Cucurbita maxima	NA	Cultivated material	2804746	Africa	1e-5	0.830983	0.100947	0.06805	1e-5	5	38
+PI_500456	Zambia	ZM-1220	Cucurbita maxima	NA	Cultivated material	1904233	Africa	1e-5	0.843319	0.106881	0.017791	0.031999	5	42
+PI_500457	Zambia	ZM-1242	Cucurbita maxima	NA	Cultivated material	2672483	Africa	1e-5	0.838621	0.066543	0.080618	0.014208	5	39
+PI_500458	Zambia	ZM-1250	Cucurbita maxima	NA	Cultivated material	1897645	Africa	1e-5	0.857026	0.089337	1e-5	0.053618	5	43
+PI_500459	Zambia	ZM-1251	Cucurbita maxima	NA	Cultivated material	1930829	Africa	0.114231	0.783305	0.102443	1e-5	1e-5	5	49
+PI_500460	Zambia	ZM-1254	Cucurbita maxima	NA	Cultivated material	2415015	Africa	0.023628	0.911694	0.064658	1e-5	1e-5	5	25
+PI_500461	Zambia	ZM-1263	Cucurbita maxima	Mixed with C. moschata.	Cultivated material	2794360	Africa	0.079898	0.787855	1e-5	1e-5	0.132227	5	45
+PI_500467	Zambia	ZM-1319	Cucurbita maxima	NA	Cultivated material	2828963	Africa	0.037876	0.793056	0.079263	0.023923	0.065883	5	41
+PI_500468	Zambia	ZM-1358	Cucurbita maxima	NA	Cultivated material	2198381	Africa	1e-5	0.902609	0.065486	0.031885	1e-5	5	22
+PI_500469	Zambia	ZM-1412	Cucurbita maxima	NA	Cultivated material	4794235	Africa	0.020955	0.883743	0.068223	0.027069	1e-5	5	23
+PI_500471	Zambia	Mupusi	Cucurbita maxima	Fruit oblong. Seeds white. Local name Mupusi.	Cultivated material	3276042	Africa	1e-5	0.99703	0.00294	1e-5	1e-5	5	6
+PI_500472	Zambia	ZM-1529	Cucurbita maxima	NA	Cultivated material	1663787	Africa	1e-5	0.939278	0.060692	1e-5	1e-5	5	1
+PI_500476	Zambia	ZM-1681	Cucurbita maxima	NA	Cultivated material	2966227	Africa	1e-5	0.99996	1e-5	1e-5	1e-5	5	14
+PI_500477	Zambia	ZM-1692	Cucurbita maxima	NA	Cultivated material	1604333	Africa	1e-5	0.99996	1e-5	1e-5	1e-5	5	13
+PI_500481	Zambia	ZM-1731	Cucurbita maxima	Mixed with C. moschata.	Cultivated material	2539836	Africa	1e-5	0.99996	1e-5	1e-5	1e-5	5	16
+PI_500483	Zambia	ZM-1767	Cucurbita maxima	NA	Cultivated material	2739980	Africa	1e-5	0.90256	0.072611	1e-5	0.024809	5	24
+PI_500486	Zambia	ZM-1811	Cucurbita maxima	NA	Cultivated material	2441604	Africa	1e-5	0.99996	1e-5	1e-5	1e-5	5	15
+PI_500507	Zambia	ZM-2209	Cucurbita maxima	NA	Cultivated material	2348433	Africa	0.030843	0.865594	1e-5	0.103543	1e-5	5	17
+PI_500508	Zambia	ZM-2223	Cucurbita maxima	NA	Cultivated material	3155634	Africa	0.046129	0.893943	0.042151	1e-5	0.017767	5	28
+PI_500509	Zambia	Chipnushi	Cucurbita maxima	Local name Chipnushi.	Cultivated material	2971594	Africa	0.040447	0.865772	1e-5	0.021829	0.071942	5	21
+PI_500510	Zambia	ZM-2318	Cucurbita maxima	Mixed C. moschata.	Cultivated material	2947765	Africa	1e-5	0.99996	1e-5	1e-5	1e-5	5	11
+PI_500513	Zambia	ZM-2348	Cucurbita maxima	Mixed with C. moschata.	Cultivated material	1666310	Africa	0.004614	0.881902	1e-5	0.086001	0.027473	5	19
+PI_500515	Zambia	ZM-2480	Cucurbita maxima	NA	Cultivated material	3133791	Africa	0.033154	0.871688	0.090265	1e-5	0.004883	5	36
+PI_500517	Zambia	ZM-2525	Cucurbita maxima	NA	Cultivated material	3262797	Africa	1.6e-5	0.897795	1e-5	0.102169	1e-5	5	18
+PI_500520	Zambia	ZM-2614	Cucurbita maxima	Mixed with C. moschata.	Cultivated material	1654725	Africa	0.033207	0.937802	1e-5	0.028971	1e-5	5	30
+PI_500521	Zambia	Efipushi	Cucurbita maxima	Local name Efipushi.	Cultivated material	2596572	Africa	0.06141	0.911617	1e-5	1e-5	0.026953	5	33
+PI_500523	Zambia	Chipusi	Cucurbita maxima	Local name Chipusi.	Cultivated material	2855424	Africa	0.013101	0.986869	1e-5	1e-5	1e-5	5	3
+PI_500524	Zambia	ZM-2750	Cucurbita maxima	NA	Cultivated material	3871496	Africa	0.040426	0.880723	1e-5	0.050744	0.028097	5	20
+PI_500525	Zambia	ZM-2753	Cucurbita maxima	NA	Cultivated material	3268281	Africa	0.034636	0.867196	0.050301	0.013997	0.03387	5	26
+PI_500526	Zambia	ZM-2756	Cucurbita maxima	NA	Cultivated material	1045298	Africa	0.024891	0.919445	1e-5	0.055645	1e-5	5	29
+PI_500528	Zambia	ZM-2772	Cucurbita maxima	NA	Cultivated material	3079728	Africa	0.052841	0.940948	0.006191	1e-5	1e-5	5	32
+PI_500529	Zambia	Fipushi	Cucurbita maxima	Local name Fipushi.	Cultivated material	2475697	Africa	1e-5	0.678896	0.132807	0.120869	0.067417	5	46
+PI_500531	Zambia	ZM-2901	Cucurbita maxima	NA	Cultivated material	1766642	Africa	1e-5	0.99996	1e-5	1e-5	1e-5	5	10
+PI_500532	Zambia	ZM-2948	Cucurbita maxima	NA	Cultivated material	2659448	Africa	0.05156	0.848465	0.0943	0.005665	1e-5	5	37
+PI_500533	Zambia	ZM-2973	Cucurbita maxima	NA	Cultivated material	4497517	Africa	1e-5	0.99996	1e-5	1e-5	1e-5	5	9
+PI_505614	Zambia	ZM/A 5014	Cucurbita maxima	NA	Landrace	1682097	Africa	1e-5	0.99996	1e-5	1e-5	1e-5	5	12
+PI_500446	Zambia	ZM-1166	Cucurbita maxima	NA	Wild material	2501562	Africa	0.13188	0.707937	0.160157	1.6e-5	1e-5	5	48
+PI_500448	Zambia	ZM-1169	Cucurbita maxima	NA	Wild material	2760497	Africa	0.046937	0.908931	0.044112	1e-5	1e-5	5	27
+PI_135370	Afghanistan	No. 4929	Cucurbita maxima	Fruit 24 by 10 inches; rind battleship gray, shiny, faintly ribbed; flesh bright orange, of good quality, but not very sweet.	NA	1146595	NA	1e-5	1e-5	0.847933	0.152037	1e-5	1	214
+PI_135373	Afghanistan	No. 5018	Cucurbita maxima	Fruit 14 by 9 inches; rind black green with blotches of Chinese red; flesh orange yellow, 2 to 2.25 inches thick, fair quality.	NA	1553353	NA	0.157579	1e-5	0.79195	0.050451	1e-5	1	218
+G_21629	Afghanistan	NA	Cucurbita maxima	NA	NA	2564341	NA	0.03003	0.020738	0.949212	1e-5	1e-5	1	210
+G_21630	Afghanistan	NA	Cucurbita maxima	NA	NA	1371708	NA	0.008304	0.028801	0.962874	1e-5	1e-5	1	207
+PI_135396	Afghanistan	No. 5057	Cucurbita maxima	Fruit somewhat flattened, 10 by 9 inches; rind pea green, heavily indented ribs; flesh orange, 2 to 3 inches thick, falirly good.	NA	1518808	NA	0.003084	0.019779	0.655882	0.287679	0.033576	1	266
+PI_135353	Afghanistan	No. 4921	Cucurbita maxima	Fruit subglobose, slightly flattened, 18 inches in length; weight about 50 pounds; rind grayish green; flesh yellow, 3 inches thick, not very sweet.	NA	1076370	NA	1e-5	1e-5	0.54421	0.45576	1e-5	1	259
+G_32379	Greece, Thessalía	G044	Cucurbita maxima	NA	NA	3436140	NA	1e-5	0.357289	1e-5	0.642681	1e-5	3	188
+PI_135351	Afghanistan	No. 4900	Cucurbita maxima	Fruits slightly flattened, 14 inches in length; rind salmon pink; flesh yellow, 2 inches thick, fair quality.	NA	2633283	NA	0.087617	1e-5	0.912353	1e-5	1e-5	1	200
+PI_135352	Afghanistan	No. 4911	Cucurbita maxima	Fruits slightly flattened, 15 inches in length; rind obscurely ribbed, gray green; flesh yellow, 2.5 inches thick, fair quality.	NA	1516580	NA	1e-5	1e-5	0.99996	1e-5	1e-5	1	204
+PI_135368	Afghanistan	No. 4909	Cucurbita maxima	Fruit somewhat flattened, 8 inches in length; rind black green; flesh orange, 1.5 inches thick, rather insipid.	NA	4230672	NA	0.11317	1e-5	0.861365	0.025445	1e-5	1	201
+PI_222188	Afghanistan	No. 737	Cucurbita maxima	Fruit round, orange; flesh white.	NA	1821163	NA	0.063389	0.054335	0.602638	0.231659	0.047979	1	275
+PI_135365	Afghanistan	No. 4902	Cucurbita maxima	Fruit somewhat flattened, 8 inches in length; rind orange red; flesh bright orange, 1.5 inches thick, of fair quality.	NA	2035670	NA	0.101536	1e-5	0.898434	1e-5	1e-5	1	199
+PI_135387	Afghanistan	No. 4930	Cucurbita maxima	Fruit globose, 10 inches in diameter; rind white, faintly ribbed; flesh pale orange, 2 inches thick, incipid.	NA	1362413	NA	0.096471	0.106706	0.758787	0.038026	1e-5	1	219
+PI_223438	Afghanistan	Kadoo	Cucurbita maxima	NA	NA	928982	NA	0.100871	1e-5	0.646617	0.107767	0.144735	1	245
+PI_135382	Afghanistan	No. 4725	Cucurbita maxima	Fruit flattened, 16 by14 inches; rind orange pink, with broken blotches of green and white; flesh yellow, 2.5 inches thick, insipid.	NA	3040330	NA	0.015087	1e-5	0.812359	1e-5	0.172534	1	239
+PI_365106	Eswatini	AJO 0271	Cucurbita maxima	NA	NA	1524869	NA	1e-5	0.366938	0.195022	0.381276	0.056755	3	182
+PI_135355	Afghanistan	No. 5016	Cucurbita maxima	Fruit 24 by 10 inches; rind smooth; unribbed, handsome salmon pink with green belly; flesh 2.5 inches thick, of good texture, and sweet.	NA	1425156	NA	1e-5	1e-5	0.990571	1e-5	0.009399	1	203
+PI_135358	Afghanistan	No. 5049	Cucurbita maxima	NA	NA	496925	NA	1e-5	1e-5	0.99996	1e-5	1e-5	1	206
+G_23034	Japan	Hokkaido Pumpkin	Cucurbita maxima	NA	NA	1743800	Asia	NA	NA	NA	NA	NA	NA	NA
+G_32711	Syria	S029	Cucurbita maxima	NA	Cultivar	4225556	Arab States	NA	NA	NA	NA	NA	NA	NA
+PI_234610	Australia	Turks Cap	Cucurbita maxima	NA	NA	2064843	NA	NA	NA	NA	NA	NA	NA	NA
+PI_196845	Ethiopia	No. 10067	Cucurbita maxima	NA	Cultivar	2483938	Africa	NA	NA	NA	NA	NA	NA	NA
+PI_137884	Iran	Kadu	Cucurbita maxima	Fruit globose, 8 inches in diameter; rind orange red, with rib stripes of salmon; ribs faintly indented; flesh 1 1/4 inches thick, greenish yellow and insipid. PI book claims this acc. is C.Pepo	Cultivar	1287744	Asia	NA	NA	NA	NA	NA	NA	NA
+PI_234608	South Africa	Queensland Blue	Cucurbita maxima	NA	NA	2482873	Africa	NA	NA	NA	NA	NA	NA	NA
+G_25853	Peru	P-8579	Cucurbita maxima	NA	NA	569931	South/Latin America	NA	NA	NA	NA	NA	NA	NA
+G_25854	Peru	P-8587	Cucurbita maxima	NA	Cultivar	3361299	South/Latin America	NA	NA	NA	NA	NA	NA	NA
+G_29517	Nepal	2168b	Cucurbita maxima	NA	Cultivar	1199464	Asia	NA	NA	NA	NA	NA	NA	NA
+PI_318418	United States	Ames 709	Cucurbita maxima	Inbred selection. Vigorous, medium maturing, bush. Fruits oblate 4 by 7 to 9 inches, dark green with light stripes; 3.20 pounds; flesh .5 to 1.25  inches, orange.	NA	1886903	North America	NA	NA	NA	NA	NA	NA	NA
+PI_318419	United States	Ames 710	Cucurbita maxima	Inbred selection. Vigorous, medium maturing, bush. Fruits 6 by 7.5 to 8.25 inches, orange or salmon; 3.21 pounds; flesh 1 to 2 inches, orange.	NA	505064	North America	NA	NA	NA	NA	NA	NA	NA
+PI_318417	United States	Ames 708	Cucurbita maxima	Inbred selection. Vigorous, medium maturing, bush. Fruits many, oblate 5 to 6.5 by 7.75 inches, orange or salmon; 4.20 pounds; flesh .75 to 1.5  inches, orange.	NA	2429089	North America	NA	NA	NA	NA	NA	NA	NA
+G_32227	United States	Golden Eagle	Cucurbita maxima	NA	NA	819437	North America	NA	NA	NA	NA	NA	NA	NA
+PI_318422	United States	Ames 713	Cucurbita maxima	Inbred selection. Vigorous, medium maturing, bush. Fruits many, 6 to 7 by 7 to 8 inches, orange or salmon; 3.55 pounds; flesh 1 to 1.5 inches, orange.	NA	1008450	North America	NA	NA	NA	NA	NA	NA	NA
+G_11299	United States	Giant Walloper	Cucurbita maxima	NA	Cultivar	1855849	North America	NA	NA	NA	NA	NA	NA	NA
+G_30147	United States	Mayo Blusher	Cucurbita maxima	Large, white to light green fruit. Round to elongated shape and blush pink when fully ripe. Apricot flesh is sweet. Good keeper.	Cultivar	2500045	North America	NA	NA	NA	NA	NA	NA	NA
+G_31133	Kazakhstan	Vitamin Sweet	Cucurbita maxima	NA	NA	1677244	Asia	NA	NA	NA	NA	NA	NA	NA
+PI_318415	United States	Ames 706	Cucurbita maxima	Inbred selection. Vigorous, medium maturing, bush. Fruits many, oblate 5 to 6 by 6 to 8 inches, orange or salmon; 3.75 pounds; flesh .75 to 1.5 inches, orange.	NA	1887684	North America	NA	NA	NA	NA	NA	NA	NA
+G_22762	United States	Aristocat	Cucurbita maxima	NA	NA	496352	North America	NA	NA	NA	NA	NA	NA	NA
+PI_325133	United States	Gold Nugget	Cucurbita maxima	Bush with short internodes. Fruits round oblate, 590 grams; shell hard, red orange; flesh dark gold orange, fine texture, no fiber, dense, 3 cm. thick; early; 8 per plant.	NA	2425904	North America	NA	NA	NA	NA	NA	NA	NA
+G_27892	France	Stock No. 7G EMB 91115	Cucurbita maxima	NA	Cultivar	2310952	Europe	NA	NA	NA	NA	NA	NA	NA
+PI_318421	United States	Ames 712	Cucurbita maxima	Inbred selection. Vigorous, medium maturing, bush. Fruits many, oblate 4.5 to 6.5 to 8 inches, dark green; 3.56 pounds; flesh 1 inch, bright orange.	NA	3294033	North America	NA	NA	NA	NA	NA	NA	NA
+G_27894	South Africa	G 27894	Cucurbita maxima	NA	Cultivar	2267329	Africa	NA	NA	NA	NA	NA	NA	NA
+PI_318423	United States	Ames 714	Cucurbita maxima	Inbred selection. Vigorous, medium maturing, bush. Fruits many, oblate 4 to 4.5 by 7.5 to 8 inches, orange or salmon; 3.72 pounds; flesh .75 to 1.5 inches, yellow.	NA	674929	North America	NA	NA	NA	NA	NA	NA	NA
+G_26694	United States	Buttercup	Cucurbita maxima	NA	Cultivar	3691216	North America	NA	NA	NA	NA	NA	NA	NA
+PI_318429	United States	Ames 720	Cucurbita maxima	Male sterile B. Segregates (approximately) 1 normal to 1 male sterile. Vigorous, medium maturing, semibush. Fruits oblate 7 to 9 by 8 to 12 inches, orange-red; 10 pounds; flesh 1.25 to 2.25 inches, orange.	NA	1313777	North America	NA	NA	NA	NA	NA	NA	NA
+PI_224669	United States	Bush Buttercup	Cucurbita maxima	Selected from an unknown PI number in 1938.	NA	2106573	North America	NA	NA	NA	NA	NA	NA	NA
+G_33181	United States	Mammoth King	Cucurbita maxima	Note from Jesse Reil (donor):  Seed was harvested from Mammoth King seed acquired from the late Tom Knocke's collection that originally came from Gurney's Seeds back in the late 1970's - early 1980's.  The plants produced about 2 large pumpkins per vine.  The fruit is show-type; large and standardized with an almost florescent beige color.	Cultivar	1003530	North America	NA	NA	NA	NA	NA	NA	NA
+PI_318425	United States	Ames 716	Cucurbita maxima	Inbred selection. Vigorous, medium maturing, bush. Fruits many, oblate 5 by 7 to 8 inches, orange or salmon; 4.75 pounds; flesh 1 to 2 inches, light orange.	NA	2557711	North America	NA	NA	NA	NA	NA	NA	NA
+G_26544	United States	770 Blue Hubbard	Cucurbita maxima	NA	Cultivar	1693968	North America	NA	NA	NA	NA	NA	NA	NA
+PI_318420	United States	Ames 711	Cucurbita maxima	Inbred selection. Vigorous, medium maturing, bush. Fruits many, oblate 5 to 5.5 by 7.5 to 9 inches, orange or salmon; 4.82 pounds; flesh 1 to 1.5 inches, orange.	NA	3024357	North America	NA	NA	NA	NA	NA	NA	NA
+G_30406	United States	Delica F1	Cucurbita maxima	NA	NA	3053608	North America	NA	NA	NA	NA	NA	NA	NA
+PI_318416	United States	Ames 707	Cucurbita maxima	Inbred selection. Vigorous, medium maturing, bush. Fruits many, oblate 4.5 to 5.5 by 6.5 to 8 inches, orange or salmon; 4.75 pounds; flesh 1 to 1.5 inches, orange.	NA	2006274	North America	NA	NA	NA	NA	NA	NA	NA
+G_30409	United States	Sweet Mama F1	Cucurbita maxima	NA	NA	1520736	North America	NA	NA	NA	NA	NA	NA	NA
+G_32295	United States	Buckskin	Cucurbita maxima	NA	NA	798798	North America	NA	NA	NA	NA	NA	NA	NA
+G_30408	United States	Nutty Delica F1	Cucurbita maxima	NA	NA	1490253	North America	NA	NA	NA	NA	NA	NA	NA
+G_26542	United States	786 Emerald	Cucurbita maxima	NA	NA	1771820	North America	NA	NA	NA	NA	NA	NA	NA
+G_32304	United States	Mountaineer PS Hubbard	Cucurbita maxima	NA	Cultivar	2425931	North America	NA	NA	NA	NA	NA	NA	NA
+G_23449	United States	Buttercup Burgess Strain	Cucurbita maxima	NA	Cultivar	1365677	North America	NA	NA	NA	NA	NA	NA	NA
+PI_318426	United States	Ames 717	Cucurbita maxima	Inbred selection. Vigorous, medium maturing, bush. Fruits many, oblate 5 by 7 to 8 inches, copper; 4.90 pounds; flesh 1 to 2 inches, orange.	NA	1802909	North America	NA	NA	NA	NA	NA	NA	NA
+G_26705	United States	Buttercup	Cucurbita maxima	NA	Cultivar	3449314	North America	NA	NA	NA	NA	NA	NA	NA
+G_27743	United States	Big Max	Cucurbita maxima	NA	Cultivar	3757116	North America	NA	NA	NA	NA	NA	NA	NA
+G_13274	Austria	G 13274	Cucurbita maxima	NA	Cultivar	3680791	Europe	NA	NA	NA	NA	NA	NA	NA
+G_26704	United States	Blue Hubbard	Cucurbita maxima	NA	Cultivar	2021589	North America	NA	NA	NA	NA	NA	NA	NA
+G_32229	United States	Daytona	Cucurbita maxima	NA	NA	2012495	North America	NA	NA	NA	NA	NA	NA	NA
+G_28224	United States	Sweet Mama	Cucurbita maxima	NA	Cultivar	1306840	North America	NA	NA	NA	NA	NA	NA	NA
+G_9187	Japan	Ucike Kuri	Cucurbita maxima	NA	Cultivar	936535	Asia	NA	NA	NA	NA	NA	NA	NA
+G_32228	United States	Black Eagle	Cucurbita maxima	NA	NA	1007519	North America	NA	NA	NA	NA	NA	NA	NA
+G_26105	United States	Buttercup;Burgess Strain	Cucurbita maxima	NA	Cultivar	3198142	North America	NA	NA	NA	NA	NA	NA	NA
+PI_234612	South Africa	Flat Boer	Cucurbita maxima	NA	NA	1234559	Africa	NA	NA	NA	NA	NA	NA	NA
+PI_318427	United States	Ames 718	Cucurbita maxima	Inbred selection. Vigorous, medium maturing, bush. Fruits many, oblate 4 to 5 by 6 to 7.75 inches, copper; 4.47 pounds; flesh 1.5 inches, orange.	NA	1994098	North America	NA	NA	NA	NA	NA	NA	NA
+G_30405	United States	Uchiki Kuri	Cucurbita maxima	NA	NA	3608318	North America	NA	NA	NA	NA	NA	NA	NA
+G_28106	Mexico	G 28106	Cucurbita maxima	NA	Cultivar	2182187	South/Latin America	NA	NA	NA	NA	NA	NA	NA
+G_28472	Brazil	Varzea Alegre	Cucurbita maxima	NA	Cultivar	2417469	South/Latin America	NA	NA	NA	NA	NA	NA	NA
+G_29515	Nepal	2167a	Cucurbita maxima	NA	Cultivar	2944207	Asia	NA	NA	NA	NA	NA	NA	NA
+G_30407	United States	Japan Cup F1	Cucurbita maxima	NA	NA	1790941	North America	NA	NA	NA	NA	NA	NA	NA
+G_31832	Reunion	G 31832	Cucurbita maxima	NA	Cultivar	724081	NA	NA	NA	NA	NA	NA	NA	NA
