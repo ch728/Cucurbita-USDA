@@ -14,7 +14,7 @@ mos <- rbind(mos, mos_stub)
 max <- rbind(max, max_stub)
 
 # Make plot
-png("supplemental/01_supfig.png", width=800, height=800)
+png("supplemental/01_supfig.png")
 par(mfrow=c(2,2))
 CMplot(pepo, type="p", plot.type="d", main="C. pepo", file.output=F)
 mtext("a.",3, cex=2, at=c(0,3), font=2, line=2) 

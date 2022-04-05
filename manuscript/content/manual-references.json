@@ -1,22 +1,49 @@
 [
 {
-  "id": "url:https://github.com/manubot/rootstock",
-  "type": "webpage",
-  "URL": "https://github.com/manubot/rootstock",
-  "title": "manubot/rootstock GitHub repository",
-  "container-title": "GitHub",
-  "issued": {
-    "date-parts": [
-      [
-        2019
-      ]
-    ]
-  },
+  "id": "asreml-r",
+  "type": "article-journal",
+  "title": "ASReml-R Reference Manual Version 4",
+  "container-title": "VSN International Ltd",
+  "URL": "https://asreml.kb.vsni.co.uk/wp-content/uploads/sites/3/ASReml-R-Reference-Manual-4.pdf",
   "author": [
-    {
-      "given": "Daniel",
-      "family": "Himmelstein"
-    }
-  ]
+              {
+		"family": "Butler",
+		"given": "David"
+	      },
+	      { 
+	       "family": "Brian",
+	       "given": "Cullis"
+	      },
+	      {
+	       "family": "Gilmour",
+	       "given": "Arthur"
+	      },
+	      {
+	       "family": "Brian",
+	       "given": "Gogel"
+	      },
+	      { 
+	        "family":"Robin",
+	        "given" : "Thompson"
+	      }
+             ],	
+  "issued": {
+	      "literal": "2018"
+	    },
+	   "accessed": {
+	    "date-parts": [
+			    [
+			      "2018"
+			    ]
+			]
+		}
 }
+
 ]
+
+
+
+
+
+
+
