@@ -29,7 +29,8 @@ cov.plt <- ggplot(allCov, aes(x=Iteration, y=Coverage,
 		  ggtitle("b.") +
 		  theme_bw(base_size=18) +
 		  theme(panel.grid=element_blank(),
-			legend.title=element_blank())
+			legend.title=element_blank(),
+		        plot.title=element_text(face="bold"))
 
 # Make pca coverage figure
 pepoPCA$include <- pepoPCA$gid %in% cpepo$Sample_name
@@ -54,9 +55,10 @@ pc.plt <- ggplot(allPCA, aes(x=PC1, y=PC2, color=include)) +
       	      legend.position="none",
       	      axis.text=element_blank(),
       	      axis.ticks=element_blank(),
-      	      strip.text=element_text(face="italic"))
+      	      strip.text=element_text(face="italic"),
+	      plot.title=element_text(face="bold"))
 
 core.plt <- grid.arrange(pc.plt, cov.plt,
 			layout_matrix=rbind(c(1,1,1,1),
 					    c(2,2,2,NA)))
-ggsave("supplemental/03_supfig.png", core.plt, "png", height=6, width=9)
+ggsave("supplemental/03_supfig.png", core.plt, "png", height=6, width=7)
