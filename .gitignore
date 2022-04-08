@@ -1,3 +1,4 @@
 data/03_geno/data/raw
 data/03_geno/data/filtered
-
+slurm*
+Rplot*

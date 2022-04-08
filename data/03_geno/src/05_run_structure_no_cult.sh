@@ -6,15 +6,15 @@ admix(){
 
 export -f admix
 
-parallel -j 5  admix data/filtered/cpepo_admix_nocult.bed {} data/admix/cpepo ::: $(seq 1 20) 
+parallel -j 20  admix data/filtered/cpepo_admix_nocult.bed {} data/admix/cpepo ::: $(seq 1 20) 
 mv *.Q data/admix/cpepo/
 mv *.P data/admix/cpepo/
 
-parallel -j 5  admix data/filtered/cmoschata_admix_nocult.bed {} data/admix/cmoschata ::: $(seq 1 20) 
+parallel -j 20  admix data/filtered/cmoschata_admix_nocult.bed {} data/admix/cmoschata ::: $(seq 1 20) 
 mv *.Q data/admix/cmoschata/
 mv *.P data/admix/cmoschata/
 
-parallel -j 5  admix data/filtered/cmaxima_admix_nocult.bed {} data/admix/cmaxima ::: $(seq 1 20) 
+parallel -j 20  admix data/filtered/cmaxima_admix_nocult.bed {} data/admix/cmaxima ::: $(seq 1 20) 
 mv *.Q data/admix/cmaxima/
 mv *.P data/admix/cmaxima/
 
