@@ -1,0 +1,30 @@
+****                   ADMIXTURE Version 1.3.0                  ****
+****                    Copyright 2008-2015                     ****
+****           David Alexander, Suyash Shringarpure,            ****
+****                John  Novembre, Ken Lange                   ****
+****                                                            ****
+****                 Please cite our paper!                     ****
+****   Information at www.genetics.ucla.edu/software/admixture  ****
+
+Parallel execution requested.  Will use 2 threads.
+Cross-validation will be performed.  Folds=5.
+Random seed: 43
+Point estimation method: Block relaxation algorithm
+Convergence acceleration algorithm: QuasiNewton, 3 secant conditions
+Point estimation will terminate when objective function delta < 0.0001
+Estimation of standard errors disabled; will compute point estimates only.
+Size of G: 308x1017
+Performing five EM steps to prime main algorithm
+1 (EM) 	Elapsed: 0.012	Loglikelihood: -240962	(delta): 309287
+2 (EM) 	Elapsed: 0.016	Loglikelihood: -240962	(delta): 0
+3 (EM) 	Elapsed: 0.015	Loglikelihood: -240962	(delta): 0
+4 (EM) 	Elapsed: 0.014	Loglikelihood: -240962	(delta): 0
+5 (EM) 	Elapsed: 0.013	Loglikelihood: -240962	(delta): 0
+Initial loglikelihood: -240962
+Starting main algorithm
+1 (QN/Block) 	Elapsed: 0.042	Loglikelihood: -240962	(delta): 0
+Summary: 
+Converged in 1 iterations (0.142 sec)
+Loglikelihood: -240961.880978
+CV error (K=1): 0.65281
+Writing output files.
