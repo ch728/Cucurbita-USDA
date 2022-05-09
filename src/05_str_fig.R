@@ -76,8 +76,8 @@ make_str <- function(s, lbl, n){
                           left=textGrob(n,
 					rot=90,
 					gp=gpar(fontsize=18,
-						fontface="italic",
-						fontface="bold")))
+						fontface="italic"
+						)))
   sGrp$PI <- rownames(sGrp)
   return(list(str.plt, sGrp, sOrd))
 }
@@ -97,17 +97,17 @@ pepoMeta <- read_delim("data/01_meta/data/cpepo_manifest.tsv", delim="\t")
 mosMeta <- read_delim("data/01_meta/data/cmoschata_manifest.tsv", delim="\t")
 maxMeta <- read_delim("data/01_meta/data/cmaxima_manifest.tsv", delim="\t")
 
-pepoStr <- read_delim("data/03_geno/data/admix/cpepo/cpepo_admix_nocult.6.Q",
+pepoStr <- read_delim("data/03_geno/data/admix/cpepo/cpepo_admix_nocult.5.Q",
                       col_names=F)
 pepoLbl <- read_delim("data/03_geno/data/filtered/cpepo_admix_nocult.fam",
                       col_names=F)
 
-mosStr <- read_delim("data/03_geno/data/admix/cmoschata/cmoschata_admix_nocult.6.Q",
+mosStr <- read_delim("data/03_geno/data/admix/cmoschata/cmoschata_admix_nocult.5.Q",
                       col_names=F)
 mosLbl <- read_delim("data/03_geno/data/filtered/cmoschata_admix_nocult.fam",
                       col_names=F)
 
-maxStr <- read_delim("data/03_geno/data/admix/cmaxima/cmaxima_admix_nocult.3.Q",
+maxStr <- read_delim("data/03_geno/data/admix/cmaxima/cmaxima_admix_nocult.5.Q",
                    col_names=F)
 maxLbl <- read_delim("data/03_geno/data/filtered/cmaxima_admix_nocult.fam",
                       col_names=F)
