@@ -36,6 +36,9 @@ pepo <- read_excel("data/raw/C_pepo_GBS_accession.xlsx")
 moschata <- read_excel("data/raw/C_moschata_GBS_accession.xlsx")
 maxima <- read_excel("data/raw/C_maxima_GBS_accession.xlsx")
 
+pepoEx <- scan("data/pepo_remove.txt", what="character")
+maximaEx <- scan("data/maxima_remove.txt", what="character")
+
 # Rename columns
 colnames(pepo) <- c("accession_id", "accession_name", "taxonomy", "country", "narrative", "cultivar_class", "improvement_status")
 
@@ -59,12 +62,35 @@ pepo <- merge(pepo, countryDat, by="country", sort=F, all.x=T)
 moschata <- merge(moschata, countryDat, by="country", sort=F, all.x=T)
 maxima <- merge(maxima, countryDat, by="country", sort=F, all.x=T)
 
-# Write out new files as tab-delimited
+# Write out new manifest files as tab-delimited
 write_delim(pepo, "data/cpepo_manifest.tsv", delim="\t")
 write_delim(moschata, "data/cmoschata_manifest.tsv", delim="\t")
 write_delim(maxima, "data/cmaxima_manifest.tsv", delim="\t")
 
+# Write out cultivar files
+pepoCult <- pepo %>% 
+                filter(improvement_status == "Breeding material" |
+                       improvement_status == "Cultivar",
+                        !(accession_id %in% pepoEx)) %>%
+                select(accession_id)
+pepoCult$copy <- pepoCult$accession_id
 
+moschataCult <- moschata %>% 
+                filter(improvement_status == "Breeding material" |
+                       improvement_status == "Cultivar") %>%
+                select(accession_id)
+moschataCult$copy <- moschataCult$accession_id
+
+maximaCult <- maxima %>% 
+                filter(improvement_status == "Breeding" |
+                       improvement_status == "Cultivar",
+                       !(accession_id %in% maximaEx)) %>%
+                select(accession_id)
+maximaCult$copy <- maximaCult$accession_id
+
+write_delim(pepoCult, "data/cpepo_cultivars.txt", col_names=F)
+write_delim(moschataCult, "data/cmoschata_cultivars.txt", col_names=F)
+write_delim(maximaCult, "data/cmaxima_cultivars.txt",  col_names=F)
 
 
 

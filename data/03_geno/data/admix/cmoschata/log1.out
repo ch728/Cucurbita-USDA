@@ -13,18 +13,18 @@ Point estimation method: Block relaxation algorithm
 Convergence acceleration algorithm: QuasiNewton, 3 secant conditions
 Point estimation will terminate when objective function delta < 0.0001
 Estimation of standard errors disabled; will compute point estimates only.
-Size of G: 284x6754
+Size of G: 286x6754
 Performing five EM steps to prime main algorithm
-1 (EM) 	Elapsed: 0.068	Loglikelihood: -1.6019e+06	(delta): 1.79169e+06
-2 (EM) 	Elapsed: 0.081	Loglikelihood: -1.6019e+06	(delta): 0
-3 (EM) 	Elapsed: 0.07	Loglikelihood: -1.6019e+06	(delta): 0
-4 (EM) 	Elapsed: 0.077	Loglikelihood: -1.6019e+06	(delta): 0
-5 (EM) 	Elapsed: 0.077	Loglikelihood: -1.6019e+06	(delta): 0
-Initial loglikelihood: -1.6019e+06
+1 (EM) 	Elapsed: 0.059	Loglikelihood: -1.61324e+06	(delta): 1.79188e+06
+2 (EM) 	Elapsed: 0.056	Loglikelihood: -1.61324e+06	(delta): 0
+3 (EM) 	Elapsed: 0.054	Loglikelihood: -1.61324e+06	(delta): 0
+4 (EM) 	Elapsed: 0.054	Loglikelihood: -1.61324e+06	(delta): 0
+5 (EM) 	Elapsed: 0.054	Loglikelihood: -1.61324e+06	(delta): 0
+Initial loglikelihood: -1.61324e+06
 Starting main algorithm
-1 (QN/Block) 	Elapsed: 0.2	Loglikelihood: -1.6019e+06	(delta): 0
+1 (QN/Block) 	Elapsed: 0.369	Loglikelihood: -1.61324e+06	(delta): 0
 Summary: 
-Converged in 1 iterations (0.716 sec)
-Loglikelihood: -1601903.427675
-CV error (K=1): 0.72744
+Converged in 1 iterations (0.793 sec)
+Loglikelihood: -1613239.901771
+CV error (K=1): 0.72609
 Writing output files.

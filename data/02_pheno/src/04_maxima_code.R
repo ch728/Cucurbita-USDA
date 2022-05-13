@@ -12,17 +12,30 @@ maxima$or_flesh[grepl("5", maxima$or_flesh)] <- "1"
 maxima$or_flesh[which(maxima$or_flesh != "1")] <- "0"
 maxima$or_flesh <- as.numeric(maxima$or_flesh)
 
-maxima$mosaic <- gsub("\\(.*\\)","", maxima$mosaic)
-maxima$mosaic[grepl("1", maxima$mosaic)] <- "1"
-maxima$mosaic[grepl("2", maxima$mosaic)] <- "2"
-maxima$mosaic[grepl("3", maxima$mosaic)] <- "3"
-maxima$mosaic[grepl("4", maxima$mosaic)] <- "4"
-maxima$mosaic[grepl("5", maxima$mosaic)] <- "5"
-maxima$mosaic[grepl("6", maxima$mosaic)] <- "6"
-maxima$mosaic[grepl("7", maxima$mosaic)] <- "7"
-maxima$mosaic[grepl("8", maxima$mosaic)] <- "8"
-maxima$mosaic[grepl("9", maxima$mosaic)] <- "9"
-maxima$mosaic <- as.numeric(maxima$mosaic)
+maxima$watermelon_mosaic <- gsub("\\(.*\\)","", maxima$watermelon_mosaic)
+maxima$watermelon_mosaic[grepl("1", maxima$watermelon_mosaic)] <- "1"
+maxima$watermelon_mosaic[grepl("2", maxima$watermelon_mosaic)] <- "2"
+maxima$watermelon_mosaic[grepl("3", maxima$watermelon_mosaic)] <- "3"
+maxima$watermelon_mosaic[grepl("4", maxima$watermelon_mosaic)] <- "4"
+maxima$watermelon_mosaic[grepl("5", maxima$watermelon_mosaic)] <- "5"
+maxima$watermelon_mosaic[grepl("6", maxima$watermelon_mosaic)] <- "6"
+maxima$watermelon_mosaic[grepl("7", maxima$watermelon_mosaic)] <- "7"
+maxima$watermelon_mosaic[grepl("8", maxima$watermelon_mosaic)] <- "8"
+maxima$watermelon_mosaic[grepl("9", maxima$watermelon_mosaic)] <- "9"
+maxima$watermelon_mosaic <- as.numeric(maxima$watermelon_mosaic)
+
+
+maxima$cuc_mosaic <- gsub("\\(.*\\)","", maxima$cuc_mosaic)
+maxima$cuc_mosaic[grepl("1", maxima$cuc_mosaic)] <- "1"
+maxima$cuc_mosaic[grepl("2", maxima$cuc_mosaic)] <- "2"
+maxima$cuc_mosaic[grepl("3", maxima$cuc_mosaic)] <- "3"
+maxima$cuc_mosaic[grepl("4", maxima$cuc_mosaic)] <- "4"
+maxima$cuc_mosaic[grepl("5", maxima$cuc_mosaic)] <- "5"
+maxima$cuc_mosaic[grepl("6", maxima$cuc_mosaic)] <- "6"
+maxima$cuc_mosaic[grepl("7", maxima$cuc_mosaic)] <- "7"
+maxima$cuc_mosaic[grepl("8", maxima$cuc_mosaic)] <- "8"
+maxima$cuc_mosaic[grepl("9", maxima$cuc_mosaic)] <- "9"
+maxima$cuc_mosaic <- as.numeric(maxima$cuc_mosaic)
 
 maxima$maturity <- as.numeric(maxima$maturity)
 
@@ -130,7 +143,7 @@ maxima$gn_fruit[which(maxima$gn_fruit != "1")] <- "0"
 maxima$gn_fruit <- as.numeric(maxima$gn_fruit)
 
 # Output final format
-maxima <- maxima[, c("accession_id", "len", "set", "diam", "mosaic", 
+maxima <- maxima[, c("accession_id", "len", "set", "diam", "watermelon_mosaic", "cuc_mosaic", 
 		     "maturity", "unif", "pm", "plant_habit",
 		     "vig", "or_flesh", "rib", "fruit_spot",
 		     "gray_fruit", "or_fruit", "gn_fruit")]
