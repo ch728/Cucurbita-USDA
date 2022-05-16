@@ -1,31 +1,114 @@
 library(GENESIS)
+library(SNPRelate)
+library(GWASTools)
 
 # Functions
+run_gwas <- function(genoDf, quant, logistic){
+  res <- list() 
+  for(trait in quant){
+     nullMod <- fitNullModel(genoDf, outcome=trait,
+                             covars=c("PC1", "PC2"),
+                             family=gaussian)
+     genoIterator <- GenotypeBlockIterator(genoDf)
+     assoc <- assocTestSingle(genoIterator, null.model=nullMod)
+     assoc <- assoc[which(assoc$chr !="U"),]
+     res[[length(res) + 1]] <- assoc
+  }
 
-run_gwas <- function(geno, pheno, k, quant, logistic){
-
-  res <- list()
+  for(trait in logistic){
+    nullMod <- fitNullModel(genoDf, outcome=trait,
+                            covars=c("PC1", "PC2"),
+                            family=binomial)
+    genoIterator <- GenotypeBlockIterator(genoDf)
+    assoc <- assocTestSingle(genoIterator, null.model=nullMod)
+    assoc <- assoc[which(assoc$chr != "U"),]
+    res[[length(res) + 1]] <- assoc
+  }
+  return(res)
 } 
+
 # Read in pheno and geno
-pepoPheno <- read.csv("data/02_pheno/data/cpepo_coded.csv",
+pepoPheno <- read.csv("../02_pheno/data/cpepo_coded.csv",
 		      stringsAsFactors=F)
-mosPheno <- read.csv("data/02_pheno/data/cmoschata_coded.csv",
+mosPheno <- read.csv("../02_pheno/data/cmoschata_coded.csv",
 		     stringsAsFactors=F)
-maxPheno <- read.csv("data/02_pheno/data/cmaxima_coded.csv",
+maxPheno <- read.csv("../02_pheno/data/cmaxima_coded.csv",
 		     stringsAsFactors=F) 
 
-pepoGeno <- GdsGenotypeReader("data/03_geno/filtered/")
-mosGeno <- GdsGenotypeReader("data/03_geno/filtered/")
-maxGeno <- GdsGenotypeReader("data/03_geno/filtered/")  
+pepoGeno <- snpgdsOpen("../03_geno/data/filtered/cpepo_filt_imp.gds")
+mosGeno <- snpgdsOpen("../03_geno/data/filtered/cmoschata_filt_imp.gds")
+maxGeno <- snpgdsOpen("../03_geno/data/filtered/cmaxima_filt_imp.gds")  
+# Read in pcs
+pepoPC <- read.csv("../03_geno/data/pca/pepo_pca.csv")
+colnames(pepoPC)[1] <- "scanID"
+mosPC <- read.csv("../03_geno/data/pca/moschata_pca.csv")
+colnames(mosPC)[1] <- "scanID"
+maxPC <- read.csv("../03_geno/data/pca/maxima_pca.csv")
+colnames(maxPC)[1] <- "scanID"
 
-# Get pcas
+# Close connections
+snpgdsClose(pepoGeno)
+snpgdsClose(mosGeno)
+snpgdsClose(maxGeno)
 
-# Get relationship matrices
+# Create Geno Objects
+pepoGds <- GdsGenotypeReader("../03_geno/data/filtered/cpepo_filt_imp.gds") 
 
-# Create ScanAnnotationDataFrame Object
+mosGds <- GdsGenotypeReader("../03_geno/data/filtered/cmoschata_filt_imp.gds") 
+
+maxGds <- GdsGenotypeReader("../03_geno/data/filtered/cmaxima_filt_imp.gds") 
+
+# Get annotation dataframes
+colnames(pepoPheno)[1] <- "scanID"
+pepoAnno <- merge(pepoPC, pepoPheno,all.x=T, by="scanID", sort=F) 
+pepoAnno <- pepoAnno[match(getScanID(pepoGds), pepoAnno$scanID),]
+pepoAnno <- ScanAnnotationDataFrame(pepoAnno)
+
+colnames(mosPheno)[1] <- "scanID"
+mosAnno <- merge(mosPC, mosPheno, all.x=T,  by="scanID", sort=F) 
+mosAnno <- mosAnno[match(getScanID(mosGds), mosAnno$scanID),]
+mosAnno <- ScanAnnotationDataFrame(mosAnno)
+
+colnames(maxPheno)[1] <- "scanID"
+maxAnno <- merge(maxPC, maxPheno, all.x=T, by="scanID", sort=F) 
+maxAnno <- maxAnno[match(getScanID(maxGds), maxAnno$scanID),]
+maxAnno <- ScanAnnotationDataFrame(maxAnno)
+
+# Create GenotypeData object
+pepoGenoDat <- GenotypeData(pepoGds,scanAnnot=pepoAnno)
+mosGenoDat <- GenotypeData(mosGds,scanAnnot=mosAnno)
+maxGenoDat <- GenotypeData(maxGds,scanAnnot=maxAnno)
 
 # Lists of quant and logistic traits for each species
+pepoQ <- c("seed_wt", "max_vig", "min_vig", "max_width",
+           "width_min", "len_max", "len_min", "flesh_max",
+            "flesh_min", "sb_nymph", "sb_adult", "cuc_inj")
+pepoL <- c("or_flesh", "yl_flesh", "yl_fruit", "tan_fruit",
+           "gn_fruit", "globe_fruit", "oblong_fruit", 
+           "smooth_fruit", "rib_fruit", "spec_fruit", 
+           "mot_fruit", "solid_fruit", "plant_type", "plant_type2")
 
+mosQ <- c("fruit_len", "fruit_diam")
 
+mosL <- c("maturity", "or_fruit", "smooth_fruit")
+
+maxQ <- c("len", "set", "diam", "watermelon_mosaic",
+          "cuc_mosaic", "maturity", "unif", "pm","vig",
+           "rib", "fruit_spot")
+maxL <- c("plant_habit", "or_flesh", 
+          "gray_fruit", "or_fruit", "gn_fruit")
+
+# Run Gwas for each species
+pepoGwas <- run_gwas(pepoGenoDat, quant=pepoQ, logistic=pepoL)
+names(pepoGwas) <- c(pepoQ, pepoL)
+mosGwas <- run_gwas(mosGenoDat, quant=mosQ, logistic=mosL)
+names(mosGwas) <- c(mosQ, mosL)
+maxGwas <- run_gwas(maxGenoDat, quant=maxQ, logistic=maxL)
+names(maxGwas) <- c(maxQ, maxL)
+
+# Save Gwas results as R objects
+saveRDS(pepoGwas, "data/pepoGwas.Rdata")
+saveRDS(mosGwas, "data/mosGwas.Rdata")
+saveRDS(maxGwas, "data/maxGwas.Rdata") 
 
 
