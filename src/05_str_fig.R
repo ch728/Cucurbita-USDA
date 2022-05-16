@@ -51,17 +51,17 @@ make_str <- function(s, lbl, n){
     x <- min(tmp$pos)
     xend <- x
     mid <- mean(c(min(tmp$pos), max(tmp$po)))
-    grp_txt <- rbind(grp_txt, data.frame(x=mid, y=-0.033, label=paste(i)))
+    grp_txt <- rbind(grp_txt, data.frame(x=mid, y=-0.05, label=paste(i)))
     grp_mrk <- rbind(grp_mrk, data.frame(x=x, xend=xend, y=0.033, yend=-0.033))
   }
   # Final plot
   plt <- ggplot(sGathered) +
 	       geom_bar(aes(x=PI, y=value, fill=pop), stat="identity", width=1) +
                geom_segment(aes(x=x,xend=xend,y=y,yend=yend),
-		            data=grp_mrk, size=2) +
+		            data=grp_mrk, size=0.75) +
                geom_text(aes(x=x, y=y, label=label),
 		            data=grp_txt, fontface="bold",
-		            size=4) +
+		            size=3) +
 	       coord_cartesian(xlim=c(-3, nrow(sOrd) + 3)) +
 	       scale_fill_brewer(palette="Set3") +
 	       theme_bw(base_size=18) +
@@ -97,17 +97,17 @@ pepoMeta <- read_delim("data/01_meta/data/cpepo_manifest.tsv", delim="\t")
 mosMeta <- read_delim("data/01_meta/data/cmoschata_manifest.tsv", delim="\t")
 maxMeta <- read_delim("data/01_meta/data/cmaxima_manifest.tsv", delim="\t")
 
-pepoStr <- read_delim("data/03_geno/data/admix/cpepo/cpepo_admix_nocult.5.Q",
+pepoStr <- read_delim("data/03_geno/data/admix/cpepo/cpepo_admix_nocult.10.Q",
                       col_names=F)
 pepoLbl <- read_delim("data/03_geno/data/filtered/cpepo_admix_nocult.fam",
                       col_names=F)
 
-mosStr <- read_delim("data/03_geno/data/admix/cmoschata/cmoschata_admix_nocult.5.Q",
+mosStr <- read_delim("data/03_geno/data/admix/cmoschata/cmoschata_admix_nocult.6.Q",
                       col_names=F)
 mosLbl <- read_delim("data/03_geno/data/filtered/cmoschata_admix_nocult.fam",
                       col_names=F)
 
-maxStr <- read_delim("data/03_geno/data/admix/cmaxima/cmaxima_admix_nocult.5.Q",
+maxStr <- read_delim("data/03_geno/data/admix/cmaxima/cmaxima_admix_nocult.6.Q",
                    col_names=F)
 maxLbl <- read_delim("data/03_geno/data/filtered/cmaxima_admix_nocult.fam",
                       col_names=F)
