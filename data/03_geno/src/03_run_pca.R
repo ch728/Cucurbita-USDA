@@ -1,4 +1,6 @@
 library(SNPRelate)
+library(rrBLUP)
+library(matrixcalc)
 
 
 # Functions
@@ -19,6 +21,13 @@ fmt_dos <- function(dos){
   tdos <- t(dos$genotype)
   colnames(tdos) <- dos$sample.id 
   return(tdos)
+}
+
+getKin <- function(dos){
+  dosMat <- as.matrix(dos$genotype) - 1
+  rownames(dosMat) <- dos$sample.id
+  k <- A.mat(dosMat)
+  return(k)
 }
 
 # Run PCA
@@ -49,6 +58,21 @@ write.csv(mosRes[[2]], "data/pca/moschata_var.csv", row.names=F, quote=F)
 maxRes <- fmt_pca(maxPCA)
 write.csv(maxRes[[1]], "data/pca/maxima_pca.csv", row.names=F, quote=F)
 write.csv(maxRes[[2]], "data/pca/maxima_var.csv", row.names=F, quote=F)
+
+# Ouput kinship matrices
+pepoK <- getKin(pepoDos)
+mosK <- getKin(mosDos)
+maxK <- getKin(maxDos) 
+
+# Bend matrix slightly to make positive definite 
+diag(pepoK) <- diag(pepoK) + 0.000001
+diag(mosK) <- diag(mosK) + 0.000001
+diag(maxK) <- diag(maxK) + 0.000001
+
+# Write out kinship mats
+write.csv(pepoK,"data/kinship/pepoK.mat", quote=F)
+write.csv(mosK, "data/kinship/mosK.mat", quote=F)
+write.csv(maxK, "data/kinship/maxK.mat", quote=F)
 
 # Output files for genocore
 pepoCore <- fmt_dos(pepoDos)

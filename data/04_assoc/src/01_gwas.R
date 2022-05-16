@@ -3,25 +3,27 @@ library(SNPRelate)
 library(GWASTools)
 
 # Functions
-run_gwas <- function(genoDf, quant, logistic){
+run_gwas <- function(genoDf, K,  quant, logistic){
   res <- list() 
   for(trait in quant){
      nullMod <- fitNullModel(genoDf, outcome=trait,
                              covars=c("PC1", "PC2"),
+                             cov.mat=K,
                              family=gaussian)
      genoIterator <- GenotypeBlockIterator(genoDf)
      assoc <- assocTestSingle(genoIterator, null.model=nullMod)
-     assoc <- assoc[which(assoc$chr !="U"),]
+     assoc$chr[which(assoc$chr == "U")] <- 0
      res[[length(res) + 1]] <- assoc
   }
 
   for(trait in logistic){
     nullMod <- fitNullModel(genoDf, outcome=trait,
                             covars=c("PC1", "PC2"),
+                            cov.mat=K,
                             family=binomial)
     genoIterator <- GenotypeBlockIterator(genoDf)
     assoc <- assocTestSingle(genoIterator, null.model=nullMod)
-    assoc <- assoc[which(assoc$chr != "U"),]
+    assoc$chr[which(assoc$chr == "U")] <- 0
     res[[length(res) + 1]] <- assoc
   }
   return(res)
@@ -35,9 +37,9 @@ mosPheno <- read.csv("../02_pheno/data/cmoschata_coded.csv",
 maxPheno <- read.csv("../02_pheno/data/cmaxima_coded.csv",
 		     stringsAsFactors=F) 
 
-pepoGeno <- snpgdsOpen("../03_geno/data/filtered/cpepo_filt_imp.gds")
-mosGeno <- snpgdsOpen("../03_geno/data/filtered/cmoschata_filt_imp.gds")
-maxGeno <- snpgdsOpen("../03_geno/data/filtered/cmaxima_filt_imp.gds")  
+# Read in kinship matrices
+pepoK <- read.csv("../03_geno/data/kinship/pepoK.mat", row.names=1)
+
 # Read in pcs
 pepoPC <- read.csv("../03_geno/data/pca/pepo_pca.csv")
 colnames(pepoPC)[1] <- "scanID"
@@ -45,11 +47,6 @@ mosPC <- read.csv("../03_geno/data/pca/moschata_pca.csv")
 colnames(mosPC)[1] <- "scanID"
 maxPC <- read.csv("../03_geno/data/pca/maxima_pca.csv")
 colnames(maxPC)[1] <- "scanID"
-
-# Close connections
-snpgdsClose(pepoGeno)
-snpgdsClose(mosGeno)
-snpgdsClose(maxGeno)
 
 # Create Geno Objects
 pepoGds <- GdsGenotypeReader("../03_geno/data/filtered/cpepo_filt_imp.gds") 
@@ -99,16 +96,17 @@ maxL <- c("plant_habit", "or_flesh",
           "gray_fruit", "or_fruit", "gn_fruit")
 
 # Run Gwas for each species
-pepoGwas <- run_gwas(pepoGenoDat, quant=pepoQ, logistic=pepoL)
+pepoK <- as.matrix(pepoK[getScanID(pepoGds), getScanID(pepoGds)])
+pepoGwas <- run_gwas(pepoGenoDat, pepoK, quant=pepoQ, logistic=pepoL)
 names(pepoGwas) <- c(pepoQ, pepoL)
-mosGwas <- run_gwas(mosGenoDat, quant=mosQ, logistic=mosL)
-names(mosGwas) <- c(mosQ, mosL)
-maxGwas <- run_gwas(maxGenoDat, quant=maxQ, logistic=maxL)
-names(maxGwas) <- c(maxQ, maxL)
+#mosGwas <- run_gwas(mosGenoDat, quant=mosQ, logistic=mosL)
+#names(mosGwas) <- c(mosQ, mosL)
+#maxGwas <- run_gwas(maxGenoDat, quant=maxQ, logistic=maxL)
+#names(maxGwas) <- c(maxQ, maxL)
 
 # Save Gwas results as R objects
 saveRDS(pepoGwas, "data/pepoGwas.Rdata")
-saveRDS(mosGwas, "data/mosGwas.Rdata")
-saveRDS(maxGwas, "data/maxGwas.Rdata") 
+#saveRDS(mosGwas, "data/mosGwas.Rdata")
+#saveRDS(maxGwas, "data/maxGwas.Rdata") 
 
 
