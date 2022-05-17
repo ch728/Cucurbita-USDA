@@ -15,8 +15,8 @@ all <- arrange(all, species, k)
 
 
 # Create figure
-anno <- data.frame(x=c(6,6,8),
-		   y=c(0.62228, 0.63824, 0.64663),
+anno <- data.frame(x=c(6,6,10),
+		   y=c(0.62228, 0.63824, 0.64416),
                    species=c("C. maxima", "C. moschata", "C. pepo"))
 cv.plt <- ggplot(all, aes(x=k,y=error)) +
 	         geom_point(size=3) +

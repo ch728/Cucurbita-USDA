@@ -40,7 +40,7 @@ genesis_man <- function(assoc, label, col=c("#B31B1B", "#7D868C")){
     axis <- get_manhatten_axis(assoc)
     n.chrom <- length(unique(assoc$chrom))
     sig.thresh <- -log10(0.05/nrow(assoc))
-    manhatten <- ggplot2::ggplot(assoc, aes(x=index, y=log, col=as.factor(chrom))) +
+    manhatten <- ggplot2::ggplot(assoc, aes(x=index, y=log, col=factor(chrom, levels=0:20))) +
     	                         geom_point() +
     	                         scale_colour_manual(values=rep(col, 
     	                                             ceiling(n.chrom/2))[1:n.chrom]) +

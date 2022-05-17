@@ -92,5 +92,31 @@ write_delim(pepoCult, "data/cpepo_cultivars.txt", col_names=F)
 write_delim(moschataCult, "data/cmoschata_cultivars.txt", col_names=F)
 write_delim(maximaCult, "data/cmaxima_cultivars.txt",  col_names=F)
 
+# Write out cultivar classification files
+pepoClass <- pepo %>% 
+                  filter(!is.na(cultivar_class)) %>%
+		  select(accession_id, cultivar_class) %>%
+		  rename(name=accession_id,
+			 class=cultivar_class)
 
+mosClass <- moschata %>%
+	            filter(!is.na(cultivar_class)) %>%
+		    select(accession_id, cultivar_class)%>%
+		    rename(name=accession_id,
+			   class=cultivar_class)
+
+maxClass <- maxima %>%
+	            filter(!is.na(cultivar_class)) %>%
+		    select(accession_id, cultivar_class) %>%
+		    rename(name=accession_id,
+			   class=cultivar_class)
+
+write.csv(pepoClass, "data/cpepo_classifications.csv",
+	  row.names=F, quote=F)
+
+write.csv(mosClass, "data/cmoschata_classifications.csv",
+	  row.names=F, quote=F)
+
+write.csv(maxClass, "data/cmaxima_classifications.csv",
+	  row.names=F, quote=F)
 
