@@ -44,12 +44,17 @@ combMax <- grid.arrange(rib$man, gnm$man,
                         top=textGrob("c.", x=0.05,
 			             gp=gpar(fontsize=20,fontface="bold")))
 allMan <- grid.arrange(combPepo, combMos, combMax,
-		       layout_matrix=rbind(c(1,1),
-					   c(1,1),
-		                           c(1,1),
-					   c(2,3),
-		                           c(NA,3)))
-ggsave("figures/04_fig.png", allMan, "png", height=14, width=10)
+		       layout_matrix=rbind(c(1,1,2,3),
+					   c(1,1,NA,3),
+		                           c(1,1,NA,NA)),
+                       left=textGrob("-log10(p)",
+				     rot=90,
+				     gp=gpar(fontsize=20,
+					  fontface="bold")),
+		       bottom=textGrob("Chromosomes (0-20)",
+				       gp=gpar(fontsize=20,
+					    fontface="bold")))
+ggsave("figures/04_fig.png", allMan, "png", height=8, width=10)
 
 # Create combined qq
 
@@ -72,11 +77,16 @@ combMax <- grid.arrange(rib$qq, gnm$qq,
 					    c(NA)),
                         top=textGrob("c.", x=0.05,
 			             gp=gpar(fontsize=20,fontface="bold")))
-allMan <- grid.arrange(combPepo, combMos, combMax,
-		       layout_matrix=rbind(c(1,1),
-					   c(1,1),
-		                           c(1,1),
-					   c(2,3),
-		                           c(NA,3)))
-ggsave("figures/04_fig.png", allMan, "png", height=14, width=10)
+allqq <- grid.arrange(combPepo, combMos, combMax,
+		       layout_matrix=rbind(c(1,1,2,3),
+					   c(1,1,NA,3),
+		                           c(1,1,NA,NA)),
+                       bottom=textGrob("Expected -log10(p)",
+				       gp=gpar(fontsize=20,
+					       frontface="bold")),
+		       left=textGrob("Actual -log10(p)",
+				     rot=90,
+				     gp=gpar(fontsize=20,
+					     frontface="bold")))
+ggsave("supplemental/05_subfig.png", allqq, "png", height=8, width=10)
 

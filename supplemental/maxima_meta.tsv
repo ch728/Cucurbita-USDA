@@ -452,7 +452,7 @@ PI_349347	Bolivia	No Known Plant ID	Cucurbita maxima	Cultivated	NA	Fruit about 1
 PI_560950	Bolivia	Zapallo	Cucurbita maxima	Cultivated	NA	Spheroid squash, 15cm long, 22cm diam., deeply ribbed. Color drab olive. Peduncle insertion depressed, corky, stigma scar corky. Flesh thick, firm, orange. Seeds white, 1.5cm long. Grown locally.	South/Latin America	1e-5	1e-5	0.043708	0.236719	0.719542	1e-5	6	89
 PI_543227	Bolivia	Jemi (Esse Ejja)	Cucurbita maxima	Cultivated	NA	Fruit spherical or egg-shaped, to 30cm long, strongly ribbed, orange, with corky peduncle. Flesh is firm, thick and orange, seeds white and numerous. Squash cultivated locally by Indians on sandbars and in chacos.	South/Latin America	1e-5	1e-5	1e-5	0.37961	0.62035	1e-5	6	90
 PI_365106	Eswatini	AJO 0271	Cucurbita maxima	NA	NA	NA	Africa	0.137654	1e-5	1e-5	0.279391	0.359993	0.222942	5	102
-PI_508084	United States	'Sibley'	Cucurbita maxima	Cultivar	Banana	Plant indeterminate, maturity Group I, high yielding.. Flowers white, pods brown with gray pubescence. Seeds yellow, dull. Resistance to races 1 and 2 of Phytophthora root rot.	North America	NA	NA	NA	NA	NA	NA	NA	NA
+PI_508084	United States	'Sibley'	Cucurbita maxima	Cultivar	NA	Plant indeterminate, maturity Group I, high yielding.. Flowers white, pods brown with gray pubescence. Seeds yellow, dull. Resistance to races 1 and 2 of Phytophthora root rot.	North America	NA	NA	NA	NA	NA	NA	NA	NA
 G_30407	United States	'Japan Cup F1'	Cucurbita maxima	Cultivar	Kobocha	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA
 G_32228	United States	Black Eagle	Cucurbita maxima	Cultivar	NA	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA
 G_30409	United States	'Sweet Mama F1'	Cucurbita maxima	Cultivar	Kobocha	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA
@@ -514,14 +514,14 @@ G_23034	Japan	Hokkaido Pumpkin	Cucurbita maxima	Cultivar	NA	NA	Asia	NA	NA	NA	NA	
 G_9187	Japan	Ucike Kuri	Cucurbita maxima	Cultivar	Kuri	NA	Asia	NA	NA	NA	NA	NA	NA	NA	NA
 PI_135358	Afghanistan	No. 5049	Cucurbita maxima	NA	NA	Fruit globose, 11 inches in diameter; rind creamy white, with indented ribs; flesh yellow, 2 inches thick, insipid.	Asia	NA	NA	NA	NA	NA	NA	NA	NA
 PI_234609	Australia	Queensland Blue (Beaudesert)	Cucurbita maxima	Cultivar	Australian	NA	Australia	NA	NA	NA	NA	NA	NA	NA	NA
-PI_656590	United States	Red Gold Banana	Cucurbita maxima	Cultivar	Banana	Lit. refer.-Amer. Veg. Grower Var. List, 12/68. Modified banana type squash, red gold-red skin; sweet yellow flesh.	North America	NA	NA	NA	NA	NA	NA	NA	NA
+PI_656590	United States	Red Gold Banana	Cucurbita maxima	Cultivar	NA	Lit. refer.-Amer. Veg. Grower Var. List, 12/68. Modified banana type squash, red gold-red skin; sweet yellow flesh.	North America	NA	NA	NA	NA	NA	NA	NA	NA
 G_26105	United States	'Buttercup, Burgess Strain'	Cucurbita maxima	Cultivar	Buttercup	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA
 G_26542	United States	786 Emerald	Cucurbita maxima	Cultivar	Buttercup	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA
 PI_512684	Spain	V-CU-40	Cucurbita maxima	Cultivar	NA	Sown March, harvested July-August. Used for local consumption.	Europe	NA	NA	NA	NA	NA	NA	NA	NA
 PI_318431	United States	Ames 722	Cucurbita maxima	Breeding	NA	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA
 PI_512667	Spain	AN-CU-16	Cucurbita maxima	Cultivar	NA	Sown May, harvested September-October.	Europe	NA	NA	NA	NA	NA	NA	NA	NA
 G_26704	United States	'Blue Hubbard'	Cucurbita maxima	Cultivar	Hubbard	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA
-CItr_5666	United States	'Sibley'	Cucurbita maxima	Cultivar	Banana	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA
+CItr_5666	United States	'Sibley'	Cucurbita maxima	Cultivar	NA	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA
 G_26694	United States	'Buttercup'	Cucurbita maxima	Cultivar	Buttercup	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA
 G_33181	United States	'Mammoth King'	Cucurbita maxima	Cultivar	Show	Note from Jesse Reil (donor):  Seed was harvested from Mammoth King seed acquired from the late Tom Knocke's collection that originally came from Gurney's Seeds back in the late 1970's - early 1980's.  The plants produced about 2 large pumpkins per vine.  The fruit is show-type; large and standardized with an almost florescent beige color.	North America	NA	NA	NA	NA	NA	NA	NA	NA
 G_28472	Brazil	'Varzea Alegre'	Cucurbita maxima	Cultivar	NA	NA	South/Latin America	NA	NA	NA	NA	NA	NA	NA	NA
@@ -532,7 +532,7 @@ G_26705	United States	'Buttercup'	Cucurbita maxima	Cultivar	Buttercup	NA	North A
 PI_600834	United States	'Autumn Pride'	Cucurbita maxima	Cultivar	Hubbard	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA
 G_26544	United States	'770 Blue Hubbard'	Cucurbita maxima	Cultivar	Hubbard	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA
 G_32227	United States	Golden Eagle	Cucurbita maxima	Cultivar	Buttercup	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA
-G_32295	United States	'Buckskin'	Cucurbita maxima	Cultivar	Processing	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA
+G_32295	United States	'Buckskin'	Cucurbita maxima	Cultivar	NA	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA
 PI_318425	United States	Ames 716	Cucurbita maxima	Breeding	NA	Inbred selection. Vigorous, medium maturing, bush. Fruits many, oblate 5 by 7 to 8 inches, orange or salmon; 4.75 pounds; flesh 1 to 2 inches, light orange.	North America	NA	NA	NA	NA	NA	NA	NA	NA
 PI_318426	United States	Ames 717	Cucurbita maxima	Breeding	NA	Inbred selection. Vigorous, medium maturing, bush. Fruits many, oblate 5 by 7 to 8 inches, copper; 4.90 pounds; flesh 1 to 2 inches, orange.	North America	NA	NA	NA	NA	NA	NA	NA	NA
 G_22762	United States	'Aristocat'	Cucurbita maxima	Cultivar	NA	NA	North America	NA	NA	NA	NA	NA	NA	NA	NA

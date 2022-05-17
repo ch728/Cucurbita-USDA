@@ -45,23 +45,25 @@ genesis_man <- function(assoc, label, col=c("#B31B1B", "#7D868C")){
     	                         scale_colour_manual(values=rep(col, 
     	                                             ceiling(n.chrom/2))[1:n.chrom]) +
     	                         scale_x_continuous(labels=axis$labels, breaks=axis$breaks) +
-    	                         xlab("Chromosome") + ylab("-log10(p)") +
+    	                         xlab("") + ylab("") +
     	                         ggtitle(label) +
     	                         theme_bw(base_size=20) +
     	                         theme(panel.grid=element_blank(),
     	                         plot.title=element_text(hjust=0.5),
     	                         legend.position="none",
     	                         axis.text.y=element_text(face="bold"),
-    	                         axis.text.x=element_text(face="bold"))
+    	                         axis.text.x=element_blank())
     if(max(assoc$log) > sig.thresh){  # Add significance line if there are points above threshold
     	manhatten <- manhatten + geom_hline(yintercept=sig.thresh, color="blue")
     }
     qq.plot <- ggplot2::ggplot(data.frame(act=assoc$log, exp=exp), aes(x=exp, y=act)) +
 	                           geom_point() +
 	                           geom_abline(intercept=0, slope=1, color="red") +
-	                           xlab("Expected -log10(p)") + ylab("Actual -log10(p)") +
+	                           xlab("") + ylab("") +
+				   ggtitle(label) +
 	                           theme_bw(base_size=16) +
-	                           theme(panel.grid=element_blank())
+	                           theme(panel.grid=element_blank(),
+				         plot.title=element_text(hjust=0.5))
     return(list(res=assoc, man=manhatten, qq=qq.plot))	                   
 }
 
