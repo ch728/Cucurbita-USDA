@@ -1,0 +1,13 @@
+| Group|Species                                                           |X                                                                    |X.1                                           |
+|-----:|:-----------------------------------------------------------------|:--------------------------------------------------------------------|:---------------------------------------------|
+|    NA|C. pepo                                                           |C. moschata                                                          |C. maxima                                     |
+|     1|Mixed Group; Many from Spain, Turkey, and Syria                   |Mostly from Mexico                                                   |Mixed;  Primarily from South America and Asia |
+|     2|Wild subsp. Ovifera var. texana and var. ozarkana; North American |Mostly Mexico and Guatemala                                          |Mixed; Primarily from Asia and Europe         |
+|     3|Majority from Turkey                                              |Mostly from Mexico                                                   |Mostly from North Macedonia                   |
+|     4|Majority from North Macedonia                                     |Mostly from Africa                                                   |Mostly from Argentina                         |
+|     5|Majority from Egypt                                               |Mostly from India                                                    |Mostly Turkey, Iran, Afghanistan              |
+|     6|Majority from Mexico                                              |Mixed origin Europe and Americas;Many similar to cheese or neck type |Mostly from Africa                            |
+|     7|Majority from Syria                                               |                                                                     |                                              |
+|     8|Majority from Pakistan and Afghanistan                            |                                                                     |                                              |
+|     9|Majority from Spain                                               |                                                                     |                                              |
+|    10|Wild subsp. Fraterna; Central American                            |                                                                     |                                              |

@@ -18,8 +18,8 @@ cpepoSub <- gather(cpepo)
 mosKeep <- c("fruit_len", "fruit_diam") 
 cmosSub <- gather(cmos[,mosKeep])
 
-maxKeep <- c("len", "set", "diam", "mosaic",
-             "maturity", "unif", "pm",
+maxKeep <- c("len", "set", "diam", "watermelon_mosaic",
+             "cuc_mosaic", "maturity", "unif", "pm",
               "vig", "rib", "fruit_spot")
 cmaxSub <- gather(cmax[,maxKeep])
 
@@ -49,7 +49,7 @@ cmos.plt <- ggplot(cmosSub, aes(x=value)) +
 
 cmax.plt <- ggplot(cmaxSub, aes(x=value)) +
                   geom_histogram() +
-                  facet_wrap(~key, nrow=2, scales="free") +
+                  facet_wrap(~key, nrow=3, scales="free") +
                   ylab("Count") +
                   xlab("C. maxima") +
                   ggtitle("c.") +
@@ -64,6 +64,7 @@ fin.plt <- grid.arrange(cpepo.plt, cmos.plt, cmax.plt,
 				 c(1,1),
 				 c(2,2),
 				 c(2,2),
+				 c(3,3),
 				 c(3,3),
 				 c(3,3),
 				 c(3,3)))

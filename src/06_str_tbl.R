@@ -1,0 +1,5 @@
+groups <- read.csv("tables/group_descriptions.csv")
+tbl <- knitr::kable(groups)
+con = file("tables/02_tbl.md")
+writeLines(tbl, con)
+close(con)

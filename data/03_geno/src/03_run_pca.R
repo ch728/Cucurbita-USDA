@@ -30,7 +30,7 @@ getKin <- function(dos){
   return(k)
 }
 
-# Run PCA
+# Run Structure PCA
 pepoGeno <- snpgdsOpen("data/filtered/cpepo_ld_filt.gds")
 pepoPCA <- snpgdsPCA(pepoGeno, num.thread=12)
 pepoDos <- snpgdsGetGeno(pepoGeno, with.id=T)
@@ -46,7 +46,7 @@ maxPCA <- snpgdsPCA(maxGeno, num.thread=12)
 maxDos <- snpgdsGetGeno(maxGeno, with.id=T)
 snpgdsClose(maxGeno)
 
-# Output PCA results 
+# Output Structure PCA results 
 pepoRes <- fmt_pca(pepoPCA)
 write.csv(pepoRes[[1]], "data/pca/pepo_pca.csv", row.names=F, quote=F)
 write.csv(pepoRes[[2]], "data/pca/pepo_var.csv", row.names=F, quote=F)
@@ -58,8 +58,26 @@ write.csv(mosRes[[2]], "data/pca/moschata_var.csv", row.names=F, quote=F)
 maxRes <- fmt_pca(maxPCA)
 write.csv(maxRes[[1]], "data/pca/maxima_pca.csv", row.names=F, quote=F)
 write.csv(maxRes[[2]], "data/pca/maxima_var.csv", row.names=F, quote=F)
+ 
+# Run GWAS PCA
+pepoGeno <- snpgdsOpen("data/filtered/cpepo_filt_imp.gds")
+pepoPCA <- snpgdsPCA(pepoGeno, num.thread=12)
+pepoDos <- snpgdsGetGeno(pepoGeno, with.id=T)
+snpgdsClose(pepoGeno)
 
-# Ouput kinship matrices
+mosGeno <- snpgdsOpen("data/filtered/cmoschata_filt_imp.gds")
+mosPCA <- snpgdsPCA(mosGeno, num.thread=12)
+mosDos <- snpgdsGetGeno(mosGeno, with.id=T)
+snpgdsClose(mosGeno)
+
+maxGeno <- snpgdsOpen("data/filtered/cmaxima_filt_imp.gds")
+maxPCA <- snpgdsPCA(maxGeno, num.thread=12)
+maxDos <- snpgdsGetGeno(maxGeno, with.id=T)
+snpgdsClose(maxGeno)
+
+# Output pca for GWAS
+
+#Kinship matrices for GWAS
 pepoK <- getKin(pepoDos)
 mosK <- getKin(mosDos)
 maxK <- getKin(maxDos) 
