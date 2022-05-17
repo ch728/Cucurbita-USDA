@@ -77,6 +77,15 @@ snpgdsClose(maxGeno)
 
 # Output pca for GWAS
 
+pepoRes <- fmt_pca(pepoPCA)
+write.csv(pepoRes[[1]], "data/pca/pepo_pca_gwas.csv", row.names=F, quote=F)
+
+mosRes <- fmt_pca(mosPCA)
+write.csv(mosRes[[1]], "data/pca/moschata_pca_gwas.csv", row.names=F, quote=F)
+
+maxRes <- fmt_pca(maxPCA)
+write.csv(maxRes[[1]], "data/pca/maxima_pca_gwas.csv", row.names=F, quote=F)
+ 
 #Kinship matrices for GWAS
 pepoK <- getKin(pepoDos)
 mosK <- getKin(mosDos)

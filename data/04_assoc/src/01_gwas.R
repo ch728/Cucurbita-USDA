@@ -39,13 +39,15 @@ maxPheno <- read.csv("../02_pheno/data/cmaxima_coded.csv",
 
 # Read in kinship matrices
 pepoK <- read.csv("../03_geno/data/kinship/pepoK.mat", row.names=1)
+mosK <- read.csv("../03_geno/data/kinship/mosK.mat", row.names=1)
+maxK <- read.csv("../03_geno/data/kinship/maxK.mat", row.names=1)
 
 # Read in pcs
-pepoPC <- read.csv("../03_geno/data/pca/pepo_pca.csv")
+pepoPC <- read.csv("../03_geno/data/pca/pepo_pca_gwas.csv")
 colnames(pepoPC)[1] <- "scanID"
-mosPC <- read.csv("../03_geno/data/pca/moschata_pca.csv")
+mosPC <- read.csv("../03_geno/data/pca/moschata_pca_gwas.csv")
 colnames(mosPC)[1] <- "scanID"
-maxPC <- read.csv("../03_geno/data/pca/maxima_pca.csv")
+maxPC <- read.csv("../03_geno/data/pca/maxima_pca_gwas.csv")
 colnames(maxPC)[1] <- "scanID"
 
 # Create Geno Objects
