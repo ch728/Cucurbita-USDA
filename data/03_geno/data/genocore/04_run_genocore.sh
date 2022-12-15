@@ -1,1 +1,0 @@
-../../src/04_run_genocore.sh
