@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{38}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -38,6 +38,15 @@ Chomicki, G., Schaefer, H., and Renner, S.~S. (2020).
 \newblock \doi{10.1111/nph.16015}
 \bibAnnoteFile{Chomicki2020}
 
+\bibitem[{Danecek et~al.(2011)Danecek, Auton, Abecasis, Albers, Banks, DePristo
+  et~al.}]{Danecek2011}
+Danecek, P., Auton, A., Abecasis, G., Albers, C.~A., Banks, E., DePristo,
+  M.~A., et~al. (2011).
+\newblock The variant call format and {VCFtools}.
+\newblock \emph{Bioinformatics} 27, 2156--2158.
+\newblock \doi{10.1093/bioinformatics/btr330}
+\bibAnnoteFile{Danecek2011}
+
 \bibitem[{Danecek et~al.(2021)Danecek, Bonfield, Liddle, Marshall, Ohan,
   Pollard et~al.}]{Danecek2021}
 Danecek, P., Bonfield, J.~K., Liddle, J., Marshall, J., Ohan, V., Pollard,
@@ -54,6 +63,14 @@ de~los Campos, G., Sorensen, D., and Gianola, D. (2015).
 \newblock \emph{{PLOS} Genetics} 11, e1005048.
 \newblock \doi{10.1371/journal.pgen.1005048}
 \bibAnnoteFile{Campos2015}
+
+\bibitem[{Ding et~al.(2021)Ding, Wang, Qi, Luo, Wang, Xu et~al.}]{Ding2021}
+Ding, W., Wang, Y., Qi, C., Luo, Y., Wang, C., Xu, W., et~al. (2021).
+\newblock Fine mapping identified the gibberellin 2-oxidase gene {CpDw} leading
+  to a dwarf phenotype in squash (cucurbita pepo l.).
+\newblock \emph{Plant Science} 306, 110857.
+\newblock \doi{10.1016/j.plantsci.2021.110857}
+\bibAnnoteFile{Ding2021}
 
 \bibitem[{Endelman(2011)}]{Endelman2011}
 Endelman, J.~B. (2011).
@@ -79,6 +96,16 @@ Glaubitz, J.~C., Casstevens, T.~M., Lu, F., Harriman, J., Elshire, R.~J., Sun,
 \newblock \emph{{PLoS} {ONE}} 9, e90346.
 \newblock \doi{10.1371/journal.pone.0090346}
 \bibAnnoteFile{Glaubitz2014}
+
+\bibitem[{Gogarten et~al.(2019)Gogarten, Sofer, Chen, Yu, Brody, Thornton
+  et~al.}]{Gogarten2019}
+Gogarten, S.~M., Sofer, T., Chen, H., Yu, C., Brody, J.~A., Thornton, T.~A.,
+  et~al. (2019).
+\newblock Genetic association testing using the {GENESIS} r/bioconductor
+  package.
+\newblock \emph{Bioinformatics} 35, 5346--5348.
+\newblock \doi{10.1093/bioinformatics/btz567}
+\bibAnnoteFile{Gogarten2019}
 
 \bibitem[{Hernandez et~al.(2020)Hernandez, Wyatt, and Mazourek}]{Hernandez2020}
 Hernandez, C.~O., Wyatt, L.~E., and Mazourek, M.~R. (2020).
@@ -276,11 +303,39 @@ Xanthopoulou, A., Montero~Pau, J., Mellidou, I., Kissoudis, C., Blanca, J.,
 \newblock \doi{10.1038/s41438-019-0176-9}
 \bibAnnoteFile{Xanthopoulou2019}
 
+\bibitem[{Xiang et~al.(2018)Xiang, Duan, Li, Ma, Huang, Sui et~al.}]{Xiang2018}
+Xiang, C., Duan, Y., Li, H., Ma, W., Huang, S., Sui, X., et~al. (2018).
+\newblock A high-density {EST}-{SSR}-based genetic map and {QTL} analysis of
+  dwarf trait in cucurbita pepo l.
+\newblock \emph{International Journal of Molecular Sciences} 19, 3140.
+\newblock \doi{10.3390/ijms19103140}
+\bibAnnoteFile{Xiang2018}
+
 \bibitem[{Yu et~al.(2022)Yu, Wu, Sun, Wang, Tang, Guo et~al.}]{Yu2022}
 Yu, J., Wu, S., Sun, H., Wang, X., Tang, X., Guo, S., et~al. (2022).
 \newblock {CuGenDBv}2: an updated database for cucurbit genomics.
 \newblock \emph{Nucleic Acids Research} \doi{10.1093/nar/gkac921}
 \bibAnnoteFile{Yu2022}
+
+\bibitem[{Zhang et~al.(2015)Zhang, Ren, Sun, Guo, Zhang, Zhang
+  et~al.}]{Zhang2015}
+Zhang, G., Ren, Y., Sun, H., Guo, S., Zhang, F., Zhang, J., et~al. (2015).
+\newblock A high-density genetic map for anchoring genome sequences and
+  identifying {QTLs} associated with dwarf vine in pumpkin ({Cucurbita} maxima
+  {Duch}.).
+\newblock \emph{BMC Genomics} 16, 1101.
+\newblock \doi{10.1186/s12864-015-2312-8}
+\bibAnnoteFile{Zhang2015}
+
+\bibitem[{Zheng et~al.(2012)Zheng, Levine, Shen, Gogarten, Laurie, and
+  Weir}]{Zheng2012}
+Zheng, X., Levine, D., Shen, J., Gogarten, S.~M., Laurie, C., and Weir, B.~S.
+  (2012).
+\newblock A high-performance computing toolset for relatedness and principal
+  component analysis of {SNP} data.
+\newblock \emph{Bioinformatics} 28, 3326--3328.
+\newblock \doi{10.1093/bioinformatics/bts606}
+\bibAnnoteFile{Zheng2012}
 
 \bibitem[{Zhong et~al.(2017)Zhong, Zhou, Li, Yu, Wu, Luo et~al.}]{Zhong2017}
 Zhong, Y.-J., Zhou, Y.-Y., Li, J.-X., Yu, T., Wu, T.-Q., Luo, J.-N., et~al.

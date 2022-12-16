@@ -88,5 +88,5 @@ allqq <- grid.arrange(combPepo, combMos, combMax,
 				     rot=90,
 				     gp=gpar(fontsize=20,
 					     frontface="bold")))
-ggsave("supplemental/05_subfig.png", allqq, "png", height=8, width=10)
+#ggsave("supplemental/05_subfig.png", allqq, "png", height=8, width=10)
 

@@ -100,19 +100,19 @@ maxL <- c("plant_habit", "or_flesh",
 # Run Gwas for each species
 pepoK <- as.matrix(pepoK[getScanID(pepoGds), getScanID(pepoGds)])
 pepoGwas <- run_gwas(pepoGenoDat, pepoK, quant=pepoQ, logistic=pepoL)
-names(pepoGwas) <- c(pepoQ, pepoL)
+#names(pepoGwas) <- c(pepoQ, pepoL)
 
 mosK <- as.matrix(mosK[getScanID(mosGds), getScanID(mosGds)])
 mosGwas <- run_gwas(mosGenoDat, mosK, quant=mosQ, logistic=mosL)
-names(mosGwas) <- c(mosQ, mosL)
+#names(mosGwas) <- c(mosQ, mosL)
 
 maxK <- as.matrix(maxK[getScanID(maxGds), getScanID(maxGds)])
 maxGwas <- run_gwas(maxGenoDat, maxK, quant=maxQ, logistic=maxL)
-names(maxGwas) <- c(maxQ, maxL)
+#names(maxGwas) <- c(maxQ, maxL)
 
 # Save Gwas results as R objects
-saveRDS(pepoGwas, "data/pepoGwas.Rdata")
-saveRDS(mosGwas, "data/mosGwas.Rdata")
-saveRDS(maxGwas, "data/maxGwas.Rdata") 
+#saveRDS(pepoGwas, "data/pepoGwas.Rdata")
+#saveRDS(mosGwas, "data/mosGwas.Rdata")
+#saveRDS(maxGwas, "data/maxGwas.Rdata") 
 
 

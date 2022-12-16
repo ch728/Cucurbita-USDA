@@ -5,45 +5,45 @@ The style file: Frontiers-Harvard.bst
 Database file #1: cuccap-fresh.bib
 Warning--I didn't find a database entry for ""
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 32 entries,
+You've used 38 entries,
             3029 wiz_defined-function locations,
-            875 strings with 15315 characters,
-and the built_in function-call counts, 25480 in all, are:
-= -- 2153
-> -- 1630
+            922 strings with 17119 characters,
+and the built_in function-call counts, 31301 in all, are:
+= -- 2627
+> -- 2082
 < -- 9
-+ -- 831
-- -- 442
-* -- 1878
-:= -- 3777
-add.period$ -- 96
-call.type$ -- 32
-change.case$ -- 309
-chr.to.int$ -- 33
-cite$ -- 64
-duplicate$ -- 1502
-empty$ -- 1553
-format.name$ -- 539
-if$ -- 5147
++ -- 1073
+- -- 565
+* -- 2311
+:= -- 4627
+add.period$ -- 114
+call.type$ -- 38
+change.case$ -- 380
+chr.to.int$ -- 39
+cite$ -- 76
+duplicate$ -- 1812
+empty$ -- 1863
+format.name$ -- 680
+if$ -- 6319
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 366
-newline$ -- 237
-num.names$ -- 128
-pop$ -- 682
+missing$ -- 449
+newline$ -- 279
+num.names$ -- 152
+pop$ -- 828
 preamble$ -- 1
-purify$ -- 275
+purify$ -- 340
 quote$ -- 0
-skip$ -- 1068
+skip$ -- 1355
 stack$ -- 0
-substring$ -- 1005
-swap$ -- 765
+substring$ -- 1214
+swap$ -- 933
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 288
+type$ -- 342
 warning$ -- 0
-while$ -- 143
+while$ -- 170
 width$ -- 0
-write$ -- 524
+write$ -- 620
 (There was 1 warning)

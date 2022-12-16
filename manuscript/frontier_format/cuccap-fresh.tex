@@ -18,6 +18,7 @@
 %\setcitestyle{square} % for articles in the journals "Frontiers in Physics" and "Frontiers in Applied Mathematics and Statistics" 
 \usepackage{url,hyperref,lineno,microtype,subcaption}
 \usepackage[onehalfspacing]{setspace}
+\usepackage{longtable}
 
 \linenumbers
 
@@ -74,13 +75,11 @@ Genome-wide associate study (GWAS) was conducted for each data set using both hi
 These data represent the largest collection of sequenced Cucurbita and can be used to direct the maintenance of genetic diversity and the development of breeding resources, and to help prioritize whole-genome re-sequencing for further GWAS and other genomics studies aimed at understanding the phenotypic and genetic diversity present in \emph{Cucurbita}.
 
 
-
 \tiny
  \keyFont{ \section{Keywords:} Germplasm, Genotyping-by-sequencing, GWAS, Diversity, \textit{Cucurbita}} %All article types: you may provide up to 8 keywords; at least 5 are mandatory.
 \end{abstract}
 
 \section{Introduction}
-
 
 The \emph{Cucurbitaceae} (Cucurbit) family is home to a number of vining species
 mostly cultivated for their fruits.
@@ -133,32 +132,30 @@ We present genotyping-by-sequencing (GBS) data from each of these collections, p
 \section{Materials and Methods}
 
 \subsection{Plant Materials and Genotyping}
-All available germplasm were requested from USDA cooperators for C. maxima (534 accessions from Geneva, NY), C. moschata (314 accessions from Griffin, GA), and C. pepo (829 accessions from Ames, IA) respectively. Seeds were planted in 50-cell trays and two 3/4 inch punches of tissue (approximately 80-150 mg) was sampled from the first true leaf of each seedling. DNA was extracted using Omega Mag-Bind Plant DNA DS kits (M1130, Omega Bio-Tek, Norcross, GA) and quantified using Quant-iT PicoGreen dsDNA Kit (Invitrogen, Carlsbad, CA). Purified DNA was shipped to Cornell’s Genomic Diversity Facility for GBS library preparation using protocols optimized for each species. Libraries were sequenced at either 96, 192, or 384-plex on the HiSeq 2500 (Illumina Inc., USA) with single-end mode and a read length of 101 bp.
+All available germplasm were requested from USDA cooperators for \textit{C. maxima} (534 accessions from Geneva, NY), \textit{C. moschata} (314 accessions from Griffin, GA), and \textit{C. pepo} (829 accessions from Ames, IA) respectively. Seeds were planted in 50-cell trays and two 3/4 inch punches of tissue (approximately 80-150 mg) was sampled from the first true leaf of each seedling. DNA was extracted using Omega Mag-Bind Plant DNA DS kits (M1130, Omega Bio-Tek, Norcross, GA) and quantified using Quant-iT PicoGreen dsDNA Kit (Invitrogen, Carlsbad, CA). Purified DNA was shipped to Cornell’s Genomic Diversity Facility for GBS library preparation using protocols optimized for each species. Libraries were sequenced at either 96, 192, or 384-plex on the HiSeq 2500 (Illumina Inc., USA) with single-end mode and a read length of 101 bp.
 
 \subsection{Variant Calling and Filtering}
-SNP calling was conducted using the TASSEL-GBS V5 pipeline \citep{Glaubitz2014}. Tags produced by this pipeline were aligned using the default settings of the BWA aligner \citep{Li2009}. Raw variants were filtered using BCFtools \citep{Danecek2021}. Settings for filtering SNPs were as follows, minor allele frequency (MAF) $\geq 0.05$, missingness $\leq 0.4$, and biallelic. Three outlier genotypes were found in an initial principal components analysis (PCA) of the C. maxima data and were removed, as they were likely not C. maxima. Variants were further filtered for specific uses as described below.
+SNP calling was conducted using the TASSEL-GBS V5 pipeline \citep{Glaubitz2014}. Tags produced by this pipeline were aligned using the default settings of the BWA aligner \citep{Li2009}. Raw variants were filtered using BCFtools \citep{Danecek2021}. Settings for filtering SNPs were as follows, minor allele frequency (MAF) $\geq 0.05$, missingness $\leq 0.4$, and biallelic. Three outlier genotypes were found in an initial principal components analysis (PCA) of the \textit{C. maxima} data and were removed, as they were likely not \textit{C. maxima}. Variants were further filtered for specific uses as described below.
 
 \subsection{Population Genomics Analysis}
-ADMIXTURE \citep{Alexander2011}, which uses a model-based approach to infer ancestral populations ($k$) and admixture proportions in a given sample, was used to explore population structure in each dataset. ADMIXTURE does not model linkage disequilibrium (LD); thus, marker sets were further filtered to obtain SNPs in approximate linkage equilibrium using the “–indep-pairwise” option in PLINK \citep{Purcell2007} with $r^{2}$ set to 0.1, a window size of 50 SNPs, and a 10 SNP step size . All samples labeled as cultivars or breeding material were removed from the data prior to running ADMIXTURE. Cross-validation was used to determine the best  value for each species. Briefly, ADMIXTURE was run with different  values (1-20) and the cross-validation error was reported for each $k$. The $k$ value with minimal cross-validation error was chosen for each species (Supplemental Figures, Figure 2). Ancestral populations were then assigned to cultivars using the program’s projection feature.
+ADMIXTURE \citep{Alexander2011}, which uses a model-based approach to infer ancestral populations ($k$) and admixture proportions in a given sample, was used to explore population structure in each dataset. ADMIXTURE does not model linkage disequilibrium (LD); thus, marker sets were further filtered to obtain SNPs in approximate linkage equilibrium using the “–indep-pairwise” option in PLINK \citep{Purcell2007} with $r^{2}$ set to 0.1, a window size of 50 SNPs, and a 10 SNP step size . All samples labeled as cultivars or breeding material were removed from the data prior to running ADMIXTURE. Cross-validation was used to determine the best  value for each species. Briefly, ADMIXTURE was run with different  values (1-20) and the cross-validation error was reported for each $k$. The $k$ value with minimal cross-validation error was chosen for each species Figure \ref{fig:1}. Ancestral populations were then assigned to cultivars using the program’s projection feature.
 
-Principal components analysis (PCA) was used as a model-free way of determining population structure. PCA was conducted using SNPRelate \citep{} on the same LD-pruned data used by ADMIXTURE.
+Principal components analysis (PCA) was used as a model-free way of determining population structure. PCA was conducted using SNPRelate \citep{Zheng2012} on the same LD-pruned data used by ADMIXTURE.
 
-Linkage disequilibrium was calculated in each germplasm panel, and within each subgroup identified by ADMIXTURE.
-
-Fst vales between.  
+Linkage disequilibrium was calculated in each germplasm panel using VCFtools \citep{Danecek2011} with the settings "--geno-r2 --ld-window 1000".
 
 \subsection{Analysis of Phenotypic Data}
-Historical data were obtained from the USDA Germplasm Resources Information Network (GRIN; www.ars-grin.gov) for C. maxima, C. pepo, and C. moschata. All duplicated entries were removed for qualitative traits, where categories are mutually exclusive, leaving only samples with unique entries for analysis. Two traits: adult and nymph squash bug damage in C. pepo where transformed using the boxcox procedure. Contemporary phenotypic data were collected from a subset of the C. pepo collection grown in the summer of 2018 in Ithaca, NY. Field-grown plants were phenotyped for vining bush habit at three different stages during the growing seasons to confirm bush, semi-bush or vining growth habit. Plants that had a bush habit early in the season but started to vine at the end of the season were considered semi-bush.
+Historical data were obtained from the USDA Germplasm Resources Information Network (GRIN; www.ars-grin.gov) for \textit{C. maxima}, \textit{C. pepo}, and \textit{C. moschata}. All duplicated entries were removed for qualitative traits, where categories are mutually exclusive, leaving only samples with unique entries for analysis. Two traits: adult and nymph squash bug damage in \textit{C. pepo} where transformed using the boxcox procedure. Contemporary phenotypic data were collected from a subset of the \textit{C. pepo} collection grown in the summer of 2018 in Ithaca, NY. Field-grown plants were phenotyped for vining bush habit at three different stages during the growing seasons to confirm bush, semi-bush or vining growth habit. Plants that had a bush habit early in the season but started to vine at the end of the season were considered semi-bush.
 
 \subsection{GWAS}
-Variant data were filtered to MAF  and missingness , and then imputed prior to association analysis. LinkImpute \citep{Money2015}, as implemented by the TASSEL \citep{Bradbury2007} “LDKNNiImputatioHetV2Plugin” plugin was used for imputation with default settings. Any data still missing after this process were mean imputed. The GENESIS \citep{} R package, which can model both binary and continuous traits. All models included the first two PCs of the marker matrix as fixed effects and modeled genotype effect () as a random effect distributed according to the kinship () matrix (). Binary traits were modeled using a logistic regression with GENESIS. The kinship matrix was calculated using A.mat from rrBLUP \citep{Endelman2011} with mean imputation.
+Variant data were filtered to MAF  and missingness , and then imputed prior to association analysis. LinkImpute \citep{Money2015}, as implemented by the TASSEL \citep{Bradbury2007} “LDKNNiImputatioHetV2Plugin” plugin was used for imputation with default settings. Any data still missing after this process were mean imputed. The GENESIS \citep{Gogarten2019} R package, which can model both binary and continuous traits. All models included the first two PCs of the marker matrix as fixed effects and modeled genotype effect ($u$) as a random effect distributed according to the kinship ($\mathbf{K}$) matrix ($u \sim N(0,\sigma_{u}^{2}\textbf{K}$)). Binary traits were modeled using a logistic regression with GENESIS. The kinship matrix was calculated using A.mat from rrBLUP \citep{Endelman2011} with mean imputation.
 
 \subsection{Genomic Heritability}
 
-An estimate of genomic heritability \citep{Campos2015} was calculated for all ordinal and quantitative traits using a similar model an equivalent model to what was used for GWAS. Variance components from the random genetic effect and error were then used to calculate the heritability as .
+An estimate of genomic heritability ($h_{G}^{2}$) \citep{Campos2015} was calculated for all ordinal and quantitative traits using an equivalent model to what was used for GWAS, but without fixed effects. Variance components from the random genetic effect ($\sigma_{u}^{2}$) and error ($\sigma_{e}^{2}$) were then used to calculate the heritability as $h_{G}^{2} = \dfrac{\sigma_{u}^{2}}{\sigma_{u}^{2} + \sigma_{e}^{2}}$.
 
 \subsection{Syntenty of Bu putative region in C. pepo and C. maxima}
-All tools used in the analysis can be found on the Cucurbit Genomics website (http://cucurbitgenomics.org/). A candidate gene for dwarfism, Bu, in C. maxima was elucidated by a previous study23 and was named Cma\_004516. The Cucurbit Genomics Database gene ID of Cma\_004516 was identified by using the BLAST tool to align primer sequences used for RT-QPCR in the previous study against the C. maxima reference genome. The synteny analysis was done by using the Synteny Viewer tool and evaluating C. maxima’s chromosome 3 with C. pepo’s chromosome 10 and searching for an ortholog to the candidate gene. The physical position of the C. pepo ortholog was identified by searching the gene using the Search tool. All tools used in the analysis can be found on the Cucurbit Genomics Database at cucurbitgenomics.org.
+All tools used in the analysis can be found on the Cucurbit Genomics website (http://cucurbitgenomics.org/). A candidate gene for dwarfism, Bu, in C. maxima was elucidated by a previous study \citep{Zhang2015} and was named Cma\_004516. The Cucurbit Genomics Database gene ID of Cma\_004516 was identified by using the BLAST tool to align primer sequences used for RT-QPCR in the previous study against the \textit{C. maxima} reference genome. The synteny analysis was done by using the Synteny Viewer tool and evaluating \textit{C. maxima}’s chromosome 3 with \textit{C. pepo}’s chromosome 10 and searching for an ortholog to the candidate gene. The physical position of the \textit{C. pepo} ortholog was identified by searching the gene using the Search tool. All tools used in the analysis can be found on the Cucurbit Genomics Database at cucurbitgenomics.org.
 
 \subsection{Identification of a Core Collection}
 Subsets representative of each panel’s genetic diversity were identified through running GenoCore \citep{Jeong2017} using the filtered SNP sets. The GenoCore settings were “-cv 99 -d 0.001”.
@@ -166,22 +163,53 @@ Subsets representative of each panel’s genetic diversity were identified throu
 
 \section{Results}
 
-\section{Discussion}
+\subsection{Genotyping}
+Each \textit{Cucurbita} ssp. collection was genotyped using the GBS approach. The collections comprised 534 accessions for \textit{C. maxima}, 314 for \textit{C. moschata}, and 829 for \textit{C. pepo}. Figure \ref{fig:2} shows the geographical distribution of accessions broken down by species. \textit{C. maxima} and \textit{C. moschata} constitute the majority of accessions collected from Central and South America, whereas \textit{C. pepo} accessions are more prevalent in North America and Europe. \textit{C. pepo} had the highest number of raw SNPs (88,437) followed by \textit{C. moschata} (72,025) and \textit{C. maxima} (56,598). After filtering, \textit{C. pepo} and \textit{C. moschata} had a similar number of SNPs, around 30,000, whereas \textit{C. maxima} had an order of magnitude fewer filtered SNPs (1599). This discrepancy may be an artifact of using PstI, a rarer base-cutter previously optimized for GBS of \textit{C. maxima} \citep{Zhang2015} , rather than ApeKI which was used for \textit{C. pepo} and \textit{C. moschata}. The number and distribution of SNPs across each chromosomes is shown in Table \ref{tbl:1}. Maps of SNP distribution for each species are shown in Figure \ref{fig:3}
 
+\subsection{Population Structure and Genetic Diversity}
+
+Filtered SNPs were used for population structure analysis. Available geographical, phenotypic, and other metadata were retrieved from GRIN and were used to help interpret structure results. Results from model-based admixture analysis are shown in Figure \ref{fig:4} panel a. These data support 10 ancestral groups (K=10) in C. pepo, 6 in \textit{C. moschata}, and 6 in \textit{C. maxima} in each of the species respectively. Population structure was driven mostly by geography, except in \textit{C. pepo} where the presence of different subspecies was responsible for some of the structure. Commonalities among structure groups are described in Table 2. The first two principal components (PCs) of the marker data are shown in Figure \ref{fig:4} panel b. As with the model-based analysis, PCA showed geography as a main driver of population structure with accessions being derived from Africa, the Arab States, Asia, Europe, North America, and South/Latin America. PC1 in \textit{C. pepo} separates \textit{C. pepo} subsp. \textit{ovifera}, which have a North American Origin, from subsp. \textit{pepo}.
+
+Ancestry proportions from admixture analysis were projected onto cultivars/market types identified in the accessions, which were excluded from the initial analysis used to infer ancestral groups. Cultivars were grouped according to known market class within species to help identify patterns in ancestry among and between market classes. Key market types identified in accessions from \textit{C. pepo} including Acorn, Scallop, Crook, Pumpkin (Jack O’ Lantern), Zucchini, Marrow, Gem, and Spaghetti; Neck, Cheese, Japonica, and Calabaza in \textit{C. moschata}; and Buttercup, Kobocha, Hubbard, and Show (Giant squash) in \textit{C. maxima}. These groupings are shown in Figure \ref{fig:5}. In general, members of each market class exhibit similar ancestry proportions. In \textit{C. pepo}, market classes from the two different subspecies had distinct ancestry patterns. For example, Acorn, Scallop and Crook market classes are all from subsp. \textit{ovifera} and all of these classes had similar ancestry proportions with roughly 20\% of ancestry from the wild \textit{ovifera}. In contrast, market classes within \textit{pepo} had a small percentage of ancestry from wild \textit{ovifera} and more ancestry in common with European and Asian accessions. With \textit{C. moschata}, Neck, Cheese, and Calabaza market classes showed very similar ancestry patterns, whereas the Japonica class was more distinct. Relative to the \textit{C. pepo} and \textit{C. moschata}, the \textit{C. maxima} cultivars were less differentiated from one another.
+
+\subsection{Analysis of Phenotypic Data}
+All available historical data from GRIN were compiled. Only traits with  100 entries were considered for further analysis. Filtering resulted in 26 traits for \textit{C. pepo}, 5 for \textit{C. moschata} and 16 for \textit{C. maxima}. Traits spanned fruit and agronomic-related characteristics, as well as pest resistances. The number of records for a given trait ranged from 108 to 822, with an average of  270. Fruit traits included fruit width, length, surface color and texture, and flesh color and thickness. Agronomic data included plant vigor and vining habit, and several phenotypes related to maturity. Pest-related traits included susceptibility to cucumber beetle and squash bug in \textit{C. pepo} and Watermelon mosaic virus (WMV) and powdery mildew (PM) in \textit{C. maxima}. Figure \ref{fig:6} shows the distribution of numeric traits. 
+
+\subsection{Genome-wide Association}
+Genome-wide association study was conducted for all traits using standard mixed-model analysis. A weak signal was detected in \textit{C. moschata} on chromosome 3 for fruit length. Weak signals were detected in \textit{C. maxima} for fruit ribbing on chromosome 17 and green fruit on chromosome 20. Five phenotypes were significantly associated with SNPs in \textit{C. pepo}: bush/vine plant architecture on chromosome 10 using contemporary and historic data, fruit flesh thickness on chromosome 2, green fruit on chromosomes 2 and 19, and a non-significant, but clear signal for flesh color on chromosome 5. The bush/vine phenotype exhibited the strongest signal. Manhattan plots for the GWAS results are shown in Figure \ref{fig:7}, and the corresponding quantile-quantile plots are shown in Figure \ref{fig:8}.
+
+\subsection{Genomic Heritability}
+
+\subsection{Syntenty of Bu putative region in \textit{C. pepo} and C. \textit{maxima}}
+A candidate gene for dwarfism found in the species \textit{C. maxima} was named Cma\_00451623 and corresponds to the gene ID CmaCh03G013600 in the Cucurbit Genomics Database. The gene Cp4.1LG10g05740 on chromosome 10 in \textit{C. pepo} was found to be orthologous to CmaCh03G013600 and coincides with the region significantly associated with the bush/vine plant architecture phenotype identified by GWAS in the \textit{C. pepo} collection. 
+
+\subsection{Development of a Core Collection}
+A core set of accessions that covered over 99\% of total genetic diversity was identified in each of the panels. Roughly 5\%-10\% of the accessions were required to capture the genetic diversity in the panels (see Figure \ref{fig:9}. This amounted to 117 accessions in \textit{C. pepo}, 72 in \textit{C. moschata}, and 72 in \textit{C. maxima}.
+
+\section{Discussion}
+Cucurbita \textit{pepo}, \textit{C. moschata}, and \textit{C. maxima}, exhibit a wide range of phenotypic diversity. This diversity was evident in the GRIN phenotypic records for these species. We have demonstrated that there is also a wide range of genetic diversity through genotyping-by-sequencing and genetic analysis of available specimens from the germplasm collections. Thousands to tens of thousands of whole-genome markers where discovered for each species. Clustering of samples and admixture analysis produced results that align closely with known secondary centers of origin in all species. This was especially clear in our analysis of the \textit{C. pepo} collection. \textit{Cucurbita pepo} has its origin in the new world, with a secondary center of diversification in Europe. This pattern was conspicuous in the our PCA analysis. These markers and our analysis of available germplasm have a number of uses for breeding and future experiments aimed at biological insight.
+
+Our GWAS analysis using contemporary and historic plant habit phenotypic data led to the mapping of a locus on chromosome 10 associated with the bush/vine phenotype. This locus is likely the bush gene (Bu) locus that has been finely mapped to this location in previous \textit{C. pepo} studies \citep{Xiang2018, Ding2021}. Although our GWAS hit does not a constitute a novel gene association, it does demonstrate that the Bu locus, previously mapped in biparental populations, is also the primary driver of the bush phenotype in diverse germplasm. Thus, this locus can likely be applied across a wide array of germplasm. We also demonstrated that this locus is syntenic with the bush gene previously mapped in \textit{C. maxima} \citep{Zhang2015}. 
+
+Our data provides many genome-wide markers which could be used to develop marker panels for use in breeding applications, as has been done in other crops \citep{}. Possible breeding applications would include marker assisted selection, marker assisted backcrossing, and purity assessment of seedstock using a low density panel; whereas, a medium density panel could be developed for routine genomic selection. Our clustering of samples based on marker data suggest geography is a key driver for overall population structure. When projecting ancestry proportions onto cultivars of known market classes, the ancestry proportions were relatively similar within market class grouping. Although there is genetic diversity within each species, this diversity is constrained within market classes. This suggests that crosses between these market classes would greatly increase the amount of genetic diversity to be leveraged in breeding efforts. Crossing between market classes would come at the cost of bringing in undesirable characteristics with regard to achieving a specific morphotype associated market class. This cost could be mitigated through the use of markers to recover morphotype expeditiously during pre-breeding. 
+
+Genomic selection (GS) was proposed over twenty years ago \citep{}, and has since become a standard breeding technique. Yet, to our knowledge, GS is not being used in applied breeding programs working with cucurbits. Studies specifically looking at GS in squash have demonstrated, as is the case in other crop, that GS is a viable breeding method; although, the specific implementation may vary for each program and must take into account the nature of the trait being predicted \citep{}. Since cucurbit crops are more space-limited than seed-limited, a predict-part-test-part or sparse testing strategy is potentially an even more efficient strategy in cucurbits than it has been shown to be in grain crops \citep{}. Selective phenotyping of resource-intensive quality traits based on marker data to enable prediction is also low-hanging fruit. Our work lowers the barrier to entry for GS in squash, as it provides a set of markers that can be filtered and rapidly converted into an amplicon-based assay for use in target germplasm. This set can then be used for routine genotyping, which is a necessary first step towards implementing GS \citep{}.
+
+Our data provides a useful starting point for association studies. In the case where traits are common in the panel, the panel can be phenotyped for a trait of interest and combined with marker data and insight provided by our study. We demonstrated this approach in our association analysis of the bush gene. In the case of a rare phenotype, such as a resistance gene, subsets of the germplasm and markers should be used to develop custom populations. Plant introductions (PI) are frequently used as source parents in mapping studies and for germplasm improvement, as was the case for mapping Phytophthora capsici resistance and developing resistant breeding lines \citep{}. Further, if a trait segregates closely with population structure, as was the case for seed size in C. pepo and maturity in C. moschata, this would indicate that populations should be formed by crossing between the groups identified to remove the confounding effects of population structure \citep{}. When higher density genotyping may be necessary or the PIs are not well characterized for a trait of interest, the data generated in this study can be used to prioritize accessions for re-sequencing and phenotyping. Our GenoCore analysis provides a subset of several hundred accessions that would likely be informative for re-sequencing efforts.
 
 \section*{Conflict of Interest Statement}
 Michael Mazourek is a co-founder of Row 7 Seeds, but neither receives compensation nor holds equity.
 
 \section*{Author Contributions}
 
-
+COH wrote the first draft. MM, ZF, and RG provided project oversight. COH, JF, and KB conducted data analysis. KR, JL, and BJ assisted with data curation and germplasm selection. All authors contributed to the article.
 
 \section*{Funding}
 
-Funding was provided by \textbf{Insert grant identifier here} as part of the Cucurbit Coordinate Agriculture Project.
+This work was supported by CucCAP, a USDA-NIFA-SCRI competitive grant 2015-51181-24285.
 
 \section*{Acknowledgments}
-This work was supported by CucCAP, a USDA-NIFA-SCRI competitive grant 2015-51181-24285. We thank Kyle LaPlant for plant phenotyping assistance, and Sue Hammer and Paige Reeves for assistance with DNA extraction.
+We thank Kyle LaPlant for plant phenotyping assistance, and Sue Hammer and Paige Reeves for assistance with DNA extraction.
 
 \section*{Data Availability Statement}
 The datasets generated for this study includeing variant and raw sequence data are available on the Cucurbit Genomics Dataase at \href{https://cucurbitgenomics.org}{cucurbitgenomics.org}. The phenotypic data used are available for download from the USDA Germplasm Resources Information Network (GRIN; \href{https://www.ars-grin.gov}{www.ars-grin.gov}). Intermediate files and code used in the study are available on Github at \href{https://www.github.com/ch728/Cucurbita-USDA}{www.github.com/ch728/Cucurbita-USDA}.
@@ -202,36 +230,42 @@ The datasets generated for this study includeing variant and raw sequence data a
 %%%  NB logo1.eps is required in the path in order to correctly compile front page header %%%
 
 \begin{figure}[h]
-\begin{center}
-\includegraphics[width=15cm]{../../figures/01_fig.png}% This is a *.eps file
-\end{center}
-\caption{Geographical distribution of the USDA Cucurbita ssp. collection. The size of the pie chart is scaled according to the number of accessions and sector areas correspond to the proportion of the three species. \label{fig:1}}
+	\caption{Cross-validation error plots used to pick the optimum K value for admixture analysis. The K value that balances minimizing cross-validation error and parsimony, and thus chosen for the final analysis, is labeled with a red point. \label{fig:1}}
 \end{figure}
 
 \begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=18cm]{../../figures/02_fig.png}% This is a *.eps file
-	\end{center}
-	\caption{Population structure results aligned vertically by species. Panel a. Admixture plots: each stacked barplot represents an accession colored by proportion of inferred ancestral population. Groups based on hierarchical clustering are delimited by vertical bars and labeled with numbers along the bottom. Panel b. Plots of the first two principal components (PC) of accessions colored by region, variation explained by PCs is labeled on each axis. \label{fig:2}}
+\caption{Geographical distribution of the USDA Cucurbita ssp. collection. The size of the pie chart is scaled according to the number of accessions and sector areas correspond to the proportion of the three species. \label{fig:2}}
 \end{figure}
 
 \begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=15cm]{../../figures/03_fig.png}% This is a *.eps file
-	\end{center}
-	\caption{Ancestry coefficients projected on cultivars from each species. Results are shown grouped by market/varietal class. \label{fig:3}}
+\caption{Spatial distribution of filtered markers for \textbf{panel a.} \textit{C. pepo}, \textbf{panel b.} \textit{C. moschata}, and \textbf{panel c.} \textit{C. maxima.} \label{fig:3}}
+\end{figure}
+
+\begin{figure}[h]
+	\caption{Population structure results aligned vertically by species. Panel a. Admixture plots: each stacked barplot represents an accession colored by proportion of inferred ancestral population. Groups based on hierarchical clustering are delimited by vertical bars and labeled with numbers along the bottom. Panel b. Plots of the first two principal components (PC) of accessions colored by region, variation explained by PCs is labeled on each axis. \label{fig:4}}
 \end{figure}
 
 
 \begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=15cm]{../../figures/04_fig.png}% This is a *.eps file
-	\end{center}
-	\caption{GWAS results: panel a. C. pepo plant\_type (bush or vine historical data, Bu gene), plant\_type2( bush or vine contemporary data, Bu), flesh\_max (flesh maximum thickness), gn\_fruit (green fruit color), or\_flesh (orange flesh color); panel b. C. moschata fruit\_len (fruit length); panel c. C. maxima rib (degree of fruit ribbing); gn\_fruit (green fruit color) \label{fig:4}}
+	\caption{Ancestry coefficients projected on cultivars from each species. Results are shown grouped by market/varietal class. \label{fig:5}}
+\end{figure}
+
+\begin{figure}[h]
+	\caption{Histograms of continuous and ordinal traits for \textbf{panel a.} \textit{C. pepo}, \textbf{panel b.} \textit{C. moschata}, and \textbf{panel c.} \textit{C. maxima.}\label{fig:6}}
+\end{figure}
+
+\begin{figure}[h]
+	\caption{GWAS results: panel a. C. pepo plant\_type (bush or vine historical data, Bu gene), plant\_type2( bush or vine contemporary data, Bu), flesh\_max (flesh maximum thickness), gn\_fruit (green fruit color), or\_flesh (orange flesh color); panel b. C. moschata fruit\_len (fruit length); panel c. C. maxima rib (degree of fruit ribbing); gn\_fruit (green fruit color) \label{fig:7}}
+\end{figure}
+
+\begin{figure}[h]
+	\caption{Quantile-quantile plots matching GWAS results. \textbf{Panel a.} \textit{C. pepo}, \textbf{panel b.} \textit{C moschata}, and \textbf{panel c}. \textit{C. maxima} \label{fig:8}}
 \end{figure}
 
 
-
+\begin{figure}[h]
+	\caption{Results from running GenoCore in each of the panels. \textbf{Panel a} shows the PCA plots for each panel with accessions selected by GenoCore represented as black points.\textbf{Panel b} shows the proportion of total accessions needed to obtain a certain coverage of diversity \label{fig:9}}
+\end{figure}
 
 
 
@@ -243,5 +277,134 @@ The datasets generated for this study includeing variant and raw sequence data a
 \newpage
 
 \section*{Tables}
+
+\begin{table}[h]
+\begin{tabular}{c c c c c c c}
+	\hline
+	& \multicolumn{2}{c}{\textit{C. pepo}} & \multicolumn{2}{c}{\textit{C. moschata}}& \multicolumn{2}{c}{\textit{C. maxima}} \\
+	\hline
+	Chromosome & Raw & Filtered & Raw & Filtered & Raw & Filtered \\
+	\hline
+	0 & 12498 & 2550 & 2708 & 546 & 1501 & 132 \\
+	1 & 7497 & 2831 & 3890 & 1468 & 4185 & 121 \\
+	2 & 5153 & 2049 & 3661 & 1538 & 2101 & 55 \\
+	3 & 4875 & 1943 & 3472 & 1499 & 2201 & 51 \\
+	4 & 4598 & 1982 & 6880 & 2553 & 5703 & 106 \\
+	5 & 4045 & 1628 & 2716 & 887 & 3115 & 46 \\
+	6 & 3871 & 1384 & 3262 & 1159 & 3035 & 92 \\
+	7 & 3129 & 1222 & 2668 & 969 & 2705 & 62 \\
+	8 & 3875 & 1583 & 2348 & 810 & 2391 & 61 \\
+	9 & 3766 & 1390 & 3106 & 995 & 2750 & 84 \\
+	10 & 3585 & 1488 & 3550 & 1327 & 2297 & 52 \\
+	11 & 3227 & 1216 & 4336 & 1830 & 3713 & 131 \\
+	12 & 3089 & 1163 & 3711 & 1330 & 2026 & 47 \\
+	13 & 3434 & 1350 & 3106 & 1280 & 2131 & 82 \\
+	14 & 3543 & 1291 & 4753 & 1929 & 4317 & 100 \\
+	15 & 2640 & 960 & 3564 & 1321 & 2662 & 58 \\
+	16 & 3088 & 1060 & 2933 & 1107 & 2058 & 100 \\
+	17 & 2994 & 1175 & 2885 & 1096 & 2195 & 86 \\
+	18 & 3053 & 1258 & 3341 & 1316 & 1826 & 46 \\
+	19 & 3381 & 1340 & 2638 & 990 & 1793 & 46 \\
+	20 & 3096 & 1155 & 2497 & 903 & 1893 & 41 \\
+	\hline
+	Total & 88437 & 32018 & 72025 & 26853 & 56598 & 1599 \\
+	\hline
+\end{tabular}
+	\caption{Distribution and number of raw and filtered SNPs per chromosome for each species \label{tbl:1}}
+\end{table}
+
+\begin{table}[h]
+	\begin{tabular}{|c| p{4cm}| p{4cm} |p{4cm}|}
+		\hline
+& \emph{C. pepo} & \emph{C. moschata} & \emph{C. maxima} \\
+\hline
+1 & Mixed Group; Many from Spain, Turkey, and Syria & Mostly from Mexico & Mixed; Primarily from South America and Asia \\
+\hline
+2 & Wild subsp. \emph{ovifera} var. \emph{texana} and var. \emph{ozarkana}; North American & Mostly Mexico and Guatemala & Mixed; Primarily from Asia and Europe \\
+\hline
+3 & Majority from Turkey & Mostly from Mexico & Mostly from North Macedonia \\
+\hline
+4 & Majority from North Macedonia & Mostly from Africa & Mostly from Argentina \\
+\hline
+5 & Majority from Egypt & Mostly from India & Mostly Turkey, Iran, Afghanistan \\
+\hline
+6 & Majority from Mexico & Mixed origin Europe and Americas;Many similar to cheese or neck type & Mostly from Africa \\
+\hline
+7 & Majority from Syria & & \\
+\hline
+8 & Majority from Pakistan and Afghanistan & & \\
+\hline
+9 & Majority from Spain & & \\
+\hline
+10 & Wild subsp. \emph{fraterna}; Central American & & \\
+\hline
+	\end{tabular}
+	\caption{Commonalities among accessions in each group, most groupings are dictated by geography \label{tbl:2}}
+\end{table}
+
+\newpage
+
+
+\begin{longtable}{p{1cm} c c p{4cm} c}
+\hline
+\textbf{Species} & \textbf{Trait} & \textbf{Type} & \textbf{Description} & \textbf{$h_{G}^{2}$} \\
+\hline
+\emph{C. pepo} & & & & \\
+\hline
+& seed\_wt & Quantitative & Weight of 100 seeds in grams& \\
+& plant\_type & Binary & Historical plant architecture data coded as vining or bush& NA \\
+& plant\_type2 & Binary & Contemporary plant architecture data coded as vining or bush& NA\\
+& max\_vig & Ordinal & Maximum plant vigor on 1-5 scale& \\
+& min\_vig & Ordinal & Minimum plant vigor on 1-5 scale & \\
+& max\_width & Quantitative & Maximum fruit width in centimeters & \\
+& width\_min & Quantitative & Minimum fruit width in centimeters & \\
+& len\_max & Quantitative & Maximum fruit length in centimeters & \\
+& len\_min & Quantitative & Minimum fruit length in centimeters & \\
+& flesh\_max & Ordinal & Maximum fruit thickness in centimeters & \\
+& sb\_nymph & Quantitative & Number of squash bug nymphs on plant & \\
+& sb\_adult & Quantitative & Number of adult squash bugs on plant & \\
+& cuc\_inj & Ordinal & Severity of beetle damage on a 0-4 scale & \\
+& or\_flesh & Binary & Flesh color coded as orange or not orange & NA \\
+& yl\_flesh & Binary & Flesh color coded as yellow or not yellow & NA \\
+& yl\_fruit & Binary & Color of fruit coded as yellow or not yellow & NA\\
+& tan\_fruit & Binary & Color of fruit coded as tan or not tan & NA \\
+& gn\_fruit & Binary & Color of fruit coded as green or not green & NA \\
+& globe\_fruit & Binary & Fruit shape as globe or not globe & NA\\
+& oblong\_fruit & Binary & Fruit shape as oblong or not oblong & NA\\
+& smooth\_fruit & Binary & Furit texture as smooth or not smooth & NA\\
+& rib\_fruit & Binary & Degree of ribbing & NA \\
+& spec\_fruit & Binary & Fruit patterning as speckled or not speckled & NA \\
+& mot\_fruit & Binary & Fuit patterning as mottled or not mottled & NA \\
+& solid\_fruit & Binary & Fruit patterning as solid color or patterned & NA \\
+\hline
+\emph{C. moschata} & & & &\\
+\hline
+& fruit\_len & Quantitative & Fruit length in centimeters & \\
+& fruit\_diam & Quantitative & Fruit diameter in centimeters & \\
+& maturity & Binary & Fruit maturity as early or late & NA \\
+& or\_fruit & Binary & Fruit color coded as orange or not orange & NA \\
+& smooth\_fruit & Binary & Fruit surface texture encoded as smooth or not smooth & NA \\
+\hline
+\emph{C. maxima} & & & &\\
+\hline
+& len & Quantitative & Fruit length in centimeters & \\
+& set & Ordinal & Fruit set from poor to excellent (1-9) & \\
+& diam & Quantitative & Fruit diameter in centimeters & \\
+& watermelon\_mosaic & Ordinal & Susceptibility to WMV from slight to severe (0-9) & \\
+& cuc\_mosaic & Ordinal & Cucumber mosaic susceptibility from slight to severe (0-9) & \\
+& maturity & Quantitative & Number of days from field transplanting to date of first pollination &\\
+& unif & Ordinal & Fruit uniformity from poor to excellent (1-9) & \\
+& pm & Ordinal & Susceptibility to PM from slight to severe (0-9) & \\
+& plant\_habit & Binary & Plant type as vining or not vining& NA \\
+& vig & Ordinal & Plant vigor from poor to excellent (1-9)& NA \\
+& or\_flesh & Binary & Flesh color as orange or not orange & NA \\
+& rib & Ordinal & Fruit ribbing from slight to pronounced (1-9) & \\
+& fruit\_spot & Ordinal & Fruit spotting from slight to pronounced (1-9) & \\
+& gray\_fruit & Binary & Fruit color encoded as gray or not gray & NA \\
+& or\_fruit & Binary & Fruit color encoded as orange or not orange & NA \\
+& gn\_fruit & Binary & Fruit color encoded as green or not green & NA \\
+\hline
+	\caption{Commonalities among accessions in each group, most groupings are dictated by geography \label{tbl:3}}
+\end{longtable}
 
 \end{document}
