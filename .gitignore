@@ -1,5 +1,6 @@
 data/03_geno/data/raw
 data/03_geno/data/filtered
+data/03_geno/data/ld
 slurm*
 Rplot*
 *.Rdata
