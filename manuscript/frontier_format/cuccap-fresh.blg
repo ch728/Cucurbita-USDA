@@ -3,47 +3,45 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: cuccap-fresh.aux
 The style file: Frontiers-Harvard.bst
 Database file #1: cuccap-fresh.bib
-Warning--I didn't find a database entry for ""
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 38 entries,
+You've used 46 entries,
             3029 wiz_defined-function locations,
-            922 strings with 17119 characters,
-and the built_in function-call counts, 31301 in all, are:
-= -- 2627
-> -- 2082
+            981 strings with 19397 characters,
+and the built_in function-call counts, 38072 in all, are:
+= -- 3190
+> -- 2550
 < -- 9
-+ -- 1073
-- -- 565
-* -- 2311
-:= -- 4627
-add.period$ -- 114
-call.type$ -- 38
-change.case$ -- 380
-chr.to.int$ -- 39
-cite$ -- 76
-duplicate$ -- 1812
-empty$ -- 1863
-format.name$ -- 680
-if$ -- 6319
++ -- 1311
+- -- 691
+* -- 2830
+:= -- 5608
+add.period$ -- 138
+call.type$ -- 46
+change.case$ -- 462
+chr.to.int$ -- 47
+cite$ -- 92
+duplicate$ -- 2200
+empty$ -- 2258
+format.name$ -- 830
+if$ -- 7685
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 449
-newline$ -- 279
-num.names$ -- 152
-pop$ -- 828
+missing$ -- 547
+newline$ -- 335
+num.names$ -- 184
+pop$ -- 1048
 preamble$ -- 1
-purify$ -- 340
+purify$ -- 414
 quote$ -- 0
-skip$ -- 1355
+skip$ -- 1617
 stack$ -- 0
-substring$ -- 1214
-swap$ -- 933
+substring$ -- 1467
+swap$ -- 1141
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 342
+type$ -- 414
 warning$ -- 0
-while$ -- 170
+while$ -- 206
 width$ -- 0
-write$ -- 620
-(There was 1 warning)
+write$ -- 748

@@ -1,4 +1,4 @@
-\begin{thebibliography}{38}
+\begin{thebibliography}{46}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -20,6 +20,16 @@ Alexander, D.~H. and Lange, K. (2011).
 \newblock \doi{10.1186/1471-2105-12-246}
 \bibAnnoteFile{Alexander2011}
 
+\bibitem[{Arbelaez et~al.(2019)Arbelaez, Dwiyanti, Tandayu, Llantada, Jarana,
+  Ignacio et~al.}]{Arbelaez2019}
+Arbelaez, J.~D., Dwiyanti, M.~S., Tandayu, E., Llantada, K., Jarana, A.,
+  Ignacio, J.~C., et~al. (2019).
+\newblock 1k-{RiCA} ({1K}-{Rice} {Custom} {Amplicon}) a novel genotyping
+  amplicon-based {SNP} assay for genetics and breeding applications in rice.
+\newblock \emph{Rice} 12, 55.
+\newblock \doi{10.1186/s12284-019-0311-0}
+\bibAnnoteFile{Arbelaez2019}
+
 \bibitem[{Bradbury et~al.(2007)Bradbury, Zhang, Kroon, Casstevens, Ramdoss, and
   Buckler}]{Bradbury2007}
 Bradbury, P.~J., Zhang, Z., Kroon, D.~E., Casstevens, T.~M., Ramdoss, Y., and
@@ -30,6 +40,16 @@ Bradbury, P.~J., Zhang, Z., Kroon, D.~E., Casstevens, T.~M., Ramdoss, Y., and
 \newblock \doi{10.1093/bioinformatics/btm308}
 \bibAnnoteFile{Bradbury2007}
 
+\bibitem[{Cerioli et~al.(2022)Cerioli, Hernandez, Angira, McCouch, Robbins, and
+  Famoso}]{Cerioli2022}
+Cerioli, T., Hernandez, C.~O., Angira, B., McCouch, S.~R., Robbins, K.~R., and
+  Famoso, A.~N. (2022).
+\newblock Development and validation of an optimized marker set for genomic
+  selection in southern {U}.{S}. rice breeding programs.
+\newblock \emph{The Plant Genome} 15, e20219.
+\newblock \doi{10.1002/tpg2.20219}
+\bibAnnoteFile{Cerioli2022}
+
 \bibitem[{Chomicki et~al.(2020)Chomicki, Schaefer, and Renner}]{Chomicki2020}
 Chomicki, G., Schaefer, H., and Renner, S.~S. (2020).
 \newblock Origin and domestication of {Cucurbitaceae} crops: insights from
@@ -37,6 +57,14 @@ Chomicki, G., Schaefer, H., and Renner, S.~S. (2020).
 \newblock \emph{New Phytologist} 226, 1240--1255.
 \newblock \doi{10.1111/nph.16015}
 \bibAnnoteFile{Chomicki2020}
+
+\bibitem[{Cobb et~al.(2019)Cobb, Biswas, and Platten}]{Cobb2019}
+Cobb, J.~N., Biswas, P.~S., and Platten, J.~D. (2019).
+\newblock Back to the future: revisiting {MAS} as a tool for modern plant
+  breeding.
+\newblock \emph{Theoretical and Applied Genetics} 132, 647--667.
+\newblock \doi{10.1007/s00122-018-3266-4}
+\bibAnnoteFile{Cobb2019}
 
 \bibitem[{Danecek et~al.(2011)Danecek, Auton, Abecasis, Albers, Banks, DePristo
   et~al.}]{Danecek2011}
@@ -107,6 +135,16 @@ Gogarten, S.~M., Sofer, T., Chen, H., Yu, C., Brody, J.~A., Thornton, T.~A.,
 \newblock \doi{10.1093/bioinformatics/btz567}
 \bibAnnoteFile{Gogarten2019}
 
+\bibitem[{Grumet et~al.(2021)Grumet, McCreight, McGregor, Weng, Mazourek,
+  Reitsma et~al.}]{Grumet2021}
+Grumet, R., McCreight, J.~D., McGregor, C., Weng, Y., Mazourek, M., Reitsma,
+  K., et~al. (2021).
+\newblock Genetic {Resources} and {Vulnerabilities} of {Major} {Cucurbit}
+  {Crops}.
+\newblock \emph{Genes} 12, 1222.
+\newblock \doi{10.3390/genes12081222}
+\bibAnnoteFile{Grumet2021}
+
 \bibitem[{Hernandez et~al.(2020)Hernandez, Wyatt, and Mazourek}]{Hernandez2020}
 Hernandez, C.~O., Wyatt, L.~E., and Mazourek, M.~R. (2020).
 \newblock Genomic {Prediction} and {Selection} for {Fruit} {Traits} in {Winter}
@@ -142,6 +180,15 @@ Kaźmińska, K., Hallmann, E., Rusaczonek, A., Korzeniewska, A., Sobczak, M.,
 \newblock \doi{10.1007/s11032-018-0869-z}
 \bibAnnoteFile{Kazminska2018}
 
+\bibitem[{LaPlant et~al.(2020)LaPlant, Vogel, Reeves, Smart, and
+  Mazourek}]{LaPlant2020}
+LaPlant, K.~E., Vogel, G., Reeves, E., Smart, C.~D., and Mazourek, M. (2020).
+\newblock Performance and resistance to phytophthora crown and root rot in
+  squash lines.
+\newblock \emph{{HortTechnology}} 30, 608--618.
+\newblock \doi{10.21273/horttech04636-20}
+\bibAnnoteFile{LaPlant2020}
+
 \bibitem[{Li and Durbin(2009)}]{Li2009}
 Li, H. and Durbin, R. (2009).
 \newblock Fast and accurate short read alignment with burrows-wheeler
@@ -175,6 +222,14 @@ McCouch, S., Navabi, Z.~K., Abberton, M., Anglin, N.~L., Barbieri, R.~L., Baum,
 \newblock \emph{Molecular Plant} 13, 1341--1344.
 \newblock \doi{10.1016/j.molp.2020.08.011}
 \bibAnnoteFile{McCouch2020}
+
+\bibitem[{Meuwissen et~al.(2001)Meuwissen, Hayes, and Goddard}]{Meuwissen2001}
+Meuwissen, T. H.~E., Hayes, B.~J., and Goddard, M.~E. (2001).
+\newblock Prediction of total genetic value using genome-wide dense marker
+  maps.
+\newblock \emph{Genetics} 157, 1819--1829.
+\newblock \doi{10.1093/genetics/157.4.1819}
+\bibAnnoteFile{Meuwissen2001}
 
 \bibitem[{Money et~al.(2015)Money, Gardner, Migicovsky, Schwaninger, Zhong, and
   Myles}]{Money2015}
@@ -254,6 +309,15 @@ Sun, H., Wu, S., Zhang, G., Jiao, C., Guo, S., Ren, Y., et~al. (2017).
 \newblock \doi{10.1016/j.molp.2017.09.003}
 \bibAnnoteFile{Sun2017}
 
+\bibitem[{Vogel et~al.(2021)Vogel, LaPlant, Mazourek, Gore, and
+  Smart}]{Vogel2021}
+Vogel, G., LaPlant, K.~E., Mazourek, M., Gore, M.~A., and Smart, C.~D. (2021).
+\newblock A combined {BSA}-seq and linkage mapping approach identifies genomic
+  regions associated with phytophthora root and crown rot resistance in squash.
+\newblock \emph{Theoretical and Applied Genetics} 134, 1015--1031.
+\newblock \doi{10.1007/s00122-020-03747-1}
+\bibAnnoteFile{Vogel2021}
+
 \bibitem[{Wang et~al.(2021)Wang, Ando, Wu, Reddy, Tamang, Bao
   et~al.}]{Wang2021}
 Wang, X., Ando, K., Wu, S., Reddy, U.~K., Tamang, P., Bao, K., et~al. (2021).
@@ -310,6 +374,16 @@ Xiang, C., Duan, Y., Li, H., Ma, W., Huang, S., Sui, X., et~al. (2018).
 \newblock \emph{International Journal of Molecular Sciences} 19, 3140.
 \newblock \doi{10.3390/ijms19103140}
 \bibAnnoteFile{Xiang2018}
+
+\bibitem[{Yan et~al.(2009)Yan, Shah, Warburton, Buckler, McMullen, and
+  Crouch}]{Yan2009}
+Yan, J., Shah, T., Warburton, M.~L., Buckler, E.~S., McMullen, M.~D., and
+  Crouch, J. (2009).
+\newblock Genetic characterization and linkage disequilibrium estimation of a
+  global maize collection using {SNP} markers.
+\newblock \emph{{PLoS} {ONE}} 4, e8451.
+\newblock \doi{10.1371/journal.pone.0008451}
+\bibAnnoteFile{Yan2009}
 
 \bibitem[{Yu et~al.(2022)Yu, Wu, Sun, Wang, Tang, Guo et~al.}]{Yu2022}
 Yu, J., Wu, S., Sun, H., Wang, X., Tang, X., Guo, S., et~al. (2022).
