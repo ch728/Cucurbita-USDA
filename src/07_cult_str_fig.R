@@ -4,7 +4,7 @@ library(gridExtra)
 
 # Read in files
 cpepo <- read.table("data/03_geno/data/admix/cpepo/cpepo_admix_cult.10.Q", sep=" ", header=F)
-cpepoLab <- read_delim("data/03_geno/data/admix/cpepo/cpepo_admix_cult.fam" , delim=" ", col_names=F)[,1]
+cpepoLab <- read_delim("data/03_geno/data/filtered/cpepo_admix_cult.fam" , delim=" ", col_names=F)[,1]
 cpepo$name <- cpepoLab[[1]]
 cpepoMeta <- read.csv("data/01_meta/data/cpepo_classifications.csv")
 cpepo <- merge(cpepo, cpepoMeta, by="name")
@@ -12,7 +12,7 @@ cpepoLg <- gather(cpepo, pop, value, -name, -class)
 cpepoLg$pop <- factor(cpepoLg$pop, levels=paste0("V",1:10))
 
 cmos <- read.table("data/03_geno/data/admix/cmoschata/cmoschata_admix_cult.6.Q", sep=" ", header=F)
-cmosLab <- read_delim("data/03_geno/data/admix/cmoschata/cmoschata_admix_cult.fam" , delim=" ", col_names=F)[,1]
+cmosLab <- read_delim("data/03_geno/data/filtered/cmoschata_admix_cult.fam" , delim=" ", col_names=F)[,1]
 cmos$name <- cmosLab[[1]]
 cmosMeta <- read.csv("data/01_meta/data/cmoschata_classifications.csv")
 cmos <- merge(cmos, cmosMeta, by="name")
@@ -20,7 +20,7 @@ cmosLg <- gather(cmos, pop, value, -name, -class)
 cmosLg$pop <- factor(cmosLg$pop, levels=paste0("V",1:6))
 
 cmax <- read.table("data/03_geno/data/admix/cmaxima/cmaxima_admix_cult.6.Q", sep=" ", header=F)
-cmaxLab <- read_delim("data/03_geno/data/admix/cmaxima/cmaxima_admix_cult.fam" , delim=" ", col_names=F)[,1]
+cmaxLab <- read_delim("data/03_geno/data/filtered/cmaxima_admix_cult.fam" , delim=" ", col_names=F)[,1]
 cmax$name <- cmaxLab[[1]]
 cmaxMeta <- read.csv("data/01_meta/data/cmaxima_classifications.csv")
 cmax <- merge(cmax, cmaxMeta, by="name")
@@ -44,6 +44,7 @@ cpepo.plt <- ggplot(cpepoLg) +
 		     panel.grid=element_blank(),
 		     axis.text=element_blank(),
 		     axis.ticks=element_blank(),
+		     axis.title.y=element_text(face="italic"),
 	             legend.position="none") 
 
 cmosLg$class <- factor(cmosLg$class,
@@ -61,10 +62,11 @@ cmos.plt <- ggplot(cmosLg) +
 		     panel.grid=element_blank(),
 		     axis.text=element_blank(),
 		     axis.ticks=element_blank(),
+		     axis.title.y=element_text(face="italic"),
 	             legend.position="none") 
 
 cmaxLg$class <- factor(cmaxLg$class,
-		       levels=c("Buttercup", "Kobocha", "Kuri",
+		       levels=c("Buttercup", "Kabocha", "Kuri",
 				"Hubbard", "Australian", "Show"))
 cmax.plt <- ggplot(cmaxLg) +
 	       geom_bar(aes(x=name, y=value, fill=pop),
@@ -78,6 +80,7 @@ cmax.plt <- ggplot(cmaxLg) +
 		     panel.grid=element_blank(),
 		     axis.text=element_blank(),
 		     axis.ticks=element_blank(),
+		     axis.title.y=element_text(face="italic"),
 	             legend.position="none") 
 
 comb.plt <- grid.arrange(cpepo.plt, cmos.plt, cmax.plt)

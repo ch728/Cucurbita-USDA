@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.9.19)  18 DEC 2022 22:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.9.19)  19 DEC 2022 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -755,72 +755,160 @@ Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
 [13]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+<../../figures/01_fig.png, id=362, 867.24pt x 433.62pt>
+File: ../../figures/01_fig.png Graphic file (type png)
+<use ../../figures/01_fig.png>
+Package pdftex.def Info: ../../figures/01_fig.png  used on input line 252.
+(pdftex.def)             Requested size: 504.0pt x 252.00262pt.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
 [14
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+ <../../figures/01_fig.png>]
+<../../supplemental/01_supfig.png, id=369, 803.0pt x 803.0pt>
+File: ../../supplemental/01_supfig.png Graphic file (type png)
+<use ../../supplemental/01_supfig.png>
+Package pdftex.def Info: ../../supplemental/01_supfig.png  used on input line 2
+61.
+(pdftex.def)             Requested size: 504.0pt x 504.018pt.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
-[15]
+[15
+
+ <../../supplemental/01_supfig.png (PNG copy)>]
+<../../figures/02_fig.png, id=375, 939.51pt x 650.43pt>
+File: ../../figures/02_fig.png Graphic file (type png)
+<use ../../figures/02_fig.png>
+Package pdftex.def Info: ../../figures/02_fig.png  used on input line 270.
+(pdftex.def)             Requested size: 504.0pt x 348.92442pt.
+
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
 [16
 
+ <../../figures/02_fig.png (PNG copy)>]
+<../../supplemental/02_supfig.png, id=380, 867.24pt x 505.89pt>
+File: ../../supplemental/02_supfig.png Graphic file (type png)
+<use ../../supplemental/02_supfig.png>
+Package pdftex.def Info: ../../supplemental/02_supfig.png  used on input line 2
+79.
+(pdftex.def)             Requested size: 504.0pt x 294.00305pt.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[17
+
+ <../../supplemental/02_supfig.png (PNG copy)>]
+<../../figures/03_fig.png, id=385, 722.7pt x 505.1673pt>
+File: ../../figures/03_fig.png Graphic file (type png)
+<use ../../figures/03_fig.png>
+Package pdftex.def Info: ../../figures/03_fig.png  used on input line 288.
+(pdftex.def)             Requested size: 504.0pt x 352.29659pt.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[18
+
+ <../../figures/03_fig.png (PNG copy)>]
+<../../figures/10_ld_fig.png, id=390, 505.89pt x 433.62pt>
+File: ../../figures/10_ld_fig.png Graphic file (type png)
+<use ../../figures/10_ld_fig.png>
+Package pdftex.def Info: ../../figures/10_ld_fig.png  used on input line 297.
+(pdftex.def)             Requested size: 403.20154pt x 345.60625pt.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[19
+
+ <../../figures/10_ld_fig.png (PNG copy)>]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[20
+
 ]
-Underfull \hbox (badness 1253) in paragraph at lines 343--343
+<../../figures/new_gwas.png, id=400, 505.6491pt x 505.1673pt>
+File: ../../figures/new_gwas.png Graphic file (type png)
+<use ../../figures/new_gwas.png>
+Package pdftex.def Info: ../../figures/new_gwas.png  used on input line 312.
+(pdftex.def)             Requested size: 302.40308pt x 302.12376pt.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[21
+
+ <../../figures/new_gwas.png (PNG copy)>]
+<../../supplemental/03_supfig.png, id=405, 505.89pt x 433.62pt>
+File: ../../supplemental/03_supfig.png Graphic file (type png)
+<use ../../supplemental/03_supfig.png>
+Package pdftex.def Info: ../../supplemental/03_supfig.png  used on input line 3
+21.
+(pdftex.def)             Requested size: 403.20154pt x 345.60625pt.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[22
+
+ <../../supplemental/03_supfig.png (PNG copy)>]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[23
+
+]
+Underfull \hbox (badness 1253) in paragraph at lines 381--381
 []|\OT1/ptm/m/n/12 (+20) Mixed Group; Many from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--344
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
 []|\OT1/ptm/m/n/12 (+20) Wild subsp. \OT1/ptm/m/it/12 (+20) ovifera \OT1/ptm/m/
 n/12 (+20) var.
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 344--344
+Underfull \hbox (badness 2142) in paragraph at lines 382--382
 \OT1/ptm/m/it/12 (+20) texana \OT1/ptm/m/n/12 (+20) and var. \OT1/ptm/m/it/12 (
 +20) ozarkana\OT1/ptm/m/n/12 (+20) ;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--344
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
 []|\OT1/ptm/m/n/12 (+20) Mostly Mexico and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
 []|\OT1/ptm/m/n/12 (+20) Mostly from North
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--346
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
 []|\OT1/ptm/m/n/12 (+20) Majority from North
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
 []|\OT1/ptm/m/n/12 (+20) Mostly Turkey, Iran,
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 348--348
+Underfull \hbox (badness 4505) in paragraph at lines 386--386
 []|\OT1/ptm/m/n/12 (+20) Mixed origin Europe and
  []
 
 
-Underfull \hbox (badness 6510) in paragraph at lines 348--348
+Underfull \hbox (badness 6510) in paragraph at lines 386--386
 \OT1/ptm/m/n/12 (+20) Americas;Many similar to
  []
 
@@ -828,69 +916,69 @@ Underfull \hbox (badness 6510) in paragraph at lines 348--348
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
-[17
+[24
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 369--369
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 []|\OT1/ptm/m/n/12 (+20) Contemporary plant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--369
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 \OT1/ptm/m/n/12 (+20) architecture data coded
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--372
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
 []|\OT1/ptm/m/n/12 (+20) Maximum fruit width in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--373
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
 []|\OT1/ptm/m/n/12 (+20) Minimum fruit width in
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 374--374
+Underfull \hbox (badness 5924) in paragraph at lines 412--412
 []|\OT1/ptm/m/n/12 (+20) Maximum fruit length in
  []
 
 
-Underfull \hbox (badness 7814) in paragraph at lines 375--375
+Underfull \hbox (badness 7814) in paragraph at lines 413--413
 []|\OT1/ptm/m/n/12 (+20) Minimum fruit length in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--378
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
 []|\OT1/ptm/m/n/12 (+20) Number of squash bug
  []
 
 
-Underfull \vbox (badness 10000) detected at line 385
+Underfull \vbox (badness 10000) detected at line 423
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
 []|\OT1/ptm/m/n/12 (+20) Fruit set from poor to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 442--442
 []|\OT1/ptm/m/n/12 (+20) Cucumber mosaic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 442--442
 \OT1/ptm/m/n/12 (+20) susceptibility from slight
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 407--407
+Underfull \hbox (badness 2111) in paragraph at lines 445--445
 []|\OT1/ptm/m/n/12 (+20) Susceptibility to PM from
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 409--409
+Underfull \hbox (badness 3471) in paragraph at lines 447--447
 []|\OT1/ptm/m/n/12 (+20) Plant vigor from poor to
  []
 
@@ -898,13 +986,13 @@ Underfull \hbox (badness 3471) in paragraph at lines 409--409
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
-[18
+[25
 
 ]
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
-[19]
+[26]
 
 Package caption Warning: Unused \captionsetup[sub] on input line 20.
 See the caption package documentation for explanation.
@@ -913,20 +1001,20 @@ See the caption package documentation for explanation.
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
-[20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 421.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 421.
+[27]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 459.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 459.
  (./cuccap-fresh.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 421.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 421.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 459.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 459.
 Package rerunfilecheck Info: File `cuccap-fresh.out' has not changed.
 (rerunfilecheck)             Checksum: 1EA8920497C8591DE8D09966B83D51C3;1288.
  ) 
 Here is how much of TeX's memory you used:
- 12739 strings out of 481239
- 192087 string characters out of 5920377
- 524520 words of memory out of 5000000
- 27345 multiletter control sequences out of 15000+600000
+ 12797 strings out of 481239
+ 193524 string characters out of 5920377
+ 524576 words of memory out of 5000000
+ 27385 multiletter control sequences out of 15000+600000
  584150 words of font info for 268 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  63i,10n,100p,1717b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -944,10 +1032,10 @@ exmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on cuccap-fresh.pdf (20 pages, 249465 bytes).
+Output written on cuccap-fresh.pdf (27 pages, 2375955 bytes).
 PDF statistics:
- 466 PDF objects out of 1000 (max. 8388607)
- 421 compressed objects within 5 object streams
- 98 named destinations out of 1000 (max. 500000)
- 35478 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 506 PDF objects out of 1000 (max. 8388607)
+ 445 compressed objects within 5 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 35518 words of extra memory for PDF output out of 35830 (max. 10000000)
 

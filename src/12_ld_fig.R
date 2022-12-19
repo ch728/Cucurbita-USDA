@@ -30,9 +30,10 @@ all$diff <- all$diff/1000000
 p <- ggplot(all, aes(x=diff, y=r, color=species)) +
 	geom_smooth(se=F, method="loess") +
 	theme_bw(base_size=18) + 
-	ylab("R^2") +
-	xlab("Distance in Mb") +
-	theme(panel.grid=element_blank())
+	ylab(bquote(r^2)) +
+	xlab("Pair-wise marker distance in Mb") +
+	theme(panel.grid=element_blank(),
+	      legend.text=element_text(face="italic"))
 ggsave("figures/10_ld_fig.png", p, "png", height=6, width=7)
 
 

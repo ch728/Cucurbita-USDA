@@ -33,7 +33,8 @@ cpepo.plt <- ggplot(cpepoSub, aes(x=value)) +
 		  theme_bw(base_size=18) +
 		  theme(panel.background=element_blank(),
 		        panel.grid=element_blank(),
-		        plot.title=element_text(face="bold"))	
+		        plot.title=element_text(face="bold"),
+		        axis.title.x=element_text(face="italic"))	
 	
 
 cmos.plt <- ggplot(cmosSub, aes(x=value)) +
@@ -45,7 +46,8 @@ cmos.plt <- ggplot(cmosSub, aes(x=value)) +
                   theme_bw(base_size=18) +
                   theme(panel.background=element_blank(),
                         panel.grid=element_blank(),
-		        plot.title=element_text(face="bold"))	
+		        plot.title=element_text(face="bold"),
+		        axis.title.x=element_text(face="italic"))	
 
 cmax.plt <- ggplot(cmaxSub, aes(x=value)) +
                   geom_histogram() +
@@ -56,7 +58,8 @@ cmax.plt <- ggplot(cmaxSub, aes(x=value)) +
                   theme_bw(base_size=18) +
                   theme(panel.background=element_blank(),
                         panel.grid=element_blank(),
-		        plot.title=element_text(face="bold"))	
+		        plot.title=element_text(face="bold"),
+		        axis.title.x=element_text(face="italic"))	
 
 fin.plt <- grid.arrange(cpepo.plt, cmos.plt, cmax.plt,
 	     layout_matrix=rbind(c(1,1),

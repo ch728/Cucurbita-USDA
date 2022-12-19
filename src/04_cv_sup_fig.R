@@ -25,5 +25,6 @@ cv.plt <- ggplot(all, aes(x=k,y=error)) +
 		 ylab("CV error") + xlab("K") +
 		 facet_wrap(~species, ncol=3, scales="free") +
 		 theme_bw(base_size=18) +
-		 theme(panel.grid=element_blank())
+		 theme(panel.grid=element_blank(),
+		       strip.text=element_text(face="italic"))
 ggsave("supplemental/02_supfig.png", cv.plt, "png", width=12)

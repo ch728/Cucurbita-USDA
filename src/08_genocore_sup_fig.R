@@ -30,6 +30,7 @@ cov.plt <- ggplot(allCov, aes(x=Iteration, y=Coverage,
 		  theme_bw(base_size=18) +
 		  theme(panel.grid=element_blank(),
 			legend.title=element_blank(),
+			legend.text=element_text(face="italic"),
 		        plot.title=element_text(face="bold"))
 
 # Make pca coverage figure
