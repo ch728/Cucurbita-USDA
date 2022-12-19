@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.9.19)  18 DEC 2022 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.9.19)  18 DEC 2022 21:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -683,7 +683,7 @@ Underfull \hbox (badness 10000) detected at line 66
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 69.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <8> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 79.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 81.
 [1
 
 
@@ -691,7 +691,7 @@ LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <8> not available
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo1-eps-converted-to.p
 df>]
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <11> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 117.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 113.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
@@ -706,7 +706,7 @@ Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 [4]
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <11.5> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 157.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 159.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
@@ -727,30 +727,34 @@ Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
-[9] (./cuccap-fresh.bbl
+[9]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[10] (./cuccap-fresh.bbl
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 1
-52.
+61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 152.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 161.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
-[10
+[11
 
 ]
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
-[11])
+[12])
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
-[12]
+[13]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -758,7 +762,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
-[13
+[14
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -767,127 +771,57 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
-[14]
-Overfull \vbox (3.49998pt too high) has occurred while \output is active []
-
-
-[15
-
-]
-Underfull \hbox (badness 1253) in paragraph at lines 340--340
-[]|\OT1/ptm/m/n/12 (+20) Mixed Group; Many from
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
-[]|\OT1/ptm/m/n/12 (+20) Wild subsp. \OT1/ptm/m/it/12 (+20) ovifera \OT1/ptm/m/
-n/12 (+20) var.
- []
-
-
-Underfull \hbox (badness 2142) in paragraph at lines 341--341
-\OT1/ptm/m/it/12 (+20) texana \OT1/ptm/m/n/12 (+20) and var. \OT1/ptm/m/it/12 (
-+20) ozarkana\OT1/ptm/m/n/12 (+20) ;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
-[]|\OT1/ptm/m/n/12 (+20) Mostly Mexico and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
-[]|\OT1/ptm/m/n/12 (+20) Mostly from North
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
-[]|\OT1/ptm/m/n/12 (+20) Majority from North
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
-[]|\OT1/ptm/m/n/12 (+20) Mostly Turkey, Iran,
- []
-
-
-Underfull \hbox (badness 4505) in paragraph at lines 345--345
-[]|\OT1/ptm/m/n/12 (+20) Mixed origin Europe and
- []
-
-
-Underfull \hbox (badness 6510) in paragraph at lines 345--345
-\OT1/ptm/m/n/12 (+20) Americas;Many similar to
- []
-
-
+[15]
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
 [16
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 366--366
-[]|\OT1/ptm/m/n/12 (+20) Contemporary plant
+Underfull \hbox (badness 1253) in paragraph at lines 343--343
+[]|\OT1/ptm/m/n/12 (+20) Mixed Group; Many from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--366
-\OT1/ptm/m/n/12 (+20) architecture data coded
+Underfull \hbox (badness 10000) in paragraph at lines 344--344
+[]|\OT1/ptm/m/n/12 (+20) Wild subsp. \OT1/ptm/m/it/12 (+20) ovifera \OT1/ptm/m/
+n/12 (+20) var.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--369
-[]|\OT1/ptm/m/n/12 (+20) Maximum fruit width in
+Underfull \hbox (badness 2142) in paragraph at lines 344--344
+\OT1/ptm/m/it/12 (+20) texana \OT1/ptm/m/n/12 (+20) and var. \OT1/ptm/m/it/12 (
++20) ozarkana\OT1/ptm/m/n/12 (+20) ;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
-[]|\OT1/ptm/m/n/12 (+20) Minimum fruit width in
+Underfull \hbox (badness 10000) in paragraph at lines 344--344
+[]|\OT1/ptm/m/n/12 (+20) Mostly Mexico and
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 371--371
-[]|\OT1/ptm/m/n/12 (+20) Maximum fruit length in
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
+[]|\OT1/ptm/m/n/12 (+20) Mostly from North
  []
 
 
-Underfull \hbox (badness 7814) in paragraph at lines 372--372
-[]|\OT1/ptm/m/n/12 (+20) Minimum fruit length in
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+[]|\OT1/ptm/m/n/12 (+20) Majority from North
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--375
-[]|\OT1/ptm/m/n/12 (+20) Number of squash bug
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+[]|\OT1/ptm/m/n/12 (+20) Mostly Turkey, Iran,
  []
 
 
-Underfull \vbox (badness 10000) detected at line 382
+Underfull \hbox (badness 4505) in paragraph at lines 348--348
+[]|\OT1/ptm/m/n/12 (+20) Mixed origin Europe and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
-[]|\OT1/ptm/m/n/12 (+20) Fruit set from poor to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
-[]|\OT1/ptm/m/n/12 (+20) Cucumber mosaic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
-\OT1/ptm/m/n/12 (+20) susceptibility from slight
- []
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 404--404
-[]|\OT1/ptm/m/n/12 (+20) Susceptibility to PM from
- []
-
-
-Underfull \hbox (badness 3471) in paragraph at lines 406--406
-[]|\OT1/ptm/m/n/12 (+20) Plant vigor from poor to
+Underfull \hbox (badness 6510) in paragraph at lines 348--348
+\OT1/ptm/m/n/12 (+20) Americas;Many similar to
  []
 
 
@@ -897,10 +831,80 @@ Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 [17
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+[]|\OT1/ptm/m/n/12 (+20) Contemporary plant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+\OT1/ptm/m/n/12 (+20) architecture data coded
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+[]|\OT1/ptm/m/n/12 (+20) Maximum fruit width in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+[]|\OT1/ptm/m/n/12 (+20) Minimum fruit width in
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 374--374
+[]|\OT1/ptm/m/n/12 (+20) Maximum fruit length in
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 375--375
+[]|\OT1/ptm/m/n/12 (+20) Minimum fruit length in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
+[]|\OT1/ptm/m/n/12 (+20) Number of squash bug
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 385
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
+[]|\OT1/ptm/m/n/12 (+20) Fruit set from poor to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
+[]|\OT1/ptm/m/n/12 (+20) Cucumber mosaic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
+\OT1/ptm/m/n/12 (+20) susceptibility from slight
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 407--407
+[]|\OT1/ptm/m/n/12 (+20) Susceptibility to PM from
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 409--409
+[]|\OT1/ptm/m/n/12 (+20) Plant vigor from poor to
+ []
+
+
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
-[18]
+[18
+
+]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[19]
 
 Package caption Warning: Unused \captionsetup[sub] on input line 20.
 See the caption package documentation for explanation.
@@ -909,23 +913,23 @@ See the caption package documentation for explanation.
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
-[19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 418.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 418.
+[20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 421.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 421.
  (./cuccap-fresh.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 418.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 418.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 421.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 421.
 Package rerunfilecheck Info: File `cuccap-fresh.out' has not changed.
 (rerunfilecheck)             Checksum: 1EA8920497C8591DE8D09966B83D51C3;1288.
  ) 
 Here is how much of TeX's memory you used:
- 12715 strings out of 481239
- 191810 string characters out of 5920377
- 523571 words of memory out of 5000000
- 27341 multiletter control sequences out of 15000+600000
- 583006 words of font info for 256 fonts, out of 8000000 for 9000
+ 12736 strings out of 481239
+ 192057 string characters out of 5920377
+ 524520 words of memory out of 5000000
+ 27345 multiletter control sequences out of 15000+600000
+ 583911 words of font info for 266 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 63i,10n,100p,1731b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,10n,100p,1731b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
@@ -940,10 +944,10 @@ exmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on cuccap-fresh.pdf (19 pages, 245657 bytes).
+Output written on cuccap-fresh.pdf (20 pages, 249373 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 406 compressed objects within 5 object streams
- 96 named destinations out of 1000 (max. 500000)
+ 464 PDF objects out of 1000 (max. 8388607)
+ 419 compressed objects within 5 object streams
+ 98 named destinations out of 1000 (max. 500000)
  35478 words of extra memory for PDF output out of 35830 (max. 10000000)
 

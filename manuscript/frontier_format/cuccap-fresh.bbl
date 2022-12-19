@@ -1,4 +1,4 @@
-\begin{thebibliography}{46}
+\begin{thebibliography}{47}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -39,6 +39,15 @@ Bradbury, P.~J., Zhang, Z., Kroon, D.~E., Casstevens, T.~M., Ramdoss, Y., and
 \newblock \emph{Bioinformatics} 23, 2633--2635.
 \newblock \doi{10.1093/bioinformatics/btm308}
 \bibAnnoteFile{Bradbury2007}
+
+\bibitem[{Brzozowski et~al.(2020)Brzozowski, Gore, Agrawal, and
+  Mazourek}]{Brzozowski2020}
+Brzozowski, L.~J., Gore, M.~A., Agrawal, A.~A., and Mazourek, M. (2020).
+\newblock Divergence of defensive cucurbitacins in independent domestication
+  events leads to differences in specialist herbivore preference.
+\newblock \emph{Plant, Cell \& Environment} 43, 2812--2825.
+\newblock \doi{10.1111/pce.13844}
+\bibAnnoteFile{Brzozowski2020}
 
 \bibitem[{Cerioli et~al.(2022)Cerioli, Hernandez, Angira, McCouch, Robbins, and
   Famoso}]{Cerioli2022}
