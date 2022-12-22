@@ -1,0 +1,1045 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.9.19)  21 DEC 2022 16:09
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**cuccap-fresh.tex
+(./cuccap-fresh.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (./FrontiersinHarvard.cls
+Document Class: FrontiersinHarvard 2016/11/10 2.6
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/crop/crop.sty
+Package: crop 2003/05/20 v1.9 crop marks (mf)
+\stockwidth=\dimen134
+\stockheight=\dimen135
+\CROP@index=\count167
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\CROP@offset=\count168
+Package crop Info: Local config file crop.cfg used on input line 605.
+
+(/usr/share/texlive/texmf-dist/tex/xelatex/xetexconfig/crop.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen138
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen139
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count169
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count170
+\leftroot@=\count171
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count172
+\DOTSCASE@=\count173
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen140
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count174
+\c@MaxMatrixCols=\count175
+\dotsspace@=\muskip16
+\c@parentequation=\count176
+\dspbrk@lvl=\count177
+\tag@help=\toks18
+\row@=\count178
+\column@=\count179
+\maxfields@=\count180
+\andhelp@=\toks19
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks20
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen147
+\ar@mcellbox=\box47
+\extrarowheight=\dimen148
+\NC@list=\toks22
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/sttools/flushend.sty
+Package: flushend 2017/03/27 v3.3 Balancing columns in twocolumn mode
+\flushend@@lastskip@a=\skip52
+\flushend@@lastskip@b=\skip53
+\flushend@@lastskip@c=\skip54
+\flushend@@penalty@a=\count181
+\flushend@@lastkern@a=\dimen149
+\var@@temp@spread=\dimen150
+\var@@temp@a=\dimen151
+\flushend@@page@rule=\dimen152
+\flushend@@varbox@a=\box49
+\flushend@@varbox@c=\box50
+\flushend@@tempbox@a=\box51
+\flushend@@tempbox@c=\box52
+\@viper=\box53
+\hold@viper=\box54
+\atColsBreak=\toks23
+\atColsEnd=\toks24
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count182
+))
+(./stfloats.sty
+Package: stfloats 1999/10/22
+\@dblbotnum=\count183
+\c@dblbotnumber=\count184
+) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip55
+\thm@postskip=\skip56
+\thm@headsep=\skip57
+\dth@everypar=\toks30
+)
+(/usr/share/texlive/texmf-dist/tex/latex/changepage/chngpage.sty
+Package: chngpage 2009/10/20 v1.2b change page layout
+\c@cp@cnt=\count185
+\c@cp@tempcnt=\count186
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2020/01/30 v3.06
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
+)
+\XKV@depth=\count187
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count188
+))
+\c@padzeroesN=\count189
+\fc@tmpcatcode=\count190
+\@DT@modctr=\count191
+\@ordinalctr=\count192
+\@orgargctr=\count193
+\@strctr=\count194
+\@tmpstrctr=\count195
+\@DT@loopN=\count196
+\@DT@X=\count197
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count198
+\@month=\count199
+\@year=\count266
+\c@HOUR=\count267
+\c@HOURXII=\count268
+\c@MINUTE=\count269
+\c@TOHOUR=\count270
+\c@TOMINUTE=\count271
+\c@SECOND=\count272
+\currenthour=\count273
+\currentminute=\count274
+\currentsecond=\count275
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count276
+\dayofyear=\count277
+\dayofweek=\count278
+\dt@a=\toks33
+\dt@b=\toks34
+)
+(/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Rollback for package 'parskip' requested -> version 'v1'.
+         This corresponds to the release introduced on 2001-04-09.
+
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip-2001-04-09.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen153
+\captionmargin@=\dimen154
+\captionwidth=\dimen155
+\caption@tempdima=\dimen156
+\caption@indent=\dimen157
+\caption@parindent=\dimen158
+\caption@hangindent=\dimen159
+\abovecaptionskip=\skip58
+\belowcaptionskip=\skip59
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = undefined on input line 1082.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count279
+\c@continuedfloat=\count280
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+)
+\c@section=\count281
+\c@subsection=\count282
+\c@subsubsection=\count283
+\c@paragraph=\count284
+\c@subparagraph=\count285
+\c@figure=\count286
+\c@subfigure=\count287
+\c@table=\count288
+\dropfromtop=\skip60
+\extraspace=\skip61
+\aboveskipchk=\skip62
+\rotdimen=\dimen160
+\tempdime=\dimen161
+\temptbox=\box55
+
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip63
+\bibsep=\skip64
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count289
+))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen162
+\Hy@linkcounter=\count290
+\Hy@pagecounter=\count291
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count292
+\pdfmajorversion=\count293
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+LaTeX Info: Redefining \href on input line 5070.
+\c@Hy@tempcnt=\count294
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen163
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count295
+\Field@Width=\dimen164
+\Fld@charsize=\dimen165
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+Package atbegshi Info: Package `crop' patched.
+)
+\Hy@abspage=\count296
+\c@Item=\count297
+\c@Hfootnote=\count298
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count299
+\c@bookmark@seq@number=\count300
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip65
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count301
+\output=\toks35
+\linenoprevgraf=\count302
+\linenumbersep=\dimen166
+\linenumberwidth=\dimen167
+\c@linenumber=\count303
+\c@pagewiselinenumber=\count304
+\c@LN@truepage=\count305
+\c@internallinenumber=\count306
+\c@internallinenumbers=\count307
+\quotelinenumbersep=\dimen168
+\bframerule=\dimen169
+\bframesep=\dimen170
+\bframebox=\box56
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
+\MT@toks=\toks36
+\MT@count=\count308
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen171
+LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
+\MT@listname@count=\count309
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 914.
+LaTeX Info: Redefining \lslig on input line 914.
+\MT@outer@space=\skip66
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip67
+\LTright=\skip68
+\LTpre=\skip69
+\LTpost=\skip70
+\LTchunksize=\count310
+\LTcapwidth=\dimen172
+\LT@head=\box57
+\LT@firsthead=\box58
+\LT@foot=\box59
+\LT@lastfoot=\box60
+\LT@cols=\count311
+\LT@rows=\count312
+\c@LT@tables=\count313
+\c@LT@chunks=\count314
+\LT@p@ftn=\toks37
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count315
+\l__pdf_internal_box=\box61
+)
+(./cuccap-fresh.aux)
+\openout1 = `cuccap-fresh.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+0.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count316
+\scratchdimen=\dimen173
+\scratchbox=\box62
+\nofMPsegments=\count317
+\nofMParguments=\count318
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen174
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
+\everyMPtoPDFconversion=\toks39
+)
+Package crop Info: requested driver: `' on input line 50.
+Package crop Info: detected driver: `pdftex' on input line 50.
+Package crop Info: using `pdftex' graphics driver on input line 50.
+ (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2016/01/12
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box63
+Package hyperref Info: Link coloring OFF on input line 50.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count322
+)
+LaTeX Info: Redefining \ref on input line 50.
+LaTeX Info: Redefining \pageref on input line 50.
+LaTeX Info: Redefining \nameref on input line 50.
+
+(./cuccap-fresh.out) (./cuccap-fresh.out)
+\@outlinefile=\write3
+\openout3 = `cuccap-fresh.out'.
+
+LaTeX Info: Redefining \microtypecontext on input line 50.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2),
+(microtype)             factor: 1500.
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+LaTeX Info: Redefining \showhyphens on input line 50.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 6
+5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package epstopdf Info: Source file: <./logo1.eps>
+(epstopdf)                    date: 2022-06-14 13:05:54
+(epstopdf)                    size: 2415779 bytes
+(epstopdf)             Output file: <./logo1-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-12-15 11:59:25
+(epstopdf)                    size: 27887 bytes
+(epstopdf)             Command: <repstopdf --outfile=./logo1-eps-converted-to.p
+df ./logo1.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+<./logo1-eps-converted-to.pdf, id=76, 284.06125pt x 80.3pt>
+File: ./logo1-eps-converted-to.pdf Graphic file (type pdf)
+<use ./logo1-eps-converted-to.pdf>
+Package pdftex.def Info: ./logo1-eps-converted-to.pdf  used on input line 65.
+(pdftex.def)             Requested size: 144.0pt x 40.70862pt.
+
+Underfull \hbox (badness 10000) detected at line 65
+[]
+ []
+
+
+Overfull \hbox (8.53581pt too wide) in paragraph at lines 65--65
+[][] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <20> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 65.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+Underfull \hbox (badness 10000) detected at line 65
+[]
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <8> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 80.
+[1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo1-eps-converted-to.p
+df>]
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <11> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 118.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[2]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[3]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[4]
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <11.5> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 158.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[5]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[6]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[7]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[8]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[9]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[10] (./cuccap-fresh.bbl
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 1
+61.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 161.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[11
+
+]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[12])
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[13]
+<../final_figures/01_fig.png, id=367, 867.24pt x 433.62pt>
+File: ../final_figures/01_fig.png Graphic file (type png)
+<use ../final_figures/01_fig.png>
+Package pdftex.def Info: ../final_figures/01_fig.png  used on input line 250.
+(pdftex.def)             Requested size: 504.0pt x 252.00262pt.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[14
+
+ <../final_figures/01_fig.png>]
+<../final_figures/02_fig.png, id=375, 803.0pt x 803.0pt>
+File: ../final_figures/02_fig.png Graphic file (type png)
+<use ../final_figures/02_fig.png>
+Package pdftex.def Info: ../final_figures/02_fig.png  used on input line 259.
+(pdftex.def)             Requested size: 504.0pt x 504.018pt.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[15
+
+ <../final_figures/02_fig.png (PNG copy)>]
+<../final_figures/03_fig.png, id=380, 939.51pt x 650.43pt>
+File: ../final_figures/03_fig.png Graphic file (type png)
+<use ../final_figures/03_fig.png>
+Package pdftex.def Info: ../final_figures/03_fig.png  used on input line 268.
+(pdftex.def)             Requested size: 504.0pt x 348.92442pt.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[16
+
+ <../final_figures/03_fig.png (PNG copy)>]
+<../final_figures/04_fig.png, id=385, 867.24pt x 505.89pt>
+File: ../final_figures/04_fig.png Graphic file (type png)
+<use ../final_figures/04_fig.png>
+Package pdftex.def Info: ../final_figures/04_fig.png  used on input line 277.
+(pdftex.def)             Requested size: 504.0pt x 294.00305pt.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[17
+
+ <../final_figures/04_fig.png (PNG copy)>]
+<../final_figures/05_fig.png, id=390, 722.7pt x 505.4082pt>
+File: ../final_figures/05_fig.png Graphic file (type png)
+<use ../final_figures/05_fig.png>
+Package pdftex.def Info: ../final_figures/05_fig.png  used on input line 286.
+(pdftex.def)             Requested size: 504.0pt x 352.46458pt.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[18
+
+ <../final_figures/05_fig.png (PNG copy)>]
+<../final_figures/06_fig.png, id=395, 505.89pt x 433.62pt>
+File: ../final_figures/06_fig.png Graphic file (type png)
+<use ../final_figures/06_fig.png>
+Package pdftex.def Info: ../final_figures/06_fig.png  used on input line 295.
+(pdftex.def)             Requested size: 403.20154pt x 345.60625pt.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[19
+
+ <../final_figures/06_fig.png (PNG copy)>]
+<../final_figures/07_fig.png, id=401, 722.7pt x 505.4082pt>
+File: ../final_figures/07_fig.png Graphic file (type png)
+<use ../final_figures/07_fig.png>
+Package pdftex.def Info: ../final_figures/07_fig.png  used on input line 304.
+(pdftex.def)             Requested size: 403.20154pt x 281.97012pt.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[20
+
+ <../final_figures/07_fig.png (PNG copy)>]
+<../final_figures/08_fig.png, id=406, 505.6491pt x 505.1673pt>
+File: ../final_figures/08_fig.png Graphic file (type png)
+<use ../final_figures/08_fig.png>
+Package pdftex.def Info: ../final_figures/08_fig.png  used on input line 313.
+(pdftex.def)             Requested size: 302.40308pt x 302.12376pt.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[21
+
+ <../final_figures/08_fig.png (PNG copy)>]
+<../final_figures/09_fig.png, id=411, 505.89pt x 433.62pt>
+File: ../final_figures/09_fig.png Graphic file (type png)
+<use ../final_figures/09_fig.png>
+Package pdftex.def Info: ../final_figures/09_fig.png  used on input line 322.
+(pdftex.def)             Requested size: 403.20154pt x 345.60625pt.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[22
+
+ <../final_figures/09_fig.png (PNG copy)>]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[23
+
+]
+Underfull \hbox (badness 1253) in paragraph at lines 382--382
+[]|\OT1/ptm/m/n/12 (+20) Mixed Group; Many from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
+[]|\OT1/ptm/m/n/12 (+20) Wild subsp. \OT1/ptm/m/it/12 (+20) ovifera \OT1/ptm/m/
+n/12 (+20) var.
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 383--383
+\OT1/ptm/m/it/12 (+20) texana \OT1/ptm/m/n/12 (+20) and var. \OT1/ptm/m/it/12 (
++20) ozarkana\OT1/ptm/m/n/12 (+20) ;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
+[]|\OT1/ptm/m/n/12 (+20) Mostly Mexico and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
+[]|\OT1/ptm/m/n/12 (+20) Mostly from North
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--385
+[]|\OT1/ptm/m/n/12 (+20) Majority from North
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
+[]|\OT1/ptm/m/n/12 (+20) Mostly Turkey, Iran,
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 387--387
+[]|\OT1/ptm/m/n/12 (+20) Mixed origin Europe and
+ []
+
+
+Underfull \hbox (badness 6510) in paragraph at lines 387--387
+\OT1/ptm/m/n/12 (+20) Americas;Many similar to
+ []
+
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[24
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+[]|\OT1/ptm/m/n/12 (+20) Contemporary plant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+\OT1/ptm/m/n/12 (+20) architecture data coded
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
+[]|\OT1/ptm/m/n/12 (+20) Maximum fruit width in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
+[]|\OT1/ptm/m/n/12 (+20) Minimum fruit width in
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 413--413
+[]|\OT1/ptm/m/n/12 (+20) Maximum fruit length in
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 414--414
+[]|\OT1/ptm/m/n/12 (+20) Minimum fruit length in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]|\OT1/ptm/m/n/12 (+20) Number of squash bug
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 424
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--440
+[]|\OT1/ptm/m/n/12 (+20) Fruit set from poor to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
+[]|\OT1/ptm/m/n/12 (+20) Cucumber mosaic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
+\OT1/ptm/m/n/12 (+20) susceptibility from slight
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 446--446
+[]|\OT1/ptm/m/n/12 (+20) Susceptibility to PM from
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 448--448
+[]|\OT1/ptm/m/n/12 (+20) Plant vigor from poor to
+ []
+
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[25
+
+]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[26]
+
+Package caption Warning: Unused \captionsetup[sub] on input line 20.
+See the caption package documentation for explanation.
+
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[27]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 460.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 460.
+ (./cuccap-fresh.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 460.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 460.
+Package rerunfilecheck Info: File `cuccap-fresh.out' has not changed.
+(rerunfilecheck)             Checksum: 1EA8920497C8591DE8D09966B83D51C3;1288.
+ ) 
+Here is how much of TeX's memory you used:
+ 12795 strings out of 481239
+ 193597 string characters out of 5920377
+ 524565 words of memory out of 5000000
+ 27394 multiletter control sequences out of 15000+600000
+ 583534 words of font info for 260 fonts, out of 8000000 for 9000
+ 1145 hyphenation exceptions out of 8191
+ 63i,10n,100p,1717b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
+tmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on cuccap-fresh.pdf (27 pages, 2686217 bytes).
+PDF statistics:
+ 516 PDF objects out of 1000 (max. 8388607)
+ 453 compressed objects within 5 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 35523 words of extra memory for PDF output out of 35830 (max. 10000000)
+

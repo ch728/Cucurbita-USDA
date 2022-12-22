@@ -1,0 +1,62 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is just an example/guide for you to refer to when producing your supplementary material for your Frontiers article.                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Version 2.5 Generated 2018/06/15 %%%
+%%% You will need to have the following packages installed: datetime, fmtcount, etoolbox, fcprefix, which are normally inlcuded in WinEdt. %%%
+%%% In http://www.ctan.org/ you can find the packages and how to install them, if necessary. %%%
+%%%  NB logo1.jpg is required in the path in order to correctly compile front page header %%%
+
+\documentclass[utf8]{frontiers_suppmat} % for all articles
+\usepackage{url,hyperref,lineno,microtype}
+\usepackage[onehalfspacing]{setspace}
+
+
+
+% Leave a blank line between paragraphs instead of using \\
+
+\begin{document}
+\onecolumn
+\firstpage{1}
+
+\title {{\helveticaitalic{Supplementary Material}}}
+
+
+\maketitle
+
+
+\section{Supplementary Data}
+
+
+\subsection{Figures}
+
+%%% There is no need for adding the file termination, as long as you indicate where the file is saved. In the examples below the files (logo1.eps and logos.eps) are in the Frontiers LaTeX folder
+%%% If using *.tif files convert them to .jpg or .png
+%%%  NB logo1.eps is required in the path in order to correctly compile front page header %%%
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{../../supplemental/04_supfig}% This is a *.eps file
+\end{center}
+\caption{Histograms of continuous and ordinal traits for \textbf{panel a.} \textit{C. pepo}, \textbf{panel b.} \textit{C. moschata}, and \textbf{panel c.} \textit{C. maxima.}\label{fig:1}}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{../../supplemental/man_fig}% This is a *.eps file
+	\end{center}
+	\caption{GWAS results for \textbf{panel a.} \textit{C. pepo}, \textbf{panel b.} \textit{C. moschata}, and \textbf{panel c.} \textit{C. maxima.}\label{fig:2}}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{../../supplemental/qq_subfig}% This is a *.eps file
+	\end{center}
+	\caption{Q-Q plots for GWAS results for \textbf{panel a.} \textit{C. pepo}, \textbf{panel b.} \textit{C. moschata}, and \textbf{panel c.} \textit{C. maxima.}\label{fig:2}}
+\end{figure}
+
+\end{document}

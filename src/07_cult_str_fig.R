@@ -65,6 +65,7 @@ cmos.plt <- ggplot(cmosLg) +
 		     axis.title.y=element_text(face="italic"),
 	             legend.position="none") 
 
+cmaxLg$class <- gsub("Kobocha", "Kabocha", cmaxLg$class)
 cmaxLg$class <- factor(cmaxLg$class,
 		       levels=c("Buttercup", "Kabocha", "Kuri",
 				"Hubbard", "Australian", "Show"))

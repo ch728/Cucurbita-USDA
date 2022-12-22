@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: cuccap-fresh.aux
+The style file: Frontiers-Harvard.bst
+Database file #1: cuccap-fresh.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 48 entries,
+            3029 wiz_defined-function locations,
+            995 strings with 20038 characters,
+and the built_in function-call counts, 39733 in all, are:
+= -- 3328
+> -- 2672
+< -- 9
++ -- 1373
+- -- 724
+* -- 2955
+:= -- 5854
+add.period$ -- 143
+call.type$ -- 48
+change.case$ -- 483
+chr.to.int$ -- 49
+cite$ -- 96
+duplicate$ -- 2293
+empty$ -- 2350
+format.name$ -- 869
+if$ -- 8019
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 570
+newline$ -- 348
+num.names$ -- 192
+pop$ -- 1097
+preamble$ -- 1
+purify$ -- 433
+quote$ -- 0
+skip$ -- 1693
+stack$ -- 0
+substring$ -- 1520
+swap$ -- 1187
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 432
+warning$ -- 0
+while$ -- 214
+width$ -- 0
+write$ -- 778
