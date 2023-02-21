@@ -149,7 +149,7 @@ finFig <- grid.arrange(finStr.plt, finPCA.plt,
 		       layout_matrix=rbind(c(1,1,1,1,1,1,1,NA,
 					     2,2,2,2,2,2,2,2,2,
 					     2)))
-ggsave("figures/02_fig.png", finFig, "png", width=13, height=9) 
+ggsave("final_figures/03_fig.jpeg", finFig, "jpeg", width=13, height=9) 
 
 # Format pop assignment file
 pepoMeta <-  merge(pepoMeta, pepoStr[[3]], by.x="accession_id", by.y="PI", all.x=T,sort=F)

@@ -49,10 +49,15 @@ map <- ggplot() +
             geom_scatterpie(aes(x=long, y=lat, group=country, r=radius), pie_data,
                             cols=c("C. pepo", "C. moschata", "C. maxima"),
                             color=NA, alpha=0.8) + 
-            theme_nothing() +
+            theme_bw() +
             theme(legend.position="bottom",
                   legend.text=element_text(size=18, face="italic"),
                   legend.spacing.x=unit(0.5, "cm"),
-                  legend.box.margin=margin(b=20))
-ggsave("figures/01_fig.png", map, "png", width=12, height=6)
+                  legend.box.margin=margin(b=20),
+	          panel.grid=element_blank(),
+	          axis.text=element_blank(),
+	          axis.ticks=element_blank(),
+	          axis.title=element_blank(),
+	          axis.line=element_blank())
+ggsave("final_figures/01_fig.jpeg", map, "jpeg", width=12, height=6)
 

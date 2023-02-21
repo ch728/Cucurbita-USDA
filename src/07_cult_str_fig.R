@@ -86,4 +86,4 @@ cmax.plt <- ggplot(cmaxLg) +
 
 comb.plt <- grid.arrange(cpepo.plt, cmos.plt, cmax.plt)
 
-ggsave("figures/03_fig.png", comb.plt, width=10)
+ggsave("final_figures/05_fig.jpeg",  comb.plt, "jpeg",  width=10)

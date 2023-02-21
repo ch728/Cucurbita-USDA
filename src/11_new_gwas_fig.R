@@ -47,7 +47,7 @@ pepoBu <- grid.arrange(pt$man, pt2$man, pt$qq, pt2$qq,
 				       just=0.8,
 				       gp=gpar(fontsize=20,
 					    fontface="bold")))
-ggsave("figures/new_gwas.png", pepoBu, device="png")
+ggsave("final_figures/08_fig.jpeg", pepoBu, device="jpeg")
 
 # Create combined manhattens
 combPepo <- grid.arrange(fmax$man,gn$man,or$man,
@@ -80,7 +80,7 @@ allMan <- grid.arrange(combPepo, combMos, combMax,
 		       bottom=textGrob("Chromosomes (0-20)",
 				       gp=gpar(fontsize=20,
 					    fontface="bold")))
-ggsave("supplemental/man_fig.png", allMan, "png", height=8, width=10)
+ggsave("supplemental/02_supfig.jpeg", allMan, "jpeg", height=8, width=10)
 
 # Create combined qq
 
@@ -114,5 +114,5 @@ allqq <- grid.arrange(combPepo, combMos, combMax,
 				     rot=90,
 				     gp=gpar(fontsize=20,
 					     frontface="bold")))
-ggsave("supplemental/qq_subfig.png", allqq, "png", height=8, width=10)
+ggsave("supplemental/03_subfig.jpeg", allqq, "jpeg", height=8, width=10)
 

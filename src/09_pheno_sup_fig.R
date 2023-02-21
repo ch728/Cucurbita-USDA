@@ -71,4 +71,4 @@ fin.plt <- grid.arrange(cpepo.plt, cmos.plt, cmax.plt,
 				 c(3,3),
 				 c(3,3),
 				 c(3,3)))
-ggsave("supplemental/04_supfig.png", fin.plt, "png", width=10, height=12)
+ggsave("supplemental/01_supfig.jpeg", fin.plt, "jpeg", width=10, height=12)

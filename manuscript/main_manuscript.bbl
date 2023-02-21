@@ -1,0 +1,439 @@
+\begin{thebibliography}{48}
+\providecommand{\natexlab}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+\providecommand{\bibAnnoteFile}[1]{%
+  \IfFileExists{#1}{\begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ \input{#1}\end{quotation}}{}}
+\providecommand{\bibAnnote}[2]{%
+  \begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ #2\end{quotation}}
+
+\bibitem[{Alexander and Lange(2011)}]{Alexander2011}
+Alexander, D.~H. and Lange, K. (2011).
+\newblock Enhancements to the {ADMIXTURE} algorithm for individual ancestry
+  estimation.
+\newblock \emph{{BMC} Bioinformatics} 12.
+\newblock \doi{10.1186/1471-2105-12-246}
+\bibAnnoteFile{Alexander2011}
+
+\bibitem[{Arbelaez et~al.(2019)Arbelaez, Dwiyanti, Tandayu, Llantada, Jarana,
+  Ignacio et~al.}]{Arbelaez2019}
+Arbelaez, J.~D., Dwiyanti, M.~S., Tandayu, E., Llantada, K., Jarana, A.,
+  Ignacio, J.~C., et~al. (2019).
+\newblock 1k-{RiCA} ({1K}-{Rice} {Custom} {Amplicon}) a novel genotyping
+  amplicon-based {SNP} assay for genetics and breeding applications in rice.
+\newblock \emph{Rice} 12, 55.
+\newblock \doi{10.1186/s12284-019-0311-0}
+\bibAnnoteFile{Arbelaez2019}
+
+\bibitem[{Bradbury et~al.(2007)Bradbury, Zhang, Kroon, Casstevens, Ramdoss, and
+  Buckler}]{Bradbury2007}
+Bradbury, P.~J., Zhang, Z., Kroon, D.~E., Casstevens, T.~M., Ramdoss, Y., and
+  Buckler, E.~S. (2007).
+\newblock {TASSEL}: software for association mapping of complex traits in
+  diverse samples.
+\newblock \emph{Bioinformatics} 23, 2633--2635.
+\newblock \doi{10.1093/bioinformatics/btm308}
+\bibAnnoteFile{Bradbury2007}
+
+\bibitem[{Brzozowski et~al.(2020)Brzozowski, Gore, Agrawal, and
+  Mazourek}]{Brzozowski2020}
+Brzozowski, L.~J., Gore, M.~A., Agrawal, A.~A., and Mazourek, M. (2020).
+\newblock Divergence of defensive cucurbitacins in independent domestication
+  events leads to differences in specialist herbivore preference.
+\newblock \emph{Plant, Cell \& Environment} 43, 2812--2825.
+\newblock \doi{10.1111/pce.13844}
+\bibAnnoteFile{Brzozowski2020}
+
+\bibitem[{Cerioli et~al.(2022)Cerioli, Hernandez, Angira, McCouch, Robbins, and
+  Famoso}]{Cerioli2022}
+Cerioli, T., Hernandez, C.~O., Angira, B., McCouch, S.~R., Robbins, K.~R., and
+  Famoso, A.~N. (2022).
+\newblock Development and validation of an optimized marker set for genomic
+  selection in southern {U}.{S}. rice breeding programs.
+\newblock \emph{The Plant Genome} 15, e20219.
+\newblock \doi{10.1002/tpg2.20219}
+\bibAnnoteFile{Cerioli2022}
+
+\bibitem[{Chomicki et~al.(2020)Chomicki, Schaefer, and Renner}]{Chomicki2020}
+Chomicki, G., Schaefer, H., and Renner, S.~S. (2020).
+\newblock Origin and domestication of {Cucurbitaceae} crops: insights from
+  phylogenies, genomics and archaeology.
+\newblock \emph{New Phytologist} 226, 1240--1255.
+\newblock \doi{10.1111/nph.16015}
+\bibAnnoteFile{Chomicki2020}
+
+\bibitem[{Cobb et~al.(2019)Cobb, Biswas, and Platten}]{Cobb2019}
+Cobb, J.~N., Biswas, P.~S., and Platten, J.~D. (2019).
+\newblock Back to the future: revisiting {MAS} as a tool for modern plant
+  breeding.
+\newblock \emph{Theoretical and Applied Genetics} 132, 647--667.
+\newblock \doi{10.1007/s00122-018-3266-4}
+\bibAnnoteFile{Cobb2019}
+
+\bibitem[{Danecek et~al.(2011)Danecek, Auton, Abecasis, Albers, Banks, DePristo
+  et~al.}]{Danecek2011}
+Danecek, P., Auton, A., Abecasis, G., Albers, C.~A., Banks, E., DePristo,
+  M.~A., et~al. (2011).
+\newblock The variant call format and {VCFtools}.
+\newblock \emph{Bioinformatics} 27, 2156--2158.
+\newblock \doi{10.1093/bioinformatics/btr330}
+\bibAnnoteFile{Danecek2011}
+
+\bibitem[{Danecek et~al.(2021)Danecek, Bonfield, Liddle, Marshall, Ohan,
+  Pollard et~al.}]{Danecek2021}
+Danecek, P., Bonfield, J.~K., Liddle, J., Marshall, J., Ohan, V., Pollard,
+  M.~O., et~al. (2021).
+\newblock Twelve years of {SAMtools} and {BCFtools}.
+\newblock \emph{{GigaScience}} 10.
+\newblock \doi{10.1093/gigascience/giab008}
+\bibAnnoteFile{Danecek2021}
+
+\bibitem[{de~los Campos et~al.(2015)de~los Campos, Sorensen, and
+  Gianola}]{Campos2015}
+de~los Campos, G., Sorensen, D., and Gianola, D. (2015).
+\newblock Genomic heritability: What is it?
+\newblock \emph{{PLOS} Genetics} 11, e1005048.
+\newblock \doi{10.1371/journal.pgen.1005048}
+\bibAnnoteFile{Campos2015}
+
+\bibitem[{Ding et~al.(2021)Ding, Wang, Qi, Luo, Wang, Xu et~al.}]{Ding2021}
+Ding, W., Wang, Y., Qi, C., Luo, Y., Wang, C., Xu, W., et~al. (2021).
+\newblock Fine mapping identified the gibberellin 2-oxidase gene {CpDw} leading
+  to a dwarf phenotype in squash (cucurbita pepo l.).
+\newblock \emph{Plant Science} 306, 110857.
+\newblock \doi{10.1016/j.plantsci.2021.110857}
+\bibAnnoteFile{Ding2021}
+
+\bibitem[{Endelman(2011)}]{Endelman2011}
+Endelman, J.~B. (2011).
+\newblock Ridge regression and other kernels for genomic selection with r
+  package {rrBLUP}.
+\newblock \emph{The Plant Genome} 4, 250--255.
+\newblock \doi{10.3835/plantgenome2011.08.0024}
+\bibAnnoteFile{Endelman2011}
+
+\bibitem[{Ferriol and Pic{\'{o}}(2008)}]{Ferriol}
+Ferriol, M. and Pic{\'{o}}, B. (2008).
+\newblock Pumpkin and winter squash.
+\newblock In \emph{Handbook of Plant Breeding} (Springer New York). 317--349.
+\newblock \doi{10.1007/978-0-387-30443-4_10}
+\bibAnnoteFile{Ferriol}
+
+\bibitem[{Glaubitz et~al.(2014)Glaubitz, Casstevens, Lu, Harriman, Elshire, Sun
+  et~al.}]{Glaubitz2014}
+Glaubitz, J.~C., Casstevens, T.~M., Lu, F., Harriman, J., Elshire, R.~J., Sun,
+  Q., et~al. (2014).
+\newblock {TASSEL}-{GBS}: A high capacity genotyping by sequencing analysis
+  pipeline.
+\newblock \emph{{PLoS} {ONE}} 9, e90346.
+\newblock \doi{10.1371/journal.pone.0090346}
+\bibAnnoteFile{Glaubitz2014}
+
+\bibitem[{Gogarten et~al.(2019)Gogarten, Sofer, Chen, Yu, Brody, Thornton
+  et~al.}]{Gogarten2019}
+Gogarten, S.~M., Sofer, T., Chen, H., Yu, C., Brody, J.~A., Thornton, T.~A.,
+  et~al. (2019).
+\newblock Genetic association testing using the {GENESIS} r/bioconductor
+  package.
+\newblock \emph{Bioinformatics} 35, 5346--5348.
+\newblock \doi{10.1093/bioinformatics/btz567}
+\bibAnnoteFile{Gogarten2019}
+
+\bibitem[{Grumet et~al.(2021)Grumet, McCreight, McGregor, Weng, Mazourek,
+  Reitsma et~al.}]{Grumet2021}
+Grumet, R., McCreight, J.~D., McGregor, C., Weng, Y., Mazourek, M., Reitsma,
+  K., et~al. (2021).
+\newblock Genetic {Resources} and {Vulnerabilities} of {Major} {Cucurbit}
+  {Crops}.
+\newblock \emph{Genes} 12, 1222.
+\newblock \doi{10.3390/genes12081222}
+\bibAnnoteFile{Grumet2021}
+
+\bibitem[{Hernandez et~al.(2020)Hernandez, Wyatt, and Mazourek}]{Hernandez2020}
+Hernandez, C.~O., Wyatt, L.~E., and Mazourek, M.~R. (2020).
+\newblock Genomic {Prediction} and {Selection} for {Fruit} {Traits} in {Winter}
+  {Squash}.
+\newblock \emph{G3 Genes{\textbar}Genomes{\textbar}Genetics} 10, 3601--3610.
+\newblock \doi{10.1534/g3.120.401215}
+\bibAnnoteFile{Hernandez2020}
+
+\bibitem[{Jeong et~al.(2017)Jeong, Kim, Jeong, Kang, Moon, and Kim}]{Jeong2017}
+Jeong, S., Kim, J.-Y., Jeong, S.-C., Kang, S.-T., Moon, J.-K., and Kim, N.
+  (2017).
+\newblock {GenoCore}: A simple and fast algorithm for core subset selection
+  from large genotype datasets.
+\newblock \emph{{PLOS} {ONE}} 12, e0181420.
+\newblock \doi{10.1371/journal.pone.0181420}
+\bibAnnoteFile{Jeong2017}
+
+\bibitem[{Kates et~al.(2017)Kates, Soltis, and Soltis}]{Kates2017}
+Kates, H.~R., Soltis, P.~S., and Soltis, D.~E. (2017).
+\newblock Evolutionary and domestication history of cucurbita (pumpkin and
+  squash) species inferred from 44 nuclear loci.
+\newblock \emph{Molecular Phylogenetics and Evolution} 111, 98--109.
+\newblock \doi{10.1016/j.ympev.2017.03.002}
+\bibAnnoteFile{Kates2017}
+
+\bibitem[{Kaźmińska et~al.(2018)Kaźmińska, Hallmann, Rusaczonek,
+  Korzeniewska, Sobczak, Filipczak et~al.}]{Kazminska2018}
+Kaźmińska, K., Hallmann, E., Rusaczonek, A., Korzeniewska, A., Sobczak, M.,
+  Filipczak, J., et~al. (2018).
+\newblock Genetic mapping of ovary colour and quantitative trait loci for
+  carotenoid content in the fruit of {Cucurbita} maxima {Duchesne}.
+\newblock \emph{Molecular Breeding} 38, 114.
+\newblock \doi{10.1007/s11032-018-0869-z}
+\bibAnnoteFile{Kazminska2018}
+
+\bibitem[{LaPlant et~al.(2020)LaPlant, Vogel, Reeves, Smart, and
+  Mazourek}]{LaPlant2020}
+LaPlant, K.~E., Vogel, G., Reeves, E., Smart, C.~D., and Mazourek, M. (2020).
+\newblock Performance and resistance to phytophthora crown and root rot in
+  squash lines.
+\newblock \emph{{HortTechnology}} 30, 608--618.
+\newblock \doi{10.21273/horttech04636-20}
+\bibAnnoteFile{LaPlant2020}
+
+\bibitem[{Li and Durbin(2009)}]{Li2009}
+Li, H. and Durbin, R. (2009).
+\newblock Fast and accurate short read alignment with burrows-wheeler
+  transform.
+\newblock \emph{Bioinformatics} 25, 1754--1760.
+\newblock \doi{10.1093/bioinformatics/btp324}
+\bibAnnoteFile{Li2009}
+
+\bibitem[{Loy(2004)}]{Loy2004}
+Loy, J.~B. (2004).
+\newblock Morpho-physiological aspects of productivity and quality in squash
+  and pumpkins (cucurbita spp.).
+\newblock \emph{Critical Reviews in Plant Sciences} 23, 337--363.
+\newblock \doi{10.1080/07352680490490733}
+\bibAnnoteFile{Loy2004}
+
+\bibitem[{Lust and Paris(2016)}]{Lust2016}
+Lust, T.~A. and Paris, H.~S. (2016).
+\newblock Italian horticultural and culinary records of summer squash
+  (cucurbita pepo, cucurbitaceae) and emergence of the zucchini in 19th-century
+  milan.
+\newblock \emph{Annals of Botany} 118, 53--69.
+\newblock \doi{10.1093/aob/mcw080}
+\bibAnnoteFile{Lust2016}
+
+\bibitem[{McCouch et~al.(2020)McCouch, Navabi, Abberton, Anglin, Barbieri, Baum
+  et~al.}]{McCouch2020}
+McCouch, S., Navabi, Z.~K., Abberton, M., Anglin, N.~L., Barbieri, R.~L., Baum,
+  M., et~al. (2020).
+\newblock Mobilizing crop biodiversity.
+\newblock \emph{Molecular Plant} 13, 1341--1344.
+\newblock \doi{10.1016/j.molp.2020.08.011}
+\bibAnnoteFile{McCouch2020}
+
+\bibitem[{Meuwissen et~al.(2001)Meuwissen, Hayes, and Goddard}]{Meuwissen2001}
+Meuwissen, T. H.~E., Hayes, B.~J., and Goddard, M.~E. (2001).
+\newblock Prediction of total genetic value using genome-wide dense marker
+  maps.
+\newblock \emph{Genetics} 157, 1819--1829.
+\newblock \doi{10.1093/genetics/157.4.1819}
+\bibAnnoteFile{Meuwissen2001}
+
+\bibitem[{Money et~al.(2015)Money, Gardner, Migicovsky, Schwaninger, Zhong, and
+  Myles}]{Money2015}
+Money, D., Gardner, K., Migicovsky, Z., Schwaninger, H., Zhong, G.-Y., and
+  Myles, S. (2015).
+\newblock {LinkImpute}: Fast and accurate genotype imputation for nonmodel
+  organisms.
+\newblock \emph{G3 Genes$\vert$Genomes$\vert$Genetics} 5, 2383--2390.
+\newblock \doi{10.1534/g3.115.021667}
+\bibAnnoteFile{Money2015}
+
+\bibitem[{Montero-Pau et~al.(2017)Montero-Pau, Blanca, Esteras,
+  Martínez-Pérez, Gómez, Monforte et~al.}]{MonteroPau2017}
+Montero-Pau, J., Blanca, J., Esteras, C., Martínez-Pérez, E.~M., Gómez, P.,
+  Monforte, A.~J., et~al. (2017).
+\newblock An {SNP}-based saturated genetic map and {QTL} analysis of
+  fruit-related traits in {Zucchini} using {Genotyping}-by-sequencing.
+\newblock \emph{BMC Genomics} 18, 94.
+\newblock \doi{10.1186/s12864-016-3439-y}
+\bibAnnoteFile{MonteroPau2017}
+
+\bibitem[{Nee(1990)}]{Nee1990}
+Nee, M. (1990).
+\newblock The domestication ofcucurbita (cucurbitaceae).
+\newblock \emph{Economic Botany} 44, 56--68.
+\newblock \doi{10.1007/bf02860475}
+\bibAnnoteFile{Nee1990}
+
+\bibitem[{Paris(2015)}]{Paris2015}
+Paris, H.~S. (2015).
+\newblock Germplasm enhancement of cucurbita pepo (pumpkin, squash, gourd:
+  Cucurbitaceae): progress and challenges.
+\newblock \emph{Euphytica} 208, 415--438.
+\newblock \doi{10.1007/s10681-015-1605-y}
+\bibAnnoteFile{Paris2015}
+
+\bibitem[{Paris and Brown(2005)}]{Paris2005}
+Paris, H.~S. and Brown, R.~N. (2005).
+\newblock The genes of pumpkin and squash.
+\newblock \emph{{HortScience}} 40, 1620--1630.
+\newblock \doi{10.21273/hortsci.40.6.1620}
+\bibAnnoteFile{Paris2005}
+
+\bibitem[{Paris et~al.(2012)Paris, Lebeda, K{\v{r}}istkova, Andres, and
+  Nee}]{Paris2012}
+Paris, H.~S., Lebeda, A., K{\v{r}}istkova, E., Andres, T.~C., and Nee, M.~H.
+  (2012).
+\newblock Parallel evolution under domestication and phenotypic differentiation
+  of the cultivated subspecies of cucurbita pepo (cucurbitaceae).
+\newblock \emph{Economic Botany} 66, 71--90.
+\newblock \doi{10.1007/s12231-012-9186-3}
+\bibAnnoteFile{Paris2012}
+
+\bibitem[{Purcell et~al.(2007)Purcell, Neale, Todd-Brown, Thomas, Ferreira,
+  Bender et~al.}]{Purcell2007}
+Purcell, S., Neale, B., Todd-Brown, K., Thomas, L., Ferreira, M.~A., Bender,
+  D., et~al. (2007).
+\newblock {PLINK}: A tool set for whole-genome association and population-based
+  linkage analyses.
+\newblock \emph{The American Journal of Human Genetics} 81, 559--575.
+\newblock \doi{10.1086/519795}
+\bibAnnoteFile{Purcell2007}
+
+\bibitem[{Savage et~al.(2015)Savage, Haines, and Holbrook}]{Savage015}
+Savage, J.~A., Haines, D.~F., and Holbrook, M.~N. (2015).
+\newblock The making of giant pumpkins: how selective breeding changed the
+  phloem of cucurbita maxima from source to sink.
+\newblock \emph{Plant, Cell {\&} Environment} 38, 1543--1554.
+\newblock \doi{10.1111/pce.12502}
+\bibAnnoteFile{Savage015}
+
+\bibitem[{Sun et~al.(2017)Sun, Wu, Zhang, Jiao, Guo, Ren et~al.}]{Sun2017}
+Sun, H., Wu, S., Zhang, G., Jiao, C., Guo, S., Ren, Y., et~al. (2017).
+\newblock Karyotype {Stability} and {Unbiased} {Fractionation} in the
+  {Paleo}-{Allotetraploid} {Cucurbita} {Genomes}.
+\newblock \emph{Molecular Plant} 10, 1293--1306.
+\newblock \doi{10.1016/j.molp.2017.09.003}
+\bibAnnoteFile{Sun2017}
+
+\bibitem[{Vogel et~al.(2021)Vogel, LaPlant, Mazourek, Gore, and
+  Smart}]{Vogel2021}
+Vogel, G., LaPlant, K.~E., Mazourek, M., Gore, M.~A., and Smart, C.~D. (2021).
+\newblock A combined {BSA}-seq and linkage mapping approach identifies genomic
+  regions associated with phytophthora root and crown rot resistance in squash.
+\newblock \emph{Theoretical and Applied Genetics} 134, 1015--1031.
+\newblock \doi{10.1007/s00122-020-03747-1}
+\bibAnnoteFile{Vogel2021}
+
+\bibitem[{Wang et~al.(2022)Wang, Wang, Li, Li, He, Li et~al.}]{Wang2022}
+Wang, S., Wang, K., Li, Z., Li, Y., He, J., Li, H., et~al. (2022).
+\newblock Architecture design of cucurbit crops for enhanced productivity by a
+  natural allele.
+\newblock \emph{Nature Plants} \doi{10.1038/s41477-022-01297-6}
+\bibAnnoteFile{Wang2022}
+
+\bibitem[{Wang et~al.(2021)Wang, Ando, Wu, Reddy, Tamang, Bao
+  et~al.}]{Wang2021}
+Wang, X., Ando, K., Wu, S., Reddy, U.~K., Tamang, P., Bao, K., et~al. (2021).
+\newblock Genetic characterization of melon accessions in the u.s. national
+  plant germplasm system and construction of a melon core collection.
+\newblock \emph{Molecular Horticulture} 1.
+\newblock \doi{10.1186/s43897-021-00014-9}
+\bibAnnoteFile{Wang2021}
+
+\bibitem[{Wang et~al.(2018)Wang, Bao, Reddy, Bai, Hammar, Jiao
+  et~al.}]{Wang2018}
+Wang, X., Bao, K., Reddy, U.~K., Bai, Y., Hammar, S.~A., Jiao, C., et~al.
+  (2018).
+\newblock The {USDA} cucumber (cucumis sativus l.) collection: genetic
+  diversity, population structure, genome-wide association studies, and core
+  collection development.
+\newblock \emph{Horticulture Research} 5.
+\newblock \doi{10.1038/s41438-018-0080-8}
+\bibAnnoteFile{Wang2018}
+
+\bibitem[{Wu et~al.(2019{\natexlab{a}})Wu, Tung, Lee, and Liao}]{Wu2019}
+Wu, P.-Y., Tung, C.-W., Lee, C.-Y., and Liao, C.-T. (2019{\natexlab{a}}).
+\newblock Genomic {Prediction} of {Pumpkin} {Hybrid} {Performance}.
+\newblock \emph{The Plant Genome} 12, 180082.
+\newblock \doi{10.3835/plantgenome2018.10.0082}
+\bibAnnoteFile{Wu2019}
+
+\bibitem[{Wu et~al.(2019{\natexlab{b}})Wu, Wang, Reddy, Sun, Bao, Gao
+  et~al.}]{Wu2019a}
+Wu, S., Wang, X., Reddy, U., Sun, H., Bao, K., Gao, L., et~al.
+  (2019{\natexlab{b}}).
+\newblock Genome of `charleston gray', the principal american watermelon
+  cultivar, and genetic characterization of 1,365 accessions in the u.s.
+  national plant germplasm system watermelon collection.
+\newblock \emph{Plant Biotechnology Journal} 17, 2246--2258.
+\newblock \doi{10.1111/pbi.13136}
+\bibAnnoteFile{Wu2019a}
+
+\bibitem[{Xanthopoulou et~al.(2019)Xanthopoulou, Montero~Pau, Mellidou,
+  Kissoudis, Blanca, Picó et~al.}]{Xanthopoulou2019}
+Xanthopoulou, A., Montero~Pau, J., Mellidou, I., Kissoudis, C., Blanca, J.,
+  Picó, B., et~al. (2019).
+\newblock Whole-genome resequencing of {Cucurbita} pepo morphotypes to discover
+  genomic variants associated with morphology and horticulturally valuable
+  traits.
+\newblock \emph{Horticulture Research} 6, 94.
+\newblock \doi{10.1038/s41438-019-0176-9}
+\bibAnnoteFile{Xanthopoulou2019}
+
+\bibitem[{Xiang et~al.(2018)Xiang, Duan, Li, Ma, Huang, Sui et~al.}]{Xiang2018}
+Xiang, C., Duan, Y., Li, H., Ma, W., Huang, S., Sui, X., et~al. (2018).
+\newblock A high-density {EST}-{SSR}-based genetic map and {QTL} analysis of
+  dwarf trait in cucurbita pepo l.
+\newblock \emph{International Journal of Molecular Sciences} 19, 3140.
+\newblock \doi{10.3390/ijms19103140}
+\bibAnnoteFile{Xiang2018}
+
+\bibitem[{Yan et~al.(2009)Yan, Shah, Warburton, Buckler, McMullen, and
+  Crouch}]{Yan2009}
+Yan, J., Shah, T., Warburton, M.~L., Buckler, E.~S., McMullen, M.~D., and
+  Crouch, J. (2009).
+\newblock Genetic characterization and linkage disequilibrium estimation of a
+  global maize collection using {SNP} markers.
+\newblock \emph{{PLoS} {ONE}} 4, e8451.
+\newblock \doi{10.1371/journal.pone.0008451}
+\bibAnnoteFile{Yan2009}
+
+\bibitem[{Yu et~al.(2022)Yu, Wu, Sun, Wang, Tang, Guo et~al.}]{Yu2022}
+Yu, J., Wu, S., Sun, H., Wang, X., Tang, X., Guo, S., et~al. (2022).
+\newblock {CuGenDBv}2: an updated database for cucurbit genomics.
+\newblock \emph{Nucleic Acids Research} \doi{10.1093/nar/gkac921}
+\bibAnnoteFile{Yu2022}
+
+\bibitem[{Zhang et~al.(2015)Zhang, Ren, Sun, Guo, Zhang, Zhang
+  et~al.}]{Zhang2015}
+Zhang, G., Ren, Y., Sun, H., Guo, S., Zhang, F., Zhang, J., et~al. (2015).
+\newblock A high-density genetic map for anchoring genome sequences and
+  identifying {QTLs} associated with dwarf vine in pumpkin ({Cucurbita} maxima
+  {Duch}.).
+\newblock \emph{BMC Genomics} 16, 1101.
+\newblock \doi{10.1186/s12864-015-2312-8}
+\bibAnnoteFile{Zhang2015}
+
+\bibitem[{Zheng et~al.(2012)Zheng, Levine, Shen, Gogarten, Laurie, and
+  Weir}]{Zheng2012}
+Zheng, X., Levine, D., Shen, J., Gogarten, S.~M., Laurie, C., and Weir, B.~S.
+  (2012).
+\newblock A high-performance computing toolset for relatedness and principal
+  component analysis of {SNP} data.
+\newblock \emph{Bioinformatics} 28, 3326--3328.
+\newblock \doi{10.1093/bioinformatics/bts606}
+\bibAnnoteFile{Zheng2012}
+
+\bibitem[{Zhong et~al.(2017)Zhong, Zhou, Li, Yu, Wu, Luo et~al.}]{Zhong2017}
+Zhong, Y.-J., Zhou, Y.-Y., Li, J.-X., Yu, T., Wu, T.-Q., Luo, J.-N., et~al.
+  (2017).
+\newblock A high-density linkage map and {QTL} mapping of fruit-related traits
+  in pumpkin ({Cucurbita} moschata {Duch}.).
+\newblock \emph{Scientific Reports} 7, 12785.
+\newblock \doi{10.1038/s41598-017-13216-3}
+\bibAnnoteFile{Zhong2017}
+
+\end{thebibliography}

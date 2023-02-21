@@ -62,4 +62,4 @@ pc.plt <- ggplot(allPCA, aes(x=PC1, y=PC2, color=include)) +
 core.plt <- grid.arrange(pc.plt, cov.plt,
 			layout_matrix=rbind(c(1,1,1,1),
 					    c(2,2,2,NA)))
-ggsave("supplemental/03_supfig.png", core.plt, "png", height=6, width=7)
+ggsave("final_figures/09_fig.jpeg", core.plt, "jpeg", height=6, width=7)

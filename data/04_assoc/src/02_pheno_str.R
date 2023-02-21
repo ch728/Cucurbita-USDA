@@ -61,4 +61,4 @@ maxMat <- ggplot(maxComb, aes(x=PC1, y=PC2, color=plant_habit)) +
 final <- grid.arrange(pepoSeed, mosMat, maxMat,
 		      layout_matrix=rbind(c(1,1,1,1,1,2,2,2,2),
 					  c(3,3,3,3,NA,NA, NA,NA,NA)))
-ggsave("../../figures/struc_pheno.png", final, width=10)
+ggsave("../../final_figures/07_fig.jpeg", final, "jpeg", width=11)

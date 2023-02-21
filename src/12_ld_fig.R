@@ -34,6 +34,6 @@ p <- ggplot(all, aes(x=diff, y=r, color=species)) +
 	xlab("Pair-wise marker distance in Mb") +
 	theme(panel.grid=element_blank(),
 	      legend.text=element_text(face="italic"))
-ggsave("figures/10_ld_fig.png", p, "png", height=6, width=7)
+ggsave("final_figures/06_fig.jpeg", p, "jpeg", height=6, width=7)
 
 

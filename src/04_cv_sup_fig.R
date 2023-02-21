@@ -27,4 +27,4 @@ cv.plt <- ggplot(all, aes(x=k,y=error)) +
 		 theme_bw(base_size=18) +
 		 theme(panel.grid=element_blank(),
 		       strip.text=element_text(face="italic"))
-ggsave("supplemental/02_supfig.png", cv.plt, "png", width=12)
+ggsave("final_figures/04_fig.jpeg", cv.plt, "jpeg", width=12)
