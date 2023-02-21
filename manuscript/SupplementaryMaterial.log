@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.9.19)  21 FEB 2023 10:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.9.19)  21 FEB 2023 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -592,7 +592,7 @@ Package epstopdf Info: Source file: <./logo1.eps>
 df ./logo1.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
-<./logo1-eps-converted-to.pdf, id=12, 284.06125pt x 80.3pt>
+<./logo1-eps-converted-to.pdf, id=16, 284.06125pt x 80.3pt>
 File: ./logo1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./logo1-eps-converted-to.pdf>
 Package pdftex.def Info: ./logo1-eps-converted-to.pdf  used on input line 26.
@@ -613,7 +613,7 @@ LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <20> not available
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -622,7 +622,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -631,15 +631,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<../supplemental/02_fig.png, id=13, 803.0pt x 803.0pt>
+<../supplemental/02_fig.png, id=17, 803.0pt x 803.0pt>
 File: ../supplemental/02_fig.png Graphic file (type png)
 <use ../supplemental/02_fig.png>
-Package pdftex.def Info: ../supplemental/02_fig.png  used on input line 39.
+Package pdftex.def Info: ../supplemental/02_fig.png  used on input line 40.
 (pdftex.def)             Requested size: 504.0pt x 504.018pt.
-<../supplemental/01_supfig.jpeg, id=14, 722.7pt x 867.24pt>
+<../supplemental/01_supfig.jpeg, id=18, 722.7pt x 867.24pt>
 File: ../supplemental/01_supfig.jpeg Graphic file (type jpg)
 <use ../supplemental/01_supfig.jpeg>
-Package pdftex.def Info: ../supplemental/01_supfig.jpeg  used on input line 47.
+Package pdftex.def Info: ../supplemental/01_supfig.jpeg  used on input line 48.
 
 (pdftex.def)             Requested size: 403.20154pt x 483.83818pt.
 
@@ -655,16 +655,16 @@ df> <../supplemental/02_fig.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <8> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 52.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 53.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 
 [2 <../supplemental/01_supfig.jpeg>]
-<../supplemental/02_supfig.jpeg, id=35, 722.7pt x 578.16pt>
+<../supplemental/02_supfig.jpeg, id=39, 722.7pt x 578.16pt>
 File: ../supplemental/02_supfig.jpeg Graphic file (type jpg)
 <use ../supplemental/02_supfig.jpeg>
-Package pdftex.def Info: ../supplemental/02_supfig.jpeg  used on input line 56.
+Package pdftex.def Info: ../supplemental/02_supfig.jpeg  used on input line 57.
 
 (pdftex.def)             Requested size: 403.20154pt x 322.55878pt.
 
@@ -674,10 +674,10 @@ Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 [3
 
  <../supplemental/02_supfig.jpeg>]
-<../supplemental/03_subfig.jpeg, id=41, 722.7pt x 578.16pt>
+<../supplemental/03_subfig.jpeg, id=45, 722.7pt x 578.16pt>
 File: ../supplemental/03_subfig.jpeg Graphic file (type jpg)
 <use ../supplemental/03_subfig.jpeg>
-Package pdftex.def Info: ../supplemental/03_subfig.jpeg  used on input line 65.
+Package pdftex.def Info: ../supplemental/03_subfig.jpeg  used on input line 66.
 
 (pdftex.def)             Requested size: 403.20154pt x 322.55878pt.
 
@@ -687,35 +687,39 @@ Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 [4
 
  <../supplemental/03_subfig.jpeg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+
+[5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
  (./SupplementaryMaterial.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `SupplementaryMaterial.out' has not changed.
-(rerunfilecheck)             Checksum: 04EB67BD09671AE368D53225CA41AB90;109.
+(rerunfilecheck)             Checksum: 5C7980EBF501F5EFF606A8EFB25C5E92;164.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10910 strings out of 481239
- 163429 string characters out of 5920377
- 478465 words of memory out of 5000000
- 25871 multiletter control sequences out of 15000+600000
- 554231 words of font info for 81 fonts, out of 8000000 for 9000
+ 10923 strings out of 481239
+ 163573 string characters out of 5920377
+ 488465 words of memory out of 5000000
+ 25875 multiletter control sequences out of 15000+600000
+ 557067 words of font info for 86 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 47i,8n,58p,1071b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,9n,58p,1071b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SupplementaryMaterial.pdf (4 pages, 1520139 bytes).
+Output written on SupplementaryMaterial.pdf (5 pages, 1526308 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 20522 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 80 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 23090 words of extra memory for PDF output out of 24883 (max. 10000000)
 
